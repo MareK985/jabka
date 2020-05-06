@@ -1,0 +1,20 @@
+// TYPOGRAPHY //
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,300,400,400i,700&display=swap');
+
+@font-face {
+    font-family: 'Fira Sans', sans-serif;
+}
+// COLOR PALLETE //
+$primary: #6D98A8;
+$secondary: #4D4B2A;
+$base: #392525;
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color :$base;
+}
+
