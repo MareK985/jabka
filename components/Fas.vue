@@ -25,13 +25,13 @@ export default {
     i: {
       type: String,
       required: true,
-      default: "arrow-down"
+      default: "arrow-down",
     },
     classes: {
       type: String,
       required: false,
-      default: "icon is-medium"
-    }
-  }
+      default: "icon is-medium",
+    },
+  },
 };
 </script>

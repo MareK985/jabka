@@ -9,12 +9,15 @@ $primary: #6D98A8;
 $secondary: #4D4B2A;
 $base: #392525;
 
-body {
+body, html {
     font-family: 'Fira Sans', sans-serif;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
+    margin: 0;
     color :$base;
+    line-height: 180%;
+    text-align: center;
 }
 
