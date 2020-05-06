@@ -1,8 +1,6 @@
 <template>
   <div>
-    <a
-      class="lgscreenphone phonelink"
-      href="https://www.youtube.com/channel/UCQQ9KdZl80R78hZjb8Q_3NQ"
+    <a class="lgscreenphone phonelink" href="#"
       ><img
         class="phoneicon"
         src="https://freeiconshop.com/wp-content/uploads/edd/phone-flat.png"

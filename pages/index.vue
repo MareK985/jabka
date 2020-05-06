@@ -7,26 +7,23 @@
       <div class="heading">
         Najami posestvo na samem
       </div>
+      <ContactForm />
     </div>
 
     <section>
-      <h1>Parallax Website Tutorial</h1>
-      <h3>Lorem ipsum dolor sit amet</h3>
-      <div class="two-col">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga vel
-          blanditiis, recusandae debitis nesciunt odit sit illum porro
-          voluptates pariatur, veritatis fugit eius reprehenderit, impedit
-          numquam quod sunt delectus. Vero.
+      <div class="two-col dark" style="border-radius: 30px; padding:10px;">
+        <h1 style="color: white">POSESTVO NA SVETINI nad Celjem (720m)</h1>
+        <p style="color: white">
+          Ta počitniška hiša vam bo zagotovila vse, kar potrebujete za popolno
+          sprostitev in uživanje v počitnicah. Sprostite se lahko v savni ali
+          whirlpool-u, ohladite se v prijetnem zunanjem bazenu ali si privoščite
+          obrok na terasi z zunanjo kuhinjo. Za deževne dni je večji prostor za
+          druženje s kaminom. V prvem nadstropju boste na pokriti terasi našli
+          zabavne vsebine, kot so biljard, namizni nogomet in namizni tenis.
         </p>
       </div>
       <div class="two-col">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga vel
-          blanditiis, recusandae debitis nesciunt odit sit illum porro
-          voluptates pariatur, veritatis fugit eius reprehenderit, impedit
-          numquam quod sunt delectus. Vero.
-        </p>
+        <Fas i="heart" />
       </div>
     </section>
 
@@ -73,8 +70,14 @@
 </template>
 
 <script>
+import ContactForm from "~/components/ContactForm.vue";
+import Fas from "~/components/Fas.vue";
+
 export default {
-  components: {},
+  components: {
+    ContactForm,
+    Fas,
+  },
 };
 </script>
 
