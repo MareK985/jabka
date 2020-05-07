@@ -6,7 +6,7 @@
 .parallax2 {
     background: url(~assets/img/bg-1.jpg);
     min-height: 40vh;
-    margin-top: 80vh;
+    margin-top: 60vh;
 }
 .parallax3 {
     background: url(~assets/img/bg-2.jpg);
@@ -52,13 +52,14 @@
     padding: 0 3%;
     text-align: justify;
 }
+
 section {
     overflow: auto;
-    padding: 50px 100px;
+    padding: 50px 50px 50px 100px;
 }
 .dark {
     overflow: auto;
-    padding: 50px 50px;
+    padding: 50px 0px;
     background-color: #6D98A8; /* $primary  */
     color: #392525;   /* $base  */
 }
@@ -82,8 +83,12 @@ section {
     }
     section {
         overflow: auto;
-        padding: 50px 5px;
+        padding: 50px 0px;
     }
+    .parallax2 {
+        margin-top: 130vh;
+    }
+    
 }
 @media (max-width: 1280px) {
     .heading {

@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="parallax1">
-      <div class="heading-sm">
+      <div data-aos="fade" class="heading-sm">
         Pobegni v naravo
       </div>
-      <div class="heading">
+      <div data-aos="fade" class="heading">
         Najami posestvo na samem
       </div>
       <ContactForm />
@@ -53,54 +53,52 @@
     </video>
 
     <div class="cenik">
-      <h1>CENIK</h1>
+      <h1 class="section-title">CENA</h1>
       <div class="two-col">
-        <Cenik />
-        <span style="text-align: left;"
+        <Cenik data-aos="zoom-in-right" />
+        <span class="drobni-tisk"
           >* vse cene so v EUR z DDV za eno nočitev</span
         >
       </div>
       <div class="two-col">
-        <TC />
+        <TC data-aos="fade-left" />
       </div>
     </div>
 
     <div class="parallax2">
-      <div class="heading-sm">
+      <div class="heading ">
         DOŽIVETJA
       </div>
     </div>
-
     <section class="dark">
-      <h2>How Parallaw works</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae et eum
-        sed tempore cumque, doloribus repudiandae labore quibusdam magnam,
-        possimus alias sapiente corrupti iusto quasi asperiores officiis ipsa
-        odio suscipit.
-      </p>
-      <Fas class="circle-icon" i="heart" />
+      <div class="two-col">
+        <iframe
+          data-aos="zoom-in-up"
+          width="100%"
+          height="300px"
+          frameborder="0"
+          style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ_5jXSbx2ZUcRl-whuB9ZFag&key=AIzaSyALY3CXNuuSu2dVKjHXvFH3JWBNlNAWJSU"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="two-col">
+        <ActivitiesList data-aos="fade-down-left" />
+      </div>
     </section>
 
     <div class="parallax3"></div>
 
     <div class="dark">
-      <h3>Fixed background scrolling</h3>
-      <div class="two-col">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem hic
-          assumenda nisi neque nemo eos quo placeat officiis perferendis impedit
-          inventore fuga, nesciunt, suscipit enim rem sapiente itaque unde
-          consectetur?
+      <div data-aos="flip-left">
+        <Fas class="circle-icon" i="heart" />
+
+        <p class="quote">
+          Beautiful house at a great mountain top location. Mitja was very
+          responsive and made sure our stay is as nice as possible, even just
+          for a short 2-day stay. Very much recommended!
         </p>
-      </div>
-      <div class="two-col">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem hic
-          assumenda nisi neque nemo eos quo placeat officiis perferendis impedit
-          inventore fuga, nesciunt, suscipit enim rem sapiente itaque unde
-          consectetur?
-        </p>
+        <h3>Angela, Belgija <br /><span>dec. 2019</span></h3>
       </div>
     </div>
 
@@ -112,6 +110,7 @@
 import ContactForm from "~/components/ContactForm.vue";
 import Cenik from "~/components/Cenik.vue";
 import TC from "~/components/T&C.vue";
+import ActivitiesList from "~/components/ActivitiesList.vue";
 import Fas from "~/components/Fas.vue";
 
 export default {
@@ -119,6 +118,7 @@ export default {
     ContactForm,
     Cenik,
     TC,
+    ActivitiesList,
     Fas,
   },
 };
@@ -142,6 +142,10 @@ export default {
   color: #392525; /* $base */
   width: 70%;
 }
+.quote {
+  font-style: italic;
+  margin: 0 200px;
+}
 
 #promoVideo {
   right: 0;
@@ -157,6 +161,10 @@ export default {
   .circle {
     width: 70px;
     height: 70px;
+  }
+  .quote {
+    font-style: italic;
+    margin: 0 50px;
   }
 }
 </style>

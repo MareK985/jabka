@@ -61,8 +61,8 @@
         <button
           type="submit"
           value="Send"
-          class="button is-focused"
-          style="background: #6D98A8;"
+          class="button is-focused cta-button"
+          style="background: #6D98A8; color:white;"
         >
           REZERVIRAJ !
         </button>
@@ -90,6 +90,14 @@ export default {};
   padding: 20px 0px 20px 0px;
   text-align: center;
   top: 80%;
+}
+.cta-button {
+  margin: 20px 20px 5px 20px;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  border: none;
+  box-shadow: 7px 4px 23px -4px rgba(0, 0, 0, 0.75);
 }
 
 @media screen and (max-width: 600px) {

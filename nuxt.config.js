@@ -72,6 +72,7 @@ export default {
           "faEnvelope",
           "faGrinWink",
           "faHeart",
+          "faInfo",
         ],
       },
       {
