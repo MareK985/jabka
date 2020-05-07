@@ -30,7 +30,7 @@ export default {
     classes: {
       type: String,
       required: false,
-      default: "icon is-medium",
+      default: "icon large",
     },
   },
 };

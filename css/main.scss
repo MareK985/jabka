@@ -21,3 +21,35 @@ body, html {
     text-align: center;
 }
 
+h1 {
+    font-size: 4vh;
+    font-weight: 600;
+    padding: 10px 20px 0px 20px ;
+    color: $base;
+}
+p {
+    font-size: 3vh;
+    padding: 10px;
+    margin: 10px;
+    line-height: 4vh;
+
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3.5vh;
+        font-weight: 600;
+        padding: 10px 20px 0px 20px ;
+        color: $base;
+    }
+    p {
+        font-size: 2.4vh;
+        line-height: 3.5vh;
+        padding: 10px 5px 10px 5px ;
+        margin: 0px;
+        text-align: justify;
+    }
+    
+}
+
+

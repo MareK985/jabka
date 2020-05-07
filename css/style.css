@@ -1,10 +1,12 @@
 .parallax1 {
-    background: url(~assets/img/hero.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(~assets/img/hero.jpg);
     min-height: 100vh;
+
 }
 .parallax2 {
     background: url(~assets/img/bg-1.jpg);
-    min-height: 60vh;
+    min-height: 40vh;
+    margin-top: 80vh;
 }
 .parallax3 {
     background: url(~assets/img/bg-2.jpg);
@@ -16,7 +18,6 @@
 }
 .parallax1, .parallax2, .parallax3, .parallax4 {
     position: relative;
-    filter: brightness(70%);
     filter: blur(0px);
     background-position: center;
     background-size: cover;
@@ -48,12 +49,12 @@
 .two-col {
     float: left;
     width: 42%;
-    padding: 0 4%;
+    padding: 0 3%;
     text-align: justify;
 }
 section {
     overflow: auto;
-    padding: 50px 50px;
+    padding: 50px 100px;
 }
 .dark {
     overflow: auto;
@@ -78,5 +79,32 @@ section {
         width: 100%;
         padding: 0;
         text-align: center;
+    }
+    section {
+        overflow: auto;
+        padding: 50px 5px;
+    }
+}
+@media (max-width: 1280px) {
+    .heading {
+        font-size: 250%;
+        margin-top: 20%;
+        line-height: 120%;
+        top: 15%;
+
+    }
+    .heading-sm {
+        font-size: 150%;
+        top: 15%;
+
+    }
+    .two-col {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    section {
+        overflow: auto;
+        padding: 50px 30px;
     }
 }
