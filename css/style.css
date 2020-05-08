@@ -6,7 +6,7 @@
 .parallax2 {
     background: url(~assets/img/bg-1.jpg);
     min-height: 40vh;
-    margin-top: 60vh;
+    margin-top: 150vh;
 }
 .parallax3 {
     background: url(~assets/img/bg-2.jpg);
@@ -86,7 +86,7 @@ section {
         padding: 50px 0px;
     }
     .parallax2 {
-        margin-top: 130vh;
+        margin-top: 200vh;
     }
     
 }

@@ -51,6 +51,7 @@
     <video id="promoVideo" autoplay muted loop>
       <source src="~assets/video/video_promo.mp4" type="video/mp4" />
     </video>
+    <!-- end of video -->
 
     <div class="cenik">
       <h1 class="section-title">CENA</h1>
@@ -64,6 +65,159 @@
         <TC data-aos="fade-left" />
       </div>
     </div>
+    <!-- SLIDER -->
+    <div class="slider">
+      <VueSlickCarousel v-bind="settings">
+        <div>
+          <img
+            src="~/assets/img/slides/slide1.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide2.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide3.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide4.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide5.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide6.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide7.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide8.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide9.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide10.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide11.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide12.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide13.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide14.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide15.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide16.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide17.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide18.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide19.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide20.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+        <div>
+          <img
+            src="~/assets/img/slides/slide21.jpg"
+            alt="slide"
+            class="responsive"
+          />
+        </div>
+      </VueSlickCarousel>
+    </div>
+    <!-- SLIDER -->
 
     <div class="parallax2">
       <div class="heading ">
@@ -73,6 +227,7 @@
     <section class="dark">
       <div class="two-col">
         <iframe
+          class="promo"
           data-aos="zoom-in-up"
           width="100%"
           height="300px"
@@ -91,14 +246,28 @@
 
     <div class="dark">
       <div data-aos="flip-left">
-        <Fas class="circle-icon" i="heart" />
+        <VueSlickCarousel :arrows="false" :dots="true">
+          <div>
+            <Fas class="circle-icon" i="heart" />
 
-        <p class="quote">
-          Beautiful house at a great mountain top location. Mitja was very
-          responsive and made sure our stay is as nice as possible, even just
-          for a short 2-day stay. Very much recommended!
-        </p>
-        <h3>Angela, Belgija <br /><span>dec. 2019</span></h3>
+            <p class="quote">
+              Beautiful house at a great mountain top location. Mitja was very
+              responsive and made sure our stay is as nice as possible, even
+              just for a short 2-day stay. Very much recommended!
+            </p>
+            <h3>Angela, Belgija <br /><span>dec. 2019</span></h3>
+          </div>
+          <div>
+            <Fas class="circle-icon" i="heart" />
+
+            <p class="quote">
+              Beautiful house at a great mountain top location. Mitja was very
+              responsive and made sure our stay is as nice as possible, even
+              just for a short 2-day stay. Very much recommended!
+            </p>
+            <h3>Angela, Belgija <br /><span>dec. 2019</span></h3>
+          </div>
+        </VueSlickCarousel>
       </div>
     </div>
 
@@ -107,11 +276,14 @@
 </template>
 
 <script>
+import VueSlickCarousel from "vue-slick-carousel";
 import ContactForm from "~/components/ContactForm.vue";
 import Cenik from "~/components/Cenik.vue";
 import TC from "~/components/T&C.vue";
 import ActivitiesList from "~/components/ActivitiesList.vue";
 import Fas from "~/components/Fas.vue";
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
 
 export default {
   components: {
@@ -120,6 +292,50 @@ export default {
     TC,
     ActivitiesList,
     Fas,
+    VueSlickCarousel,
+  },
+  data() {
+    return {
+      settings: {
+        dots: false,
+        infinite: false,
+        arrows: true,
+        speed: 500,
+        autoplay: true,
+        slidesToShow: 2,
+        centerPadding: "50px",
+        slidesToScroll: 2,
+        initialSlide: 0,
+        focusOnSelect: true,
+        adaptiveHeight: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              infinite: true,
+              dots: false,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      },
+    };
   },
 };
 </script>
@@ -146,6 +362,9 @@ export default {
   font-style: italic;
   margin: 0 200px;
 }
+.promo {
+  height: 300px;
+}
 
 #promoVideo {
   right: 0;
@@ -153,8 +372,17 @@ export default {
   min-width: 100%;
   min-height: 100%;
 }
-.cenik {
-  height: 100%;
+/* SLIDER SETTINGS */
+.slider {
+  float: left;
+  width: 100%;
+  margin: 20px 0px;
+  text-align: center;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  padding: 10px;
 }
 
 @media screen and (max-width: 680px) {
@@ -165,6 +393,14 @@ export default {
   .quote {
     font-style: italic;
     margin: 0 50px;
+  }
+  .slider {
+    width: 100%;
+    margin: 20px 10px;
+    padding-right: 20px;
+  }
+  .slide1 {
+    height: 300px;
   }
 }
 </style>
