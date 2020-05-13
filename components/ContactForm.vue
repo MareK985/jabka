@@ -55,8 +55,13 @@
             <option>10</option>
           </select>
         </div>
-        <div>
-          <input class="input" name="email" type="email" placeholder="email" />
+        <div class="email-field">
+          <input
+            class="input"
+            name="email"
+            type="email"
+            placeholder="vpišite svoj email naslov"
+          />
         </div>
       </div>
 
@@ -85,14 +90,15 @@ export default {};
   display: flex;
   position: absolute;
   flex-direction: column;
-  margin-left: 10%;
   align-items: center;
-  width: 80%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
   color: white;
   justify-content: center;
   padding: 20px 0px 20px 0px;
   text-align: center;
-  top: 80%;
+  top: 70%;
 }
 .cta-button {
   margin: 20px 20px 5px 20px;
@@ -103,7 +109,7 @@ export default {};
   box-shadow: 7px 4px 23px -4px rgba(0, 0, 0, 0.75);
 }
 .select {
-  padding: 0px 2px;
+  padding: 0px 5px;
 }
 
 label {
@@ -114,10 +120,22 @@ label {
   vertical-align: middle;
   line-height: 35px;
 }
+.email-field {
+  margin-top: 10px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  align-content: center;
+  justify-content: center;
+}
 
 @media screen and (max-width: 600px) {
   .contact-form {
-    top: 50%;
+    top: 55%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3px;
   }
   label {
     padding-left: 10px;
@@ -126,7 +144,47 @@ label {
     line-height: 55px;
   }
   .select {
-    margin-top: 10px;
+    margin-top: 5px;
+  }
+  .email-field {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+}
+
+@media (min-width: 601px) {
+  .contact-form {
+    top: 60%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .select {
+    margin-top: 15px;
+  }
+  label {
+    padding-left: 8px;
+    font-size: 1.1em;
+    font-weight: 100;
+    line-height: 55px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-form {
+    top: 60%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .select {
+    margin-top: 15px;
+  }
+  label {
+    padding-left: 8px;
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 55px;
   }
 }
 </style>

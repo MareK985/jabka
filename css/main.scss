@@ -7,7 +7,7 @@
 // COLOR PALLETE //
 $primary: #6D98A8;
 $secondary: #4D4B2A;
-$base: #392525;
+$base: rgb(57, 37, 37);
 
 body, html {
     font-family: 'Fira Sans', sans-serif;
@@ -22,9 +22,10 @@ body, html {
 }
 
 h1 {
-    font-size: 4vh;
+    font-size: 4.8vh;
     font-weight: 600;
-    padding: 10px 20px 0px 20px ;
+    padding: 10px 20px 0px 20px;
+    line-height: 140%;
     color: $base;
 }
 p {

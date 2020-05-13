@@ -236,6 +236,10 @@
           src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ_5jXSbx2ZUcRl-whuB9ZFag&key=AIzaSyALY3CXNuuSu2dVKjHXvFH3JWBNlNAWJSU"
           allowfullscreen
         ></iframe>
+        <div style="padding: 5px;">
+          NASLOV: <br />
+          Javornik 23, 3220 Štore <br />(30min vožnje iz Celje)
+        </div>
       </div>
       <div class="two-col">
         <ActivitiesList data-aos="fade-down-left" />

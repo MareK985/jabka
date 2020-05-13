@@ -28,7 +28,7 @@ export default {};
   width: 50px; /* Set width of icon */
   height: 50px; /* Set height of icon */
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1280px) {
   .lgscreenphone {
     display: none; /* On small screens make phone icon disappear */
   }
@@ -36,12 +36,12 @@ export default {};
     display: block; /* On small screens make phone icon appear */
   }
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 1281px) {
   .mbscreenphone {
     display: none; /* On large screens make phone icon disappear */
   }
   .lgscreenphone {
-    display: block; /* On large screens make phone icon appear */
+    display: none; /* On large screens make phone icon appear */
   }
 }
 </style>

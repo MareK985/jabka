@@ -27,8 +27,8 @@
 .heading {
     position: absolute;
     color: white;
-    font-size: 450%;
-    top: 50%;
+    font-size: 480%;
+    top: 40%;
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -37,11 +37,11 @@
 }
 .heading-sm {
     position: absolute;
-    top: 36%;
+    top: 25%;
     width: 100%;
     color: white;
     font-size: 250%;
-    font-weight: 300;
+    font-weight: 200;
     text-transform: uppercase;
     letter-spacing: 5px;
     text-shadow: 0 0 10px black;
@@ -63,19 +63,23 @@ section {
     background-color: #6D98A8; /* $primary  */
     color: #392525;   /* $base  */
 }
-@media (max-width: 768px) {
-    .heading {
-        font-size: 250%;
-        margin-top: 20%;
-        line-height: 120%;
-        top: 15%;
 
+@media (max-width: 468px) {
+    .heading {
+        font-size: 150%;
+        margin-top: 25%;
+        line-height: 110%;
+        letter-spacing: 5px;
+        top: 15%;
     }
     .heading-sm {
         font-size: 150%;
-        top: 15%;
+        top: 10%;
+}
+}
 
-    }
+@media (max-width: 768px) {
+
     .two-col {
         width: 100%;
         padding: 0;
@@ -93,8 +97,11 @@ section {
 @media (max-width: 1280px) {
     .heading {
         font-size: 250%;
-        margin-top: 20%;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        margin-top: 7%;
         line-height: 120%;
+        margin-bottom: 0;
         top: 15%;
 
     }
