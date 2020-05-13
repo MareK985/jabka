@@ -364,6 +364,8 @@ export default {
 }
 .promo {
   height: 300px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 18px 0px rgba(57, 37, 37, 0.75);
 }
 
 #promoVideo {
@@ -396,8 +398,8 @@ export default {
   }
   .slider {
     width: 100%;
-    margin: 20px 10px;
-    padding-right: 20px;
+    margin: 20px 0px;
+    padding-right: 0px;
   }
   .slide1 {
     height: 300px;

@@ -40,7 +40,7 @@
             <option>10</option>
           </select>
         </div>
-        <label>otroci (do 8.let)</label>
+        <label>otroci</label>
         <div class="select">
           <select name="st.otrok" type="text" placeholder="otroci">
             <option>1</option>
@@ -54,6 +54,9 @@
             <option>9</option>
             <option>10</option>
           </select>
+        </div>
+        <div>
+          <input class="input" name="email" type="email" placeholder="email" />
         </div>
       </div>
 
@@ -99,10 +102,31 @@ export default {};
   border: none;
   box-shadow: 7px 4px 23px -4px rgba(0, 0, 0, 0.75);
 }
+.select {
+  padding: 0px 2px;
+}
+
+label {
+  padding-left: 5px;
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+}
 
 @media screen and (max-width: 600px) {
   .contact-form {
     top: 50%;
+  }
+  label {
+    padding-left: 10px;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 55px;
+  }
+  .select {
+    margin-top: 10px;
   }
 }
 </style>
