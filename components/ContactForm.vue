@@ -6,31 +6,49 @@
       action="/api/contact"
       method="post"
       enctype="text/plain"
+      @submit.prevent="submit"
     >
       <div class="control">
         <label for="prihod">prihod</label>
         <div class="select">
           <input
             id="prihod"
+            v-model="prihod"
             class="input"
+            :class="{ error: !$v.prihod.$error }"
             name="prihod"
             type="date"
             placeholder="prihod"
+            @blur="$v.prihod.$touch()"
+            v-on="$listeners"
           />
         </div>
         <label for="odhod">odhod</label>
         <div class="select">
           <input
             id="odhod"
+            v-model="odhod"
+            :class="{ error: !$v.odhod.$error }"
             class="input"
             name="odhod"
             type="date"
             placeholder="odhod"
+            @blur="$v.odhod.$touch()"
+            v-on="$listeners"
           />
         </div>
         <label for="odrasli">odrasli</label>
         <div class="select">
-          <select id="odrasli" name="odrasli" type="text" placeholder="odrasli">
+          <select
+            id="odrasli"
+            v-model="odrasli"
+            :class="{ error: !$v.odrasli.$error }"
+            name="odrasli"
+            type="text"
+            placeholder="odrasli"
+            @blur="$v.odrasli.$touch()"
+            v-on="$listeners"
+          >
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -45,7 +63,16 @@
         </div>
         <label for="otroci">otroci</label>
         <div class="select">
-          <select id="otroci" name="otroci" type="text" placeholder="otroci">
+          <select
+            id="otroci"
+            v-model="otroci"
+            :class="{ error: !$v.otroci.$error }"
+            name="otroci"
+            type="text"
+            placeholder="otroci"
+            @blur="$v.otroci.$touch()"
+            v-on="$listeners"
+          >
             <option>0</option>
             <option>1</option>
             <option>2</option>
@@ -61,17 +88,50 @@
         <div class="email-field">
           <input
             id="email"
+            v-model="email"
             class="input"
+            :class="{ error: !$v.email.$error }"
             name="email"
             type="email"
             placeholder="vpišite svoj email naslov"
+            @blur="$v.email.$touch()"
+            v-on="$listeners"
           />
+          <template v-if="!$v.email.$error">
+            <p v-if="!$v.email.email" class="errorMessage">
+              Prosim vpišite veljaven e-naslov.
+            </p>
+            <p v-if="!$v.email.required" class="errorMessage">
+              Prosim vpišite vaš e-naslov.
+            </p>
+          </template>
+          <template v-if="!$v.prihod.$error">
+            <p v-if="!$v.prihod.required" class="errorMessage">
+              Prosim določite željen datum prihoda.
+            </p>
+          </template>
+          <template v-if="!$v.odhod.$error">
+            <p v-if="!$v.odhod.required" class="errorMessage">
+              Prosim določite željen datum odhoda.
+            </p>
+          </template>
+          <template v-if="!$v.odrasli.$error">
+            <p v-if="!$v.odrasli.required" class="errorMessage">
+              Prosim določite število odrasli oseb.
+            </p>
+          </template>
+          <template v-if="!$v.otroci.$error">
+            <p v-if="!$v.otroci.required" class="errorMessage">
+              Prosim določite število otrok (starih do 8.let).
+            </p>
+          </template>
         </div>
       </div>
 
       <div>
         <button
           id="button-submit"
+          :disabled="$v.$invalid"
           type="submit"
           value="Send"
           class="button is-focused cta-button"
@@ -80,6 +140,9 @@
         >
           REZERVIRAJ !
         </button>
+        <p v-if="$v.$anyError" class="errorMessage">
+          Prosim izpolnite vsa polja
+        </p>
       </div>
     </form>
   </div>
@@ -87,18 +150,43 @@
 
 <script>
 import axios from "axios";
+import { required, email } from "vuelidate/lib/validators";
 
 export default {
   data() {
     return {
-      prihod: "",
-      odhod: "",
-      odrasli: "",
-      otroci: "",
-      email: "",
+      prihod: null,
+      odhod: null,
+      odrasli: null,
+      otroci: null,
+      email: null,
     };
   },
+  validations: {
+    prihod: {
+      required,
+    },
+    odhod: {
+      required,
+    },
+    odrasli: {
+      required,
+    },
+    otroci: {
+      required,
+    },
+    email: {
+      required,
+      email,
+    },
+  },
   methods: {
+    submit() {
+      this.$v.$touch();
+      if (!this.$v.$invalid) {
+        // console.log("form submitted:", this.email);
+      }
+    },
     async onSubmit(event) {
       event.preventDefault();
 
@@ -222,5 +310,14 @@ label {
     font-weight: 100;
     line-height: 55px;
   }
+}
+
+.errorMessage {
+  color: red;
+  border-color: red;
+  margin: 0;
+  font-size: 1em;
+  padding: 0;
+  line-height: 100%;
 }
 </style>
