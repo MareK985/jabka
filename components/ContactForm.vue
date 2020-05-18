@@ -140,9 +140,17 @@
         >
           REZERVIRAJ !
         </button>
-        <p v-if="$v.$anyError" class="errorMessage">
-          Prosim izpolnite vsa polja
-        </p>
+        <template v-if="$v.$anyError">
+          <p class="errorMessage">
+            Prosim izpolnite vsa polja
+          </p>
+        </template>
+        <template>
+          <p v-if="isSubmitted" class="text-green-light">
+            Hvala za povpraševanje. Pričakujte odgovor na vaš email naslov v
+            roku 24 ur.
+          </p></template
+        >
       </div>
     </form>
   </div>
@@ -160,6 +168,9 @@ export default {
       odrasli: null,
       otroci: null,
       email: null,
+      submitting: false,
+      isSubmitted: false,
+      error: false,
     };
   },
   validations: {
@@ -187,6 +198,7 @@ export default {
         // console.log("form submitted:", this.email);
       }
     },
+
     async onSubmit(event) {
       event.preventDefault();
 
@@ -195,6 +207,9 @@ export default {
         const formData = new FormData(form);
 
         const res = await axios.post("/api/contact", formData);
+
+        this.submitting = false;
+        this.isSubmitted = true;
 
         // console.log(res.data.message);
       } catch (error) {
@@ -319,5 +334,8 @@ label {
   font-size: 1em;
   padding: 0;
   line-height: 100%;
+}
+.text-green-light {
+  color: green;
 }
 </style>
