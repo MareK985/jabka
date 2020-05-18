@@ -1,33 +1,36 @@
 <template>
   <div>
     <form
+      id="contact-form"
       class="contact-form"
-      action="MAILTO:krajnc.mare@gmail.com"
+      action="/api/contact"
       method="post"
       enctype="text/plain"
     >
       <div class="control">
-        <label>prihod</label>
+        <label for="prihod">prihod</label>
         <div class="select">
           <input
+            id="prihod"
             class="input"
-            name="zeljen prihod:"
+            name="prihod"
             type="date"
             placeholder="prihod"
           />
         </div>
-        <label>odhod</label>
+        <label for="odhod">odhod</label>
         <div class="select">
           <input
+            id="odhod"
             class="input"
-            name="zeljen odhod:"
+            name="odhod"
             type="date"
             placeholder="odhod"
           />
         </div>
-        <label>odrasli</label>
+        <label for="odrasli">odrasli</label>
         <div class="select">
-          <select name="st.odraslih" type="text" placeholder="odrasli">
+          <select id="odrasli" name="odrasli" type="text" placeholder="odrasli">
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -40,9 +43,10 @@
             <option>10</option>
           </select>
         </div>
-        <label>otroci</label>
+        <label for="otroci">otroci</label>
         <div class="select">
-          <select name="st.otrok" type="text" placeholder="otroci">
+          <select id="otroci" name="otroci" type="text" placeholder="otroci">
+            <option>0</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -52,11 +56,11 @@
             <option>7</option>
             <option>8</option>
             <option>9</option>
-            <option>10</option>
           </select>
         </div>
         <div class="email-field">
           <input
+            id="email"
             class="input"
             name="email"
             type="email"
@@ -67,10 +71,12 @@
 
       <div>
         <button
+          id="button-submit"
           type="submit"
           value="Send"
           class="button is-focused cta-button"
           style="background: #6D98A8; color:white;"
+          @click="onSubmit"
         >
           REZERVIRAJ !
         </button>
@@ -80,7 +86,37 @@
 </template>
 
 <script>
-export default {};
+import axios from "axios";
+
+export default {
+  data() {
+    return {
+      prihod: "",
+      odhod: "",
+      odrasli: "",
+      otroci: "",
+      email: "",
+    };
+  },
+  methods: {
+    async onSubmit(event) {
+      event.preventDefault();
+      alert("test");
+      try {
+        const form = document.getElementById("contact-form");
+        const formData = new FormData(form);
+
+        const res = await axios.post("/api/contact", formData);
+
+        console.log(res.data.message);
+      } catch (error) {
+        // handle error
+
+        alert(error);
+      }
+    },
+  },
+};
 </script>
 
 <style>

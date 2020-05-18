@@ -5,7 +5,7 @@
         Pobegni v naravo
       </div>
       <div data-aos="fade" class="heading">
-        Najami posestvo na samem
+        Posestvo na samem
       </div>
       <ContactForm />
     </div>

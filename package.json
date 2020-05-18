@@ -19,10 +19,12 @@
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "@nuxtjs/bulma": "^1.2.1",
     "aos": "^3.0.0-beta.6",
+    "axios": "^0.19.2",
     "nuxt": "^2.0.0",
     "nuxt-fontawesome": "^0.4.0",
     "vue-carousel": "^0.18.0",
-    "vue-slick-carousel": "^1.0.5"
+    "vue-slick-carousel": "^1.0.5",
+    "vuelidate": "^0.7.5"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
