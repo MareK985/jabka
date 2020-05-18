@@ -101,14 +101,14 @@ export default {
   methods: {
     async onSubmit(event) {
       event.preventDefault();
-      alert("test");
+
       try {
         const form = document.getElementById("contact-form");
         const formData = new FormData(form);
 
         const res = await axios.post("/api/contact", formData);
 
-        console.log(res.data.message);
+        // console.log(res.data.message);
       } catch (error) {
         // handle error
 
