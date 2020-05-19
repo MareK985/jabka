@@ -13,6 +13,7 @@ export default {
   adultNoError: "Prosim določite odraslih oseb",
   childrenNoError: "Prosim določite število otrok (starih do 8.let)",
   bookNow: "Rezerviraj",
+  errorForm: "Prosim izpolnite vsa polja",
   desciptionTitle: "POSESTVO NA SVETINI nad Celjem (720 m)",
   desciption:
     "Ta počitniška hiša vam bo zagotovila vse, kar potrebujete za popolno sprostitev in uživanje v počitnicah. Sprostite se lahko v savni ali whirlpool-u, ohladite se v prijetnem zunanjem bazenu ali si privoščite obrok na terasi z zunanjo kuhinjo. Za deževne dni je večji prostor za druženje s kaminom. V prvem nadstropju boste na pokriti terasi našli zabavne vsebine, kot so biljard, namizni nogomet in namizni tenis.",

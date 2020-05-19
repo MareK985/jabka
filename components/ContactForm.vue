@@ -142,13 +142,12 @@
         </button>
         <template v-if="$v.$anyError">
           <p class="errorMessage">
-            Prosim izpolnite vsa polja
+            {{ $t("errorForm") }}
           </p>
         </template>
         <template>
-          <p v-if="isSubmitted" class="text-green-light">
-            Hvala za povpraševanje. Pričakujte odgovor na vaš email naslov v
-            roku 24 ur.
+          <p v-if="isSubmitted" class="text-green-light successMessage">
+            {{ $t("success") }}
           </p></template
         >
       </div>
@@ -271,7 +270,7 @@ label {
 
 @media screen and (max-width: 600px) {
   .contact-form {
-    top: 55%;
+    top: 50%;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -338,5 +337,10 @@ label {
 }
 .text-green-light {
   color: green;
+}
+.successMessage {
+  background: white;
+  margin: 5px;
+  padding: 5px;
 }
 </style>

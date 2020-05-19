@@ -1,7 +1,7 @@
 // en-US.js with English translations
 export default {
   subheader: "Escape into the nature",
-  header: "Ranch middle of nowhere",
+  header: "Live at the Ranch",
   arrival: "Arrival",
   departure: "Departure",
   adults: "Adults",
@@ -13,6 +13,9 @@ export default {
   adultNoError: "Please select number of adults",
   childrenNoError: "Please select number of children (below 8 years of age)",
   bookNow: "Book Now !",
+  errorForm: "Please fill in all the fields",
+  success:
+    "Thank you for inquiry. Expect a reply to your email address within 24 hours.",
   desciptionTitle: "RANCH AT SVETINA above Celje (720 m)",
   desciption:
     "This vacation home will provide you with everything you need for complete relaxation and enjoyment in youring your holiday. Relax in the sauna or whirlpool, cool off in a nice outdoor pool or enjoy a meal on the terrace with an outdoor kitchen. For rainy days there is a bigger room for hanging out with a fireplace. On the first floor you will find entertaining facilities such as billiards, table football and table tennis on the covered terrace. The house is situated at 720m above sea level, surrounded by nature and fragrant meadows, and is an ideal choice for those who want a true holiday.",
