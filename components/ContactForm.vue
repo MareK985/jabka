@@ -205,7 +205,13 @@ export default {
         const form = document.getElementById("contact-form");
         const formData = new FormData(form);
 
-        const res = await axios.post("/api/contact", formData);
+        const data = {};
+        formData.forEach((value, key) => {
+          data[key] = value;
+        });
+        const json = JSON.stringify(data);
+
+        const res = await axios.post("/api/contact", data);
 
         this.submitting = false;
         this.isSubmitted = true;

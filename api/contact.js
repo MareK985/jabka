@@ -7,10 +7,13 @@ import xssFilters from "xss-filters";
 
 const app = express();
 
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.post("/", (req, res) => {
-  // const { prihod, odhod, odrasli, otroci, email } = req.body;
+  const { prihod, odhod, odrasli, otroci, email } = req.body;
+  console.log(req.body);
+
   const attributes = ["prihod", "odhod", "odrasli", "otroci", "email"]; // Our five form fields, all required
 
   //   // Map each attribute name to the validated and sanitized equivalent (false if validation failed)
