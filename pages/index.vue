@@ -2,12 +2,13 @@
   <div>
     <div class="parallax1">
       <div data-aos="fade" class="heading-sm">
-        Pobegni v naravo
+        {{ $t("subheader") }}
       </div>
       <div data-aos="fade" class="heading">
-        Posestvo na samem
+        {{ $t("header") }}
       </div>
       <ContactForm />
+      <LangNavigation />
     </div>
 
     <section>
@@ -286,6 +287,7 @@ import Cenik from "~/components/Cenik.vue";
 import TC from "~/components/T&C.vue";
 import ActivitiesList from "~/components/ActivitiesList.vue";
 import Fas from "~/components/Fas.vue";
+import LangNavigation from "~/components/LangNavigation.vue";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 
@@ -297,6 +299,13 @@ export default {
     ActivitiesList,
     Fas,
     VueSlickCarousel,
+    LangNavigation,
+  },
+  nuxtI18n: {
+    paths: {
+      sl: "/",
+      en: "/",
+    },
   },
   data() {
     return {
