@@ -17,14 +17,9 @@
         class="two-col dark"
         style="border-radius: 30px; padding:10px;"
       >
-        <h1>POSESTVO NA SVETINI nad Celjem (720m)</h1>
+        <h1>{{ $t("desciptionTitle") }}</h1>
         <p>
-          Ta počitniška hiša vam bo zagotovila vse, kar potrebujete za popolno
-          sprostitev in uživanje v počitnicah. Sprostite se lahko v savni ali
-          whirlpool-u, ohladite se v prijetnem zunanjem bazenu ali si privoščite
-          obrok na terasi z zunanjo kuhinjo. Za deževne dni je večji prostor za
-          druženje s kaminom. V prvem nadstropju boste na pokriti terasi našli
-          zabavne vsebine, kot so biljard, namizni nogomet in namizni tenis.
+          {{ $t("desciption") }}
         </p>
       </div>
       <div data-aos="fade-up" class="two-col">
@@ -55,12 +50,11 @@
     <!-- end of video -->
 
     <div class="cenik">
-      <h1 class="section-title">CENA</h1>
+      <h1 class="section-title">{{ $t("pricelist") }}</h1>
       <div class="two-col">
         <Cenik data-aos="zoom-in-right" />
-        <span class="drobni-tisk"
-          >* vse cene so v EUR z DDV za eno nočitev</span
-        >
+        <span class="drobni-tisk">{{ $t("priceDetails") }}</span> <br />
+        <span class="drobni-tisk">{{ $t("priceDiscount") }}</span>
       </div>
       <div class="two-col">
         <TC data-aos="fade-left" />
@@ -222,7 +216,7 @@
 
     <div class="parallax2">
       <div class="heading ">
-        DOŽIVETJA
+        {{ $t("activities") }}
       </div>
     </div>
     <section class="dark">
@@ -238,8 +232,8 @@
           allowfullscreen
         ></iframe>
         <div style="padding: 5px;">
-          NASLOV: <br />
-          Javornik 23, 3220 Štore <br />(30min vožnje iz Celje)
+          {{ $t("addressTitle") }}<br />
+          {{ $t("address") }} <br />{{ $t("addressDetails") }}
         </div>
       </div>
       <div class="two-col">
@@ -256,21 +250,21 @@
             <Fas class="circle-icon" i="heart" />
 
             <p class="quote">
-              Beautiful house at a great mountain top location. Mitja was very
-              responsive and made sure our stay is as nice as possible, even
-              just for a short 2-day stay. Very much recommended!
+              {{ $t("quote1") }}
             </p>
-            <h3>Angela, Belgija <br /><span>dec. 2019</span></h3>
+            <h3>
+              {{ $t("quoteAuthor1") }} <br /><span>{{ $t("quoteDate1") }}</span>
+            </h3>
           </div>
           <div>
             <Fas class="circle-icon" i="heart" />
 
             <p class="quote">
-              Beautiful house at a great mountain top location. Mitja was very
-              responsive and made sure our stay is as nice as possible, even
-              just for a short 2-day stay. Very much recommended!
+              {{ $t("quote2") }}
             </p>
-            <h3>Angela, Belgija <br /><span>dec. 2019</span></h3>
+            <h3>
+              {{ $t("quoteAuthor2") }} <br /><span>{{ $t("quoteDate2") }}</span>
+            </h3>
           </div>
         </VueSlickCarousel>
       </div>

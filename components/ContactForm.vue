@@ -9,7 +9,7 @@
       @submit.prevent="submit"
     >
       <div class="control">
-        <label for="prihod">prihod</label>
+        <label for="prihod"> {{ $t("arrival") }}</label>
         <div class="select">
           <input
             id="prihod"
@@ -23,7 +23,7 @@
             v-on="$listeners"
           />
         </div>
-        <label for="odhod">odhod</label>
+        <label for="odhod">{{ $t("departure") }}</label>
         <div class="select">
           <input
             id="odhod"
@@ -37,7 +37,7 @@
             v-on="$listeners"
           />
         </div>
-        <label for="odrasli">odrasli</label>
+        <label for="odrasli">{{ $t("adults") }}</label>
         <div class="select">
           <select
             id="odrasli"
@@ -61,7 +61,7 @@
             <option>10</option>
           </select>
         </div>
-        <label for="otroci">otroci</label>
+        <label for="otroci">{{ $t("children") }}</label>
         <div class="select">
           <select
             id="otroci"
@@ -93,36 +93,36 @@
             :class="{ error: !$v.email.$error }"
             name="email"
             type="email"
-            placeholder="vpišite svoj email naslov"
+            placeholder="email"
             @blur="$v.email.$touch()"
             v-on="$listeners"
           />
           <template v-if="!$v.email.$error">
             <p v-if="!$v.email.email" class="errorMessage">
-              Prosim vpišite veljaven e-naslov.
+              {{ $t("emailError") }}.
             </p>
             <p v-if="!$v.email.required" class="errorMessage">
-              Prosim vpišite vaš e-naslov.
+              {{ $t("email") }}.
             </p>
           </template>
           <template v-if="!$v.prihod.$error">
             <p v-if="!$v.prihod.required" class="errorMessage">
-              Prosim določite željen datum prihoda.
+              {{ $t("arrivalError") }}.
             </p>
           </template>
           <template v-if="!$v.odhod.$error">
             <p v-if="!$v.odhod.required" class="errorMessage">
-              Prosim določite željen datum odhoda.
+              {{ $t("departureError") }}.
             </p>
           </template>
           <template v-if="!$v.odrasli.$error">
             <p v-if="!$v.odrasli.required" class="errorMessage">
-              Prosim določite število odrasli oseb.
+              {{ $t("adultNoError") }}.
             </p>
           </template>
           <template v-if="!$v.otroci.$error">
             <p v-if="!$v.otroci.required" class="errorMessage">
-              Prosim določite število otrok (starih do 8.let).
+              {{ $t("childrenNoError") }}.
             </p>
           </template>
         </div>
@@ -138,7 +138,7 @@
           style="background: #6D98A8; color:white;"
           @click="onSubmit"
         >
-          REZERVIRAJ !
+          {{ $t("bookNow") }}
         </button>
         <template v-if="$v.$anyError">
           <p class="errorMessage">
@@ -246,6 +246,7 @@ export default {
   font-weight: 500;
   border: none;
   box-shadow: 7px 4px 23px -4px rgba(0, 0, 0, 0.75);
+  text-transform: uppercase;
 }
 .select {
   padding: 0px 5px;

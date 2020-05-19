@@ -2,14 +2,9 @@
   <div>
     <Tabs>
       <Tab name="Stari Grad Celje" selected="true">
-        <h2>Oddaljenost 4km</h2>
+        <h2>{{ $t("activityDistance1") }}</h2>
         <p>
-          Romantičen, zapeljiv, mogočen, temačen, strašljiv, celjski ... Vse to
-          je Stari grad Celje. Predstavlja obvezno destinacijo za vse
-          obiskovalce Celja ne glede na to, od kod prihajajo. Mogočni grad z
-          obzidjem, ki že stoletja vlada na griču nad mestom, vas bo že od daleč
-          pustil brez besed. Ko ga boste obiskali, vam bo v spominu ostal za
-          vedno.
+          {{ $t("activity1") }}
         </p>
         <a
           href="https://www.celje.si/sl/kartica/stari-grad-celje"
@@ -19,36 +14,37 @@
             <span class="icon is-small">
               <Fas class="circle-icon" i="info" />
             </span>
-            <span>Več informacij</span>
+            <span> {{ $t("moreInfo") }} </span>
           </button>
         </a>
       </Tab>
       <Tab name="Celjska Koča">
-        <h2>Oddaljenost 1km</h2>
+        <h2>{{ $t("activityDistance2") }}</h2>
         <p>
-          Romantičen, zapeljiv, mogočen, temačen, strašljiv, celjski ... Vse to
-          je Stari grad Celje. Predstavlja obvezno destinacijo za vse
-          obiskovalce Celja ne glede na to, od kod prihajajo. Mogočni grad z
-          obzidjem, ki že stoletja vlada na griču nad mestom, vas bo že od daleč
-          pustil brez besed. Ko ga boste obiskali, vam bo v spominu ostal za
-          vedno.
+          {{ $t("activity2") }}
         </p>
+        <a href="http://celjska-koca.si/" target="_blank">
+          <button class="button">
+            <span class="icon is-small">
+              <Fas class="circle-icon" i="info" />
+            </span>
+            <span> {{ $t("moreInfo") }} </span>
+          </button>
+        </a>
       </Tab>
       <Tab name="Terme Laško">
-        <table>
-          <tr>
-            <th>Voden ogled posestva</th>
-            <th>10eur/osebo</th>
-          </tr>
-          <tr>
-            <td>Organizirani izleti</td>
-            <td>30eur/osebo</td>
-          </tr>
-          <tr>
-            <td>Apple</td>
-            <td>Red</td>
-          </tr>
-        </table>
+        <h2>{{ $t("activityDistance3") }}</h2>
+        <p>
+          {{ $t("activity3") }}
+        </p>
+        <a href="https://www.thermana.si/" target="_blank">
+          <button class="button">
+            <span class="icon is-small">
+              <Fas class="circle-icon" i="info" />
+            </span>
+            <span> {{ $t("moreInfo") }} </span>
+          </button>
+        </a>
       </Tab>
     </Tabs>
   </div>

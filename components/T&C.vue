@@ -3,42 +3,38 @@
     <Tabs>
       <Tab name="Cena vključuje" selected="true">
         <ul>
-          <li>Nočitev v namestitvi</li>
-          <li>Neomejena uporaba lastne vroče kadi / jacuzzija</li>
-          <li>Kopalnica z WCjem</li>
-          <li>Posteljnina, brisače, kopalni plašči</li>
-          <li>Kavni avtomat in grelnik vode</li>
-          <li>Brezplačen Wi-Fi</li>
-          <li>TV</li>
-          <li>Klima / gretje</li>
-          <li>Kamin in drva</li>
-          <li>Brezplačni parkirni prostor</li>
-          <li>DDV</li>
-          <li>Turistična taksa</li>
+          <li>{{ $t("priceIncludes1") }}</li>
+          <li>{{ $t("priceIncludes2") }}</li>
+          <li>{{ $t("priceIncludes3") }}</li>
+          <li>{{ $t("priceIncludes4") }}</li>
+          <li>{{ $t("priceIncludes5") }}</li>
+          <li>{{ $t("priceIncludes6") }}</li>
+          <li>{{ $t("priceIncludes7") }}</li>
+          <li>{{ $t("priceIncludes8") }}</li>
+          <li>{{ $t("priceIncludes9") }}</li>
+          <li>{{ $t("priceIncludes10") }}</li>
+          <li>{{ $t("priceIncludes11") }}</li>
+          <li>{{ $t("priceIncludes12") }}</li>
+          <li>{{ $t("priceIncludes13") }}</li>
+          <li>{{ $t("priceIncludes14") }}</li>
         </ul>
       </Tab>
       <Tab name="Doplačila">
         <ul>
           <li>
-            Zgodnja prijava na resort je možna ob 12.00 (samo ob predhodnem
-            dogovoru) 30 €
+            {{ $t("surcharges1") }}
           </li>
-          <li>Item 2</li>
         </ul>
       </Tab>
       <Tab name="Dodatne storitve">
         <table>
           <tr>
-            <th>Voden ogled posestva</th>
-            <th>10eur/osebo</th>
+            <th>{{ $t("extrasTitle1") }}</th>
+            <th>{{ $t("extras1") }}</th>
           </tr>
           <tr>
-            <td>Organizirani izleti</td>
-            <td>30eur/osebo</td>
-          </tr>
-          <tr>
-            <td>Apple</td>
-            <td>Red</td>
+            <td>{{ $t("extrasTitle2") }}</td>
+            <td>{{ $t("extras2") }}</td>
           </tr>
         </table>
       </Tab>
