@@ -22,6 +22,7 @@ export default {
   pricelist: "cenik",
   priceDetails: "* vse cene so v EUR z DDV za eno nočitev",
   priceDiscount: "* 10% popusta, če ostanete en teden",
+  activities: "Doživetja",
   addressTitle: "NASLOV:",
   address: "Javorniki 23, SI-3220 Štore",
   addressDetails: "(30 min vožnje iz Celja)",

@@ -270,7 +270,11 @@
       </div>
     </div>
 
-    <div class="parallax4"></div>
+    <div class="parallax4">
+      <div data-aos="zoom-in" data-aos-duration="3000">
+        <img src="~/assets/logo/logo-svetina.svg" alt="logo" class="logo" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -394,6 +398,11 @@ export default {
   padding: 10px;
 }
 
+.logo {
+  width: 40%;
+  margin-top: 10%;
+}
+
 @media screen and (max-width: 680px) {
   .circle {
     width: 70px;
@@ -410,6 +419,10 @@ export default {
   }
   .slide1 {
     height: 300px;
+  }
+  .logo {
+    width: 80%;
+    margin-top: 60%;
   }
 }
 </style>
