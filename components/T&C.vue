@@ -38,12 +38,12 @@
       <template slot="tab-panel-snape">
         <table>
           <tr>
-            <th>{{ $t("extrasTitle1") }}</th>
-            <th>{{ $t("extras1") }}</th>
+            <th class="mini-tabel">{{ $t("extrasTitle1") }}</th>
+            <td class="mini-tabel">{{ $t("extras1") }}</td>
           </tr>
           <tr>
-            <td>{{ $t("extrasTitle2") }}</td>
-            <td>{{ $t("extras2") }}</td>
+            <th class="mini-tabel">{{ $t("extrasTitle2") }}</th>
+            <td class="mini-tabel">{{ $t("extras2") }}</td>
           </tr>
         </table>
       </template>
@@ -70,12 +70,23 @@ export default {
 <style scoped>
 /* Style the tab */
 li {
-  font-size: 1.3em;
+  font-size: 1em;
+}
+.mini-tabel {
+  font-size: 0.6em;
+  padding: 20px;
+  line-height: 150%;
 }
 @media screen and (max-width: 600px) {
   li {
-    font-size: 1.1em;
+    font-size: 0.8em;
+    line-height: 180%;
     text-align: left !important;
+  }
+  .mini-tabel {
+    font-size: 0.85em;
+    padding: 10px;
+    line-height: 120%;
   }
 }
 </style>

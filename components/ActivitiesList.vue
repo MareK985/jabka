@@ -6,14 +6,16 @@
       </template>
       <template slot="tab-panel-james">
         <h2>{{ $t("activityDistance1") }}</h2>
-        <p>
+        <img src="~/assets/img/grad.jpg" alt="slide" class="responsive" />
+
+        <p class="attractionsDescription">
           {{ $t("activity1") }}
         </p>
         <a
           href="https://www.celje.si/sl/kartica/stari-grad-celje"
           target="_blank"
         >
-          <button class="button">
+          <button class="button" style="margin-top: 10px;">
             <span class="icon is-small">
               <Fas class="circle-icon" i="info" />
             </span>
@@ -27,11 +29,17 @@
       </template>
       <template slot="tab-panel-lily">
         <h2>{{ $t("activityDistance2") }}</h2>
-        <p>
+        <img
+          src="~/assets/img/celjskaKoca.jpg"
+          alt="slide"
+          class="responsive"
+        />
+
+        <p class="attractionsDescription">
           {{ $t("activity2") }}
         </p>
         <a href="http://celjska-koca.si/" target="_blank">
-          <button class="button">
+          <button class="button" style="margin-top: 10px;">
             <span class="icon is-small">
               <Fas class="circle-icon" i="info" />
             </span>
@@ -44,11 +52,13 @@
       </template>
       <template slot="tab-panel-snape">
         <h2>{{ $t("activityDistance3") }}</h2>
-        <p>
+        <img src="~/assets/img/termana.jpg" alt="slide" class="responsive" />
+
+        <p class="attractionsDescription">
           {{ $t("activity3") }}
         </p>
         <a href="https://www.thermana.si/" target="_blank">
-          <button class="button">
+          <button class="button" style="margin-top: 10px;">
             <span class="icon is-small">
               <Fas class="circle-icon" i="info" />
             </span>
@@ -66,6 +76,7 @@ import Fas from "~/components/Fas.vue";
 
 export default {
   components: {
+    Fas,
     TabCard,
   },
   data() {
@@ -81,6 +92,12 @@ export default {
 /* Style the tab */
 li {
   font-size: 1.6em;
+}
+.attractionsDescription {
+  padding: 0;
+  margin: 0;
+  font-size: 0.865em;
+  line-height: 180%;
 }
 @media screen and (max-width: 600px) {
   li {

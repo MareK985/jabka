@@ -54,8 +54,8 @@ export default {
   background-color: #fff;
   border-radius: 6px;
   width: 500px;
-  height: 300px;
-  box-shadow: 2px 0px 30px 0 #6d98a8;
+  height: 490px;
+  box-shadow: 6px 0px 30px 0px #6d98a8;
 }
 
 .card-header {
@@ -73,6 +73,7 @@ export default {
   display: flex;
   margin: 0;
   padding: 0;
+  line-height: 120%;
   list-style: none;
   margin-left: 6px;
   margin-top: -4px;

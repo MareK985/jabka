@@ -63,11 +63,12 @@ export default {
   season2: "sezona 2",
   season3: "sezona 3",
   app1: "app#1 (max.6 oseb)",
+  moreInfo: "Več informacij",
   app2: "app#1+2 (max.10 oseb)",
   activityTitle1: "Stari grad Celje",
   activityDistance1: "Oddaljenost ~4km",
   activity1:
-    "Romantičen, zapeljiv, mogočen, temačen, strašljiv, celjski ... Vse to je Stari grad Celje. Predstavlja obvezno destinacijo za vse obiskovalce Celja ne glede na to, od kod prihajajo. Mogočni grad z obzidjem, ki že stoletja vlada na griču nad mestom, vas bo že od daleč pustil brez besed. Ko ga boste obiskali, vam bo v spominu ostal za vedno.",
+    "Romantičen, zapeljiv, mogočen, temačen, strašljiv, celjski ... Vse to je Stari grad Celje. Ko ga boste obiskali, vam bo v spominu ostal za vedno.",
   activityTitle2: "Celjska koča",
 
   activityDistance2: "Oddaljenost ~1km",

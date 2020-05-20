@@ -69,7 +69,7 @@ export default {
 
   activityDistance1: "Distance ~4km",
   activity1:
-    "Romantic, seductive, mighty, dark, scary ... All this is the Old Castle of Celje. It is a mandatory destination for all visitors to Celje, regardless of where they come from. The mighty walled castle that has ruled the hill above the city for centuries will leave you speechless from afar. When you visit it, it will stay in your memory forever.",
+    "Romantic, seductive, mighty, dark, scary ... All this is the Old Castle of Celje. When you visit it, it will stay in your memory forever.",
   activityTitle2: "Celjska koča",
 
   activityDistance2: "Distance ~1km",
