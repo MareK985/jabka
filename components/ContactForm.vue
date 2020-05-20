@@ -97,7 +97,7 @@
             @blur="$v.email.$touch()"
             v-on="$listeners"
           />
-          <template v-if="!$v.email.$error">
+          <template v-if="$v.email.$error">
             <p v-if="!$v.email.email" class="errorMessage">
               {{ $t("emailError") }}.
             </p>
@@ -105,22 +105,22 @@
               {{ $t("email") }}.
             </p>
           </template>
-          <template v-if="!$v.prihod.$error">
+          <template v-if="$v.prihod.$error">
             <p v-if="!$v.prihod.required" class="errorMessage">
               {{ $t("arrivalError") }}.
             </p>
           </template>
-          <template v-if="!$v.odhod.$error">
+          <template v-if="$v.odhod.$error">
             <p v-if="!$v.odhod.required" class="errorMessage">
               {{ $t("departureError") }}.
             </p>
           </template>
-          <template v-if="!$v.odrasli.$error">
+          <template v-if="$v.odrasli.$error">
             <p v-if="!$v.odrasli.required" class="errorMessage">
               {{ $t("adultNoError") }}.
             </p>
           </template>
-          <template v-if="!$v.otroci.$error">
+          <template v-if="$v.otroci.$error">
             <p v-if="!$v.otroci.required" class="errorMessage">
               {{ $t("childrenNoError") }}.
             </p>
@@ -140,11 +140,11 @@
         >
           {{ $t("bookNow") }}
         </button>
-        <template v-if="$v.$anyError">
+        <!-- <template v-if="$v.$anyError">
           <p class="errorMessage">
             {{ $t("errorForm") }}
           </p>
-        </template>
+        </template> -->
         <template>
           <p v-if="isSubmitted" class="text-green-light successMessage">
             {{ $t("success") }}
@@ -162,11 +162,11 @@ import { required, email } from "vuelidate/lib/validators";
 export default {
   data() {
     return {
-      prihod: null,
-      odhod: null,
-      odrasli: null,
-      otroci: null,
-      email: null,
+      prihod: "",
+      odhod: "",
+      odrasli: "",
+      otroci: "",
+      email: "",
       submitting: false,
       isSubmitted: false,
       error: false,
@@ -335,10 +335,10 @@ label {
 
 .errorMessage {
   color: red;
-  border-color: red;
-  margin: 0;
+  background: white;
+  margin: 5px;
   font-size: 1em;
-  padding: 0;
+  padding: 5px;
   line-height: 100%;
 }
 .text-green-light {
