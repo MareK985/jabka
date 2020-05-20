@@ -1,7 +1,10 @@
 <template>
   <div>
-    <Tabs>
-      <Tab name="Stari Grad Celje" selected="true">
+    <TabCard :tabs="tabs" :initial-tab="initialTab">
+      <template slot="tab-head-james">
+        {{ $t("activityTitle1") }}
+      </template>
+      <template slot="tab-panel-james">
         <h2>{{ $t("activityDistance1") }}</h2>
         <p>
           {{ $t("activity1") }}
@@ -17,8 +20,12 @@
             <span> {{ $t("moreInfo") }} </span>
           </button>
         </a>
-      </Tab>
-      <Tab name="Celjska Koča">
+      </template>
+
+      <template slot="tab-head-lily">
+        {{ $t("activityTitle2") }}
+      </template>
+      <template slot="tab-panel-lily">
         <h2>{{ $t("activityDistance2") }}</h2>
         <p>
           {{ $t("activity2") }}
@@ -31,8 +38,11 @@
             <span> {{ $t("moreInfo") }} </span>
           </button>
         </a>
-      </Tab>
-      <Tab name="Terme Laško">
+      </template>
+      <template slot="tab-head-snape">
+        {{ $t("activityTitle3") }}
+      </template>
+      <template slot="tab-panel-snape">
         <h2>{{ $t("activityDistance3") }}</h2>
         <p>
           {{ $t("activity3") }}
@@ -45,21 +55,24 @@
             <span> {{ $t("moreInfo") }} </span>
           </button>
         </a>
-      </Tab>
-    </Tabs>
+      </template>
+    </TabCard>
   </div>
 </template>
 
 <script>
-import Tab from "~/components/Tab.vue";
-import Tabs from "~/components/Tabs.vue";
+import TabCard from "~/components/TabCard.vue";
 import Fas from "~/components/Fas.vue";
 
 export default {
   components: {
-    Tab,
-    Tabs,
-    Fas,
+    TabCard,
+  },
+  data() {
+    return {
+      initialTab: "james",
+      tabs: ["james", "lily", "snape"],
+    };
   },
 };
 </script>

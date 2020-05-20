@@ -36,6 +36,7 @@ export default {
   quoteAuthor2: "Angela, Belgium",
   quoteDate2: "dec. 2019",
   // TERMS & CONDITIONS
+  priceIncludes: "Price includes",
   priceIncludes1: "Overnight stay at lodgement",
   priceIncludes2: "Unlimited use of own hot tub / jacuzzi",
   priceIncludes3: "Swimming pool ",
@@ -50,8 +51,10 @@ export default {
   priceIncludes12: "Indoor fireplace and firewood",
   priceIncludes13: "Free parking space",
   priceIncludes14: "Washing machine and Dishwasher",
+  surcharges: "Surcharges",
   surcharges1:
     "Early check-in at the resort is possible at 12.00 (by prior arrangement only) € 30",
+  extras: "Additional service",
   extrasTitle1: "Guided tour around the village",
   extras1: "10 eur per person (min. 2 persons)",
   extrasTitle2: "Guided tours around the region",
@@ -62,12 +65,18 @@ export default {
   season3: "season 3",
   app1: "app#1 (max.6 persons)",
   app2: "app#1+2 (max.10 persons)",
+  activityTitle1: "Celje Castle ",
+
   activityDistance1: "Distance ~4km",
   activity1:
     "Romantic, seductive, mighty, dark, scary ... All this is the Old Castle of Celje. It is a mandatory destination for all visitors to Celje, regardless of where they come from. The mighty walled castle that has ruled the hill above the city for centuries will leave you speechless from afar. When you visit it, it will stay in your memory forever.",
+  activityTitle2: "Celjska koča",
+
   activityDistance2: "Distance ~1km",
   activity2:
     "Visit the terrace and restaurant Celjska koča, and go on an adrenaline-fueled experience during the weekends - bobsleigh rides or visit the adventure park.",
+  activityTitle3: "Thermana Laško ",
+
   activityDistance3: "Distance ~10km",
   activity3:
     "Take time for yourself. Unique wellness and medical programmes based on natural wealth, soothing thermal water and many years of expertise on how to restore health and maintain well-being.",

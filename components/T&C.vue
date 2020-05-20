@@ -1,7 +1,10 @@
 <template>
   <div>
-    <Tabs>
-      <Tab name="Cena vključuje" selected="true">
+    <TabCard :tabs="tabs" :initial-tab="initialTab">
+      <template slot="tab-head-james">
+        {{ $t("priceIncludes") }}
+      </template>
+      <template slot="tab-panel-james">
         <ul>
           <li>{{ $t("priceIncludes1") }}</li>
           <li>{{ $t("priceIncludes2") }}</li>
@@ -18,15 +21,21 @@
           <li>{{ $t("priceIncludes13") }}</li>
           <li>{{ $t("priceIncludes14") }}</li>
         </ul>
-      </Tab>
-      <Tab name="Doplačila">
+      </template>
+      <template slot="tab-head-lily">
+        {{ $t("surcharges") }}
+      </template>
+      <template slot="tab-panel-lily">
         <ul>
           <li>
             {{ $t("surcharges1") }}
           </li>
         </ul>
-      </Tab>
-      <Tab name="Dodatne storitve">
+      </template>
+      <template slot="tab-head-snape">
+        {{ $t("extras") }}
+      </template>
+      <template slot="tab-panel-snape">
         <table>
           <tr>
             <th>{{ $t("extrasTitle1") }}</th>
@@ -37,19 +46,23 @@
             <td>{{ $t("extras2") }}</td>
           </tr>
         </table>
-      </Tab>
-    </Tabs>
+      </template>
+    </TabCard>
   </div>
 </template>
 
 <script>
-import Tab from "~/components/Tab.vue";
-import Tabs from "~/components/Tabs.vue";
+import TabCard from "~/components/TabCard.vue";
 
 export default {
   components: {
-    Tab,
-    Tabs,
+    TabCard,
+  },
+  data() {
+    return {
+      initialTab: "james",
+      tabs: ["james", "lily", "snape"],
+    };
   },
 };
 </script>

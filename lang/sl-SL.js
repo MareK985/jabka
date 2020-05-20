@@ -30,6 +30,11 @@ export default {
     "Čudovita hiša na lepi gorski lokaciji. Mitja je bil zelo odziven in poskrbel, da je bilo naše bivanje čim bolj prijetno, tudi če samo za kratek dvodnevni postanek. Zelo priporočam!",
   quoteAuthor1: "Angela, Belgija",
   quoteDate1: "dec. 2019",
+  quote2:
+    "Čudovita hiša na lepi gorski lokaciji. Mitja je bil zelo odziven in poskrbel, da je bilo naše bivanje čim bolj prijetno, tudi če samo za kratek dvodnevni postanek. Zelo priporočam!",
+  quoteAuthor2: "Angela, Belgija",
+  quoteDate2: "dec. 2019",
+  priceIncludes: "Cena vključuje",
   priceIncludes1: "Nočitev v namestitvi",
   priceIncludes2: "Neomejena uporaba lastne vroče kadi / jacuzzija",
   priceIncludes3: "Bazen",
@@ -45,8 +50,10 @@ export default {
   priceIncludes12: "Notranji kamin in drva",
   priceIncludes13: "Brezplačni parkirni prostor",
   priceIncludes14: "Pralni in pomivalni stroj",
+  surcharges: "Doplačila",
   surcharges1:
     "Zgodnja prijava na resort je možna ob 12.00 (samo ob predhodnem dogovoru) 30 €",
+  extras: "Dodatne storitve",
   extrasTitle1: "Voden ogled po vasi",
   extras1: "10eur/osebo (min. 2 osebi)",
   extrasTitle2: "Organizirani izleti po turističnih atrakcijah v regiji",
@@ -57,14 +64,18 @@ export default {
   season3: "sezona 3",
   app1: "app#1 (max.6 oseb)",
   app2: "app#1+2 (max.10 oseb)",
+  activityTitle1: "Stari grad Celje",
   activityDistance1: "Oddaljenost ~4km",
   activity1:
     "Romantičen, zapeljiv, mogočen, temačen, strašljiv, celjski ... Vse to je Stari grad Celje. Predstavlja obvezno destinacijo za vse obiskovalce Celja ne glede na to, od kod prihajajo. Mogočni grad z obzidjem, ki že stoletja vlada na griču nad mestom, vas bo že od daleč pustil brez besed. Ko ga boste obiskali, vam bo v spominu ostal za vedno.",
+  activityTitle2: "Celjska koča",
+
   activityDistance2: "Oddaljenost ~1km",
   activity2:
     "Obiščite teraso in restavracijo Celjska koča, ter se med vikendi podajte na adrenalinsko doživetje - vožnje z bobkartom ali obiščite pustolovski park.",
+  activityTitle3: "Termana Laško",
+
   activityDistance3: "Oddaljenost ~10km",
   activity3:
-    "Romantičen, zapeljiv, mogočen, temačen, strašljiv, celjski ... Vse to je Stari grad Celje. Predstavlja obvezno destinacijo za vse obiskovalce Celja ne glede na to, od kod prihajajo. Mogočni grad z obzidjem, ki že stoletja vlada na griču nad mestom, vas bo že od daleč pustil brez besed. Ko ga boste obiskali, vam bo v spominu ostal za vedno.",
-  moreInfo: "Več informacij",
+    "Izbirajte med namestitvami, medicinskimi, wellness in kongresnimi storitvami! Zdravje. Sprostitev. Razbremenitev. Tradicija več kot 165 let.",
 };

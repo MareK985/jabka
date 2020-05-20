@@ -269,7 +269,6 @@
         </VueSlickCarousel>
       </div>
     </div>
-
     <div class="parallax4">
       <div data-aos="zoom-in" data-aos-duration="3000">
         <img src="~/assets/logo/logo-svetina.svg" alt="logo" class="logo" />
@@ -286,6 +285,7 @@ import TC from "~/components/T&C.vue";
 import ActivitiesList from "~/components/ActivitiesList.vue";
 import Fas from "~/components/Fas.vue";
 import LangNavigation from "~/components/LangNavigation.vue";
+
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 
