@@ -5,13 +5,13 @@ export default {
   arrival: "Arrival",
   departure: "Departure",
   adults: "Adults",
-  children: "Children",
+  children: "Children<12",
   email: "Enter your email",
   emailError: "Enter valid email",
   arrivalError: "Please set desired date of arrival",
   departureError: "Please set desired date of departure",
   adultNoError: "Please select number of adults",
-  childrenNoError: "Please select number of children (below 8 years of age)",
+  childrenNoError: "Please select number of children (age: 2-12)",
   bookNow: "Book Now !",
   errorForm: "Please fill in all the fields",
   success:
@@ -22,6 +22,8 @@ export default {
   pricelist: "pricelist",
   priceDetails: "* all prices are in EUR per night (VAT included)",
   priceDiscount: "* 10% discount if you stay for 1 week",
+  unitDetails: "** 3 bedrooms, 5 beds, 2,5 bathrooms",
+
   activities: "activities",
   addressTitle: "ADDRESS:",
   address: "Javorniki 23, 3220 Štore",
@@ -63,7 +65,7 @@ export default {
   season1: "season 1",
   season2: "season 2",
   season3: "season 3",
-  app1: "app#1 (max.6 persons)",
+  app1: "Ranch (max. 9 persons)**",
   app2: "app#1+2 (max.10 persons)",
   activityTitle1: "Celje Castle ",
 

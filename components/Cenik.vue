@@ -23,12 +23,12 @@
           <td>150</td>
           <td>120</td>
         </tr>
-        <tr>
+        <!-- <tr>
           <th>{{ $t("app2") }}</th>
           <td>200</td>
           <td>300</td>
           <td>250</td>
-        </tr>
+        </tr> -->
       </tbody>
     </table>
   </div>

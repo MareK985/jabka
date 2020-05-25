@@ -45,7 +45,7 @@
     </section>
     <!-- The video -->
     <video id="promoVideo" autoplay muted loop>
-      <source src="~assets/video/video_promo.mp4" type="video/mp4" />
+      <source src="~assets/video/promo-svetina1.mp4" type="video/mp4" />
     </video>
     <!-- end of video -->
 
@@ -54,7 +54,8 @@
       <div class="two-col">
         <Cenik data-aos="zoom-in-right" />
         <span class="drobni-tisk">{{ $t("priceDetails") }}</span> <br />
-        <span class="drobni-tisk">{{ $t("priceDiscount") }}</span>
+        <span class="drobni-tisk">{{ $t("priceDiscount") }}</span> <br />
+        <span class="drobni-tisk">{{ $t("unitDetails") }}</span>
       </div>
       <div class="two-col">
         <TC data-aos="fade-left" />
