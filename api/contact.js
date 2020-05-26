@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.post("/", (req, res) => {
   const { prihod, odhod, odrasli, otroci, email } = req.body;
-  console.log(req.body);
+  console.log(prihod);
 
   const attributes = ["prihod", "odhod", "odrasli", "otroci", "email"]; // Our five form fields, all required
 
@@ -28,7 +28,7 @@ app.post("/", (req, res) => {
   //     // Throw a 422 with a neat error message if validation failed
   //     return res.status(422).json({ error: "Ugh.. That looks unprocessable!" });
   //   }
-  sendMail();
+  sendMail(prihod, odhod, odrasli, otroci, email);
   res.status(200).json({ message: "OH YEAH" });
 });
 
@@ -59,14 +59,16 @@ const sendMail = (prihod, odhod, odrasli, otroci, email) => {
   });
 
   const mailOption = {
-    from: email,
-    to: "krajnc.mare@gmail.com",
+    from: "rezervacije@svetina-ranch.com",
+    to: "etn@turnsek.net",
+    bcc: "krajnc.mare@gmail.com",
     subject: "Povprasevanje najem posestva",
-    text: prihod,
-    odhod,
-    odrasli,
-    otroci,
-    email,
+    text:
+      `prihod: ${prihod}\n` +
+      `odhod: ${odhod}\n` +
+      `odrasli: ${odrasli}\n` +
+      `otroci: ${otroci}\n` +
+      `email: ${email}`,
   };
 
   transporter.sendMail(mailOption, function(err, data) {
