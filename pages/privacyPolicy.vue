@@ -3,11 +3,11 @@
     <h1>IZJAVA O ZASEBNOSTI</h1>
     <h2>Izjava o zasebnosti</h2>
     <p>
-      V Coll4 d.o.o. (v nadaljevanju: »Coll4« ali »upravljavec osebnih
-      podatkov«) cenimo vašo zasebnost, zato stremimo k najvišji stopnji varstva
-      vaših osebnih podatkov. Pri nudenju naših storitev spletnega portala
-      glamping.si ali pri poslovanju preko telekomunikacijskih sredstev vam
-      zagotavljamo, da vaše podatke obdelujemo skladno z veljavno evropsko
+      V ETN d.o.o. (v nadaljevanju: »ETN« ali »upravljavec osebnih podatkov«)
+      cenimo vašo zasebnost, zato stremimo k najvišji stopnji varstva vaših
+      osebnih podatkov. Pri nudenju naših storitev spletne strani
+      svetina-ranch.com ali pri poslovanju preko telekomunikacijskih sredstev
+      vam zagotavljamo, da vaše podatke obdelujemo skladno z veljavno evropsko
       zakonodajo (Splošno uredbo o varstvu podatkov) in skladno z nacionalno
       zakonodajo Republike Slovenije (vsakokrat veljavni zakon o varstvu osebnih
       podatkov, Zakon o elektronskih komunikacijah in Zakon o elektronskem
@@ -15,7 +15,7 @@
       Namen te Izjave o zasebnosti (v nadaljevanju: »Izjava«) je, da vas
       seznanimo s tem, za katere namene bodo vaši osebni podatki pridobljeni in
       kako se bodo uporabljali ter kakšne so vaše pravice v zvezi s podatki, ki
-      jih hranimo o vas, ter kako jih uveljavljati. <br />V Coll4 se zavezujemo,
+      jih hranimo o vas, ter kako jih uveljavljati. <br />V ETN se zavezujemo,
       da bodo zbrani osebni podatki, ki jih boste posredovali preko naših
       spletnih strani ali preko telekomunikacijskih sredstev (npr. v sklopu
       elektronske korespondence), uporabljeni v skladu s to Izjavo, da vaših
@@ -24,9 +24,9 @@
     </p>
     <h2>Upravljavec podatkov</h2>
     <p>
-      Upravljavec vaših osebnih podatkov je Coll4 d.o.o., naslov: Koprska ulica
-      92, SI-1000 Ljubljana, elektronski naslov: info@glamping.si, telefonska
-      številka: +386 (0)1 423 50 71. <br />
+      Upravljavec vaših osebnih podatkov je ETN d.o.o., naslov: Mariborska 88a,
+      SI-3000 Celje, elektronski naslov: etn@turnsek.si, telefonska številka:
+      +386 41 7777 04. <br />
       Za vse teme in vsebine, ki bodo obravnavane s strani odgovorne osebe za
       varstvo podatkov, velja stroga zaupnost.
     </p>
@@ -138,7 +138,7 @@
     <h2>Oprava nakupa storitev</h2>
     <p>
       Vaše osebne podatke obdelujemo zlasti v primeru, če kot registriran ali
-      neregistriran uporabnik našega spletnega portala glamping.si kupite
+      neregistriran uporabnik našega spletnega strani svetina-ranch.com kupite
       določene storitve ali naročite brezplačni katalog. Te podatke obdelujemo
       izključno za namene izpolnjevanja naših pogodbenih obveznosti ter
       uveljavljanja pravic iz pogodbenega razmerja, vključno z reševanjem
@@ -153,7 +153,7 @@
       utegnila zanimati na podlagi vaših preteklih interakcij z nami. Obdelavi
       vaših kontaktnih podatkov za namen takega neposrednega oglaševanja lahko
       kadarkoli ugovarjate, tako da nam pošljete elektronsko sporočilo na
-      elektronski naslov: info@glamping.si. Dodatne informacije o vaših pravicah
+      elektronski naslov: etn@turnsek.net. Dodatne informacije o vaših pravicah
       v zvezi z neposrednim trženjem so vam na voljo v poglavju »Vaše pravice«.
     </p>
     <h2>Pošiljanje povpraševanja in ostala komunikacija z nami</h2>
@@ -169,8 +169,8 @@
       na prostovoljen način. Vsi podatki, ki so zbrani preko naših spletnih
       strani ali so nam kako drugače sporočeni (npr. s pomočjo
       telekomunikacijskih sredstev), se zbirajo z namenom zagotavljanja storitev
-      spletnega portala glamping.si ter za namen naše interne administracije in
-      vodenja našega poslovanja. <br />
+      spletne strani svetina-ranch.com ter za namen naše interne administracije
+      in vodenja našega poslovanja. <br />
       Posredovane kontaktne podatke lahko na podlagi našega zakonitega interesa
       obdelujemo tudi za osnovno prilagojeno komuniciranje z vami preko
       elektronske pošte in vam skušamo predstaviti ustrezne izdelke, ki bi vam
@@ -178,7 +178,7 @@
       ne uporabljamo nikakršnega (avtomatskega) profiliranja, temveč zgolj
       izbiramo ustrezne nabore prejemnikov za posamezna sporočila. Od tovrstnega
       komuniciranja se lahko kadarkoli brezplačno odjavite na način, da nam
-      pošljete elektronsko sporočilo na elektronski naslov: info@glamping.si.
+      pošljete elektronsko sporočilo na elektronski naslov: etn@turnsek.net.
       Dodatne informacije o vaših pravicah v zvezi z neposrednim trženjem so vam
       na voljo v poglavju »Vaše pravice«.
     </p>
@@ -277,9 +277,9 @@
       strani. Omogočajo, da si stran zapomni in izvede uporabnikovo zahtevo kot
       je npr. prijava v uporabniški profil ali vsebina nakupovalne košarice.
       <br />
-      Lastni sejni piškotki iz spletnega mesta www.glamping.si trajajo le čas
-      ene seje, torej od trenutka ko vstopite na spletno mesto, do trenutka ko
-      ga zaprete. Teh piškotkov ni mogoče drugače odstraniti, razen z
+      Lastni sejni piškotki iz spletnega mesta www.svetina-ranch.com trajajo le
+      čas ene seje, torej od trenutka ko vstopite na spletno mesto, do trenutka
+      ko ga zaprete. Teh piškotkov ni mogoče drugače odstraniti, razen z
       neobiskovanjem tega spletnega mesta. <br />
       Osebni lastni piškotki, ki lahko trajajo do 10 let omogočajo, pravilno
       prikazovanje obrazcev kot sta obrazec za potrditev piškotkov ter še bolj
@@ -516,6 +516,293 @@
         >Preberi NAVODILA >></a
       >
     </p>
+    <h2>Uporabniki podatkov</h2>
+    <p>
+      Zavezujemo se, da vaših osebnih podatkov ne bomo posredovali tretjim
+      nepooblaščenim osebam brez vaše privolitve. <br />Seznanjamo vas, da lahko
+      posamezna opravila v zvezi z vašimi podatki zaupamo našim poslovnim
+      partnerjem (pogodbenim obdelovalcem). Pogodbeni obdelovalci lahko zaupane
+      podatke obdelujejo izključno v našem imenu in v mejah našega pooblastila
+      (v pisni pogodbi oziroma drugem pravnem aktu) ter skladno z nameni, ki so
+      opredeljeni v tej Izjavi. Posredovane podatke omenjeni partnerji skrbno
+      varujejo in ne hranijo na zalogo, ter jih ne uporabljajo za lastne namene.
+      <br />
+      V okviru zakonskih pristojnosti se vaši osebnih podatki lahko razkrivajo
+      naslednjim uporabnikom podatkov:
+    </p>
+    <ul>
+      <li>
+        izvajalcem turističnih storitev, kot so hotelirji, organizatorji
+        potovanj, ponudnikom najemov opreme oz. vozil, prevozniki, vodniki in
+        podobno;
+      </li>
+      <li>
+        rezervacijskim sistemom GDS (Global Distribution System), preko katerih
+        rezerviramo turistične storitve (hotele, rent a car, transferje, izlete
+        in podobno);
+      </li>
+      <li>
+        zavarovalnicam - ponudnicam turističnih zavarovanj bodisi za odpoved
+        potovanja, nezgodno zavarovanje ali zdravstveno zavarovanje z asistenco
+        za katero ste se vi odločili ob ali po opravljeni rezervaciji (npr.
+        Triglav, Grawe, Coris, Europäische ...);
+      </li>
+      <li>
+        podjetjem s kreditnimi in debetnimi karticami, ki nam olajšajo plačila
+        in preverjanje proti goljufijam, ki morda potrebujejo informacije o
+        načinu plačila in rezervaciji turistične storitve za obdelavo plačila
+        ali zagotovitev varnosti vaše plačilne transakcije;
+      </li>
+      <li>
+        v okviru nagradnih iger posredujemo vaše podatke ustreznim partnerjem
+        nagradne igre, če je tako navedeno v Splošnih pravilih nagradne igre.
+      </li>
+      <li>
+        Družabni mediji: morda boste lahko dostopali do spletnih storitev
+        tretjih oseb prek naše spletne strani ali aplikacije ali pred prihodom
+        na našo spletno stran ali aplikacijo. Ko ste registrirani pri svojem
+        računu za socialne storitve, bomo pridobili osebne podatke, ki jih
+        nameravate deliti z nami prek teh družbenih medijskih storitev v skladu
+        z nastavitvami zasebnosti, da bi izboljšali in prilagodili vašo uporabo
+        naše spletne strani ali aplikacije. Na naši spletni strani ali
+        aplikaciji lahko uporabimo tudi vtičnike za socialne medije. Kot
+        rezultat bodo vaše informacije dane v skupno rabo s svojim ponudnikom
+        socialnih medijev in morda predstavljene v vašem profilu družabnih
+        omrežij, ki jih želite dati v skupno rabo z drugimi v vašem omrežju. Če
+        želite izvedeti več o teh postopkih, si oglejte pravilnik o zasebnosti
+        teh ponudnikov socialnih medijev tretjih oseb.
+      </li>
+      <li>
+        ponudnikom poštnih storitev, ponudnikom odpremnih storitev in
+        logistično/dostavni službi za namen izvršitve vašega naročila;
+      </li>
+      <li>
+        računovodskemu servisu, odvetniškim pisarnam in drugim ponudnikom
+        pravnega in poslovnega svetovanja;
+      </li>
+      <li>ponudnikom storitev uničenja spisov in nosilcev podatkov;</li>
+      <li>
+        ponudnikom storitev informacijske tehnologije v okviru servisiranja in
+        vzdrževanja programske opreme;
+      </li>
+      <li>administratorju in skrbniku spletne strani;</li>
+      <li>
+        ponudnikom storitev računalništva v oblaku in ponudnikom pošiljanja
+        e-poštnih sporočil (npr. SqualoMail, Mailchimp in drugi);
+      </li>
+      <li>ponudnikom sistemov za upravljanje odnosov s strankami.</li>
+    </ul>
+    <p>
+      Zavezujemo se, da niti mi niti drugi uporabniki, vaših osebnih podatkov ne
+      bodo posredovali ali prenesli v tretjo državo izven Evropske unije in/ali
+      Evropskega gospodarskega prostora ali v mednarodno organizacijo brez
+      ustrezne stopnje zaščite. Vaši osebni podatki se lahko posredujejo v ZDA,
+      pri čemer so vsi naši pogodbeni obdelovalci v ZDA vključeni v program
+      zasebnostnega ščita EU-ZDA (t.i. Privacy Shield) ali pa v primeru prenosa
+      podatkov zagotavljajo druge ustrezne zaščitne ukrepe skladno z določbo 46.
+      člena Splošne uredbe o varstvu podatkov (npr. sprejem Standardnih
+      pogodbenih klavzul).
+    </p>
+    <p2>Povezave do drugih spletnih strani </p2>
+    <p>
+      Naša ponudba na spletu vsebuje povezave do drugih spletnih strani. Ta
+      izjava o varovanju podatkov ne velja za druge ponudnike. Ker nimamo vpliva
+      na to, ali njihovi upravljavci spoštujejo določbe o varovanju podatkov,
+      tudi ne prevzemamo odgovornosti za pravilnost, ažurnost in popolnost
+      informacij, ki jih zagotavljajo na svojih straneh. Svetujemo vam, da si
+      preberete njihovo politiko varovanja podatkov, saj je lahko njihova
+      politika drugačna od naše.
+    </p>
+    <h2>Obdobje hrambe osebnih podatkov</h2>
+    <p>
+      Zagotavljamo vam, da vaše podatke hranimo le toliko časa, kolikor je
+      potrebno, da se izpolni namen, zaradi katerega so bili posamezni podatki
+      zbrani in nadalje uporabljeni. Po preteku obdobja hrambe bomo vaše osebne
+      podatke učinkovito in trajno izbrisali ali anonimizirali, tako da vaša
+      identifikacija ne bo več mogoča. <br />
+      Tiste podatke, ki obdelujemo na podlagi zakona, hranimo za obdobje, ki ga
+      predpisuje zakon. Podatke, ki jih obdelujemo zaradi izvedbe pogodbenega
+      odnosa z vami, hranimo za obdobje, ki je potrebno za izvršitev pogodbe in
+      še ves čas, ko traja zakonski zastaralni rok za zahtevke iz tako sklenjene
+      pogodbe, razen v primeru spora v zvezi s pogodbenim razmerjem. <br />
+      Osebne podatke, ki jih obdelujemo na podlagi vaše privolitve ali
+      zakonitega interesa, npr. v primeru pošiljanje elektronskih novic, hranimo
+      trajno do preklica te privolitve z vaše strani oziroma do zahteve po
+      prekinitvi obdelave, pri čemer se zavezujemo, da bomo obstoj namena
+      obdelave osebnih podatkov preverjali na redne časovne intervale. Podatke
+      bomo pred preklicem izbrisali le, če je že dosežen namen obdelave osebnih
+      podatkov (npr. če bi prenehali pošiljati oglasna elektronska sporočila)
+      ali če tako določa zakon. <br />
+      Če za določene podatke, ki se obdelujejo za realizacijo pogodb, obstaja
+      drugačen zakonski rok shranjevanja (npr. računovodski ali davčni podatki),
+      znaša rok hrambe do 10 let. V tem času je obdelava podatkov omejena.
+    </p>
+    <h2>Varnost vaših podatkov</h2>
+    <p>
+      Vaše podatke, ki nam jih posredujete z uporabo naših spletnih strani, po
+      telekomunikacijskih kanalih ali na kakršenkoli drug način, skrbno varujemo
+      pred izgubo, zlorabo, nepooblaščenim dostopom ali razkrivanjem,
+      spreminjanjem ali uničenjem. <br />Podatki so shranjeni v strežnikih
+      zaščitenih s geslom in z omejenim dostopom. Spletna stran
+      svetina-ranch.com dobro skrbi za varnost vaših osebnih podatkov in
+      spoštuje vaše izbire za njihovo nameravano rabo.<br />
+      Po prenehanju potrebe po vodenju podatkov, tj. po izpolnitvi namena, za
+      katerega so bili podatki zbrani, se podatki nemudoma nepovratno in trajno
+      izbrišejo. <br />V primeru, da so na spletnem mestu svetina-ranch.com
+      objavljene povezave na druge spletne strani, ki niso v nikakršni povezavi
+      z ETN d.o.o., ne prevzemamo nobene odgovornosti za zaščito vaših podatkov
+      na teh spletnih straneh.
+    </p>
+    <h2>Svoboda izbire</h2>
+    <p>
+      Informacije, ki nam jih posredujete, nadzorujete vi. Če se odločite, da
+      nam določenih podatkov ne boste posredovali, potem do nekaterih mest
+      oziroma funkcij na naših spletnih straneh ne boste mogli dostopati, prav
+      tako vam v takih primerih ne bomo mogli odgovoriti na vaše povpraševanje
+      ali z vami skleniti pogodbenega razmerja ter vam posledično prodati in
+      dostaviti želenih izdelkov. <br />Če obvestil o novicah po elektronski
+      pošti ne želite več prejemati, se lahko od prejemanja novic brezplačno
+      odjavite, tako da nam pošljete elektronsko sporočilo z vsebino "Odjava od
+      elektronskih novic" ali drugo podobno vsebino na elektronski naslov:
+      etn@turnsek.net. Če se spremenijo vaši osebni podatki (poštna številka,
+      elektronski naslov, naslov, telefonska številka idr.), vas prosimo, da nas
+      o spremembah obvestite na elektronski naslov: etn@turnsek.si.
+    </p>
+    <h2>Privolitev otrok</h2>
+    <p>
+      Otroci do 15 let nam lahko posredujejo osebne podatke preko naših spletnih
+      strani ali drugače samo z dovoljenjem (privolitev ali odobritev) nosilca
+      starševske odgovornosti za otroka (enega od staršev ali skrbnikov).<br />
+      Zavezujemo se, da ne bomo nikoli zavestno zbirali osebnih podatkov od
+      oseb, za katere bi bili seznanjeni, da so mlajše od 15 let. Teh podatkov
+      ne bomo uporabili ali razkrili tretji nepooblaščeni stranki brez
+      dovoljenja nosilca starševske odgovornosti za otroka. Navedeno pa ne
+      vpliva na pravila slovenskega pogodbenega prava v zvezi s pravili o
+      veljavnosti, oblikovanju ali učinku pogodbe v zvezi z otrokom.
+      <br />Upravljavec si bo ob upoštevanju razpoložljive tehnologije v takih
+      primerih razumno prizadeval za preveritev, ali je nosilec starševske
+      odgovornosti za otroka dal ali odobril privolitev.
+    </p>
+    <h2>Vaše pravice</h2>
+    <p>
+      ETN zagotavlja uresničevanje vseh vaših pravic, ki vam pripadajo v zvezi z
+      obdelavo vaših osebnih podatkov na podlagi veljavnih pravnih predpisov.
+      <br />Kot posamezniki imate naslednje pravice: <br />
+      <b>Pravica do preklica privolitve:</b> Če ste kot posameznik privolili v
+      obdelavo vaših osebnih podatkov (v enega ali več določenih namenov), imate
+      pravico do preklica privolitve. Preklic privolitve ne vpliva na zakonitost
+      obdelave podatkov, ki se je izvajala do njenega preklica. <br />
+      Vašo privolitev lahko kadarkoli brezplačno prekličete s pisno izjavo, ki
+      se pošlje upravljavcu na elektronski naslov: etn@turnsek.si. Preklic
+      privolitve za obdelavo vaših osebnih podatkov nima nobenih negativnih
+      posledic ali sankcij. <br />
+      <b>Pravica dostopa do osebnih podatkov:</b> Kot posameznik imate od
+      upravljavca pravico dobiti potrditev, ali se podatki v zvezi z vami
+      obdelujejo ali ne. Če je temu tako, imate pravico, da vam omogočimo dostop
+      do vaših osebnih podatkov (tj. vpogled ter njihovo prepisovanje ali
+      kopiranje) ter da vam podamo informacije v zvezi z obdelavo vaših osebnih
+      podatkov (npr. o namenu obdelave, vrsti osebnih podatkov, uporabnikih,
+      katerim so bili ali jim bodo posredovani osebni podatki, predvidenem
+      obdobju hrambe podatkov, o tehničnih in organizacijskih ukrepih za
+      varovanje podatkov, obstoju avtomatiziranega sprejemanja odločitev,
+      vključno z oblikovanjem profilov idr.),<br />
+      <b>Pravica do popravka:</b> Kot posameznik imate pravico doseči, da vam
+      omogočimo popravek netočnih osebnih podatkov v zvezi z vami in da vam
+      omogočimo dopolnitev nepopolnih osebnih podatkov. V ta namen imate
+      pravico, da nam posredujete dopolnilno izjavo z ažurnimi osebnimi podatki.
+      <br />
+      <b>Pravica do izbrisa osebnih podatkov (t.i. pravica do pozabe):</b>
+      Pravico imate doseči, da upravljavec brez nepotrebnega odlašanja izbriše
+      osebne podatke v zvezi z vami, če obstaja eden izmed razlogov iz 17. člena
+      Splošne uredbe o varstvu podatkov (npr. če podatki niso več potrebni v
+      namene, za katere so bili zbrani ali kako drugače obdelani, če prekličete
+      privolitev in za obdelavo in ne obstaja nobena druga pravna podlaga, če
+      ugovarjate obdelavi, pa ne obstajajo prevladujoči zakoniti interesi, če so
+      bili osebni podatki obdelani nezakonito idr.). <br />
+      <b>Pravica do omejitve obdelave:</b> Pravico imate doseči, da upravljavec
+      omeji obdelavo vaših podatkov, če obstaja en od naslednjih primerov:
+      <br />
+    </p>
+    <ul>
+      <li>
+        če oporekate točnosti obdelave podatkov, za obdobje, ki upravljavcu
+        omogoča preveriti točnost podatkov;
+      </li>
+      <li>
+        če je obdelava nezakonita, vi pa namesto izbrisa zahtevate omejitev
+        obdelave,
+      </li>
+      <li>
+        če upravljavec podatkov ne potrebuje več, potrebujete pa jih vi za
+        uveljavljanje, izvajanje ali obrambo pravnih zahtevkov;
+      </li>
+      <li>
+        če ste vložili ugovor v zvezi z obdelavo, dokler se ne preveri, ali
+        zakoniti razlogi upravljavca prevladajo nad vašimi razlogi
+      </li>
+    </ul>
+    <br />
+    <p>
+      <b>Pravica do prenosljivosti podatkov:</b> Kot posameznik imate pravico,
+      da prejmete vaše osebne podatke v splošno uporabljeni in strojno berljivi
+      obliki ter da te podatke neposredno posredujemo drugemu upravljavcu, pri
+      čemer to velja le v primeru, če obdelava vaših osebnih podatkov temelji na
+      podlagi privolitve ali pogodbenega razmerja in se obdelava izvaja z
+      avtomatiziranimi sredstvi.<br />
+      <b>Pravica do ugovora:</b> Če obdelava podatkov temelji na naših zakonitih
+      interesih, imate na podlagi razlogov, povezanih z vašim posebnim
+      položajem, pravico, da kadarkoli ugovarjate obdelavi vaših osebnih
+      podatkov. V takem primeru bomo nadaljevali z obdelavo vaših osebnih
+      podatkov le v primeru, če bomo dokazali nujne legitimne razloge za
+      obdelavo, ki bodo prevladali nad vašimi interesi, pravicami in
+      svoboščinami, ali za uveljavljanje, izvajanje ali obrambo pravnih
+      zahtevkov. <br />
+      Obdelavi vaših osebnih podatkov za namene neposrednega trženja, vključno z
+      oblikovanjem profilov, lahko kadarkoli in brezplačno ugovarjate brez
+      navedbe razlogov, tako da nam pošljete sporočilo na elektronski naslov:
+      etn@turnsek.net. Če ugovarjate obdelavi vaših podatkov za namene
+      neposrednega trženja, bomo nemudoma prenehali obdelovati vaše podatke za
+      te namene. <br />
+      Prav tako vam bomo na vašo zahtevo v skladu z veljavno zakonodajo podali
+      tudi druge informacije v zvezi z vašimi osebnimi podatki, ki jih
+      obdelujemo. <br />
+      <b>Pravica do vložitve pritožbe:</b> Če sumite, da pri obdelavi vaših
+      podatkov prihaja do kršitev zakonodaje s področja varstva osebnih
+      podatkov, imate pravico vložiti pritožbo pri Informacijskem pooblaščencu
+      Republike Slovenije, na naslovu Zaloška 59, 1000 Ljubljana, Slovenija,
+      telefonska številka: 00 386 (0)1 230 97 30, elektronski naslov:
+      gp.ip@ip-rs.si.
+    </p>
+    <h2>Stik</h2>
+    <p>
+      Na vprašanja o zaupnosti vaših podatkov, načinu zbiranja in obdelave
+      podatkov ali na vaše zahteve za uveljavljanje pravic v zvezi z vašimi
+      podatki, vam bo odgovorila odgovorna oseba pri ETN d.o.o. na telefonski
+      številki: +386 041 7777 04 ali na elektronskem naslovu: etn@turnsek.net.
+      <br />Zavezujemo se, da bomo na vaše zahteve odgovorili brez nepotrebnega
+      odlašanja, najkasneje pa v zakonsko predpisanih rokih.<br />
+      Za potrebe zanesljive identifikacije v primeru uveljavljanja pravic v
+      zvezi z osebnimi podatki, lahko od vas zahtevamo dodatne podatke. Če vas
+      kljub temu ne bomo mogli zanesljivo identificirati, bomo morali na žalost
+      vašo zahtevo zavrniti.
+    </p>
+    <h2>Spremembe</h2>
+    <p>
+      Pridržujemo si pravico, da predmetno Izjavo po potrebi občasno prilagodimo
+      dejanskim razmeram in zakonodaji s področja varstva osebnih podatkov. Iz
+      tega razloga vas prosimo, da pred vsakim posredovanjem osebnih podatkov
+      preverite aktualno različico, da boste seznanjeni z morebitnimi
+      spremembami in dopolnitvami. <br />Prav tako vas bomo o morebitnih
+      spremembah, ki bistveno vplivajo na obdelavo vaših osebnih podatkov,
+      predhodno obvestili na primeren način (npr. z obvestilom na naši spletni
+      strani, po elektronski pošti).
+    </p>
+    <br />
+    <br />
+    <p>
+      Verzija: 1.0 <br />
+      Posodobljeno: 28. 5. 2020
+    </p>
   </div>
 </template>
 
@@ -530,4 +817,55 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+h1 {
+  font-size: 3em;
+  line-height: 1.5em;
+  margin: 1em;
+}
+h2 {
+  font-size: 2.4em;
+  font-weight: 600;
+  line-height: 1em;
+  margin: 0.5em;
+}
+h3 {
+  font-size: 1.7em;
+  line-height: 0.8em;
+  margin: 0.4em;
+}
+h4 {
+  font-size: 1.4em;
+  line-height: 0.6em;
+  margin: 0.5em;
+}
+p {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: justify;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+li {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: left;
+  margin-left: 30em;
+  margin-right: 10em;
+  list-style-type: square;
+}
+
+th {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: left;
+}
+td {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+@media screen and (max-width: 680px) {
+}
+</style>
