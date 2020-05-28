@@ -33,6 +33,7 @@ export default {
   plugins: [
     { src: "@/plugins/aos", ssr: false },
     { src: "~/plugins/vuelidate" },
+    { src: "./plugins/GoogleAnalytics.js", mode: "client" }, // make sure that local storage is only used on client-side
   ],
   /*
    ** Nuxt.js dev-modules
@@ -52,6 +53,13 @@ export default {
     [
       "nuxt-i18n",
       {
+        // parsePages: false, // Disable acorn parsing
+        // pages: {
+        //   privacyPolicy: {
+        //     sl: "/politika-zasebnosti", // -> mydomain.com/en/politika-zasebnosti
+        //     en: "/privacy-policy", // -> mydomain.com/en/privacy-policy
+        //   },
+        // },
         locales: [
           {
             name: "Slovenski",

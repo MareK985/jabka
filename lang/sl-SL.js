@@ -80,4 +80,12 @@ export default {
   activityDistance3: "Oddaljenost ~10km",
   activity3:
     "Izbirajte med namestitvami, medicinskimi, wellness in kongresnimi storitvami! Zdravje. Sprostitev. Razbremenitev. Tradicija več kot 165 let.",
+  gdpr1:
+    "Piškotke uporabljamo za zagotavljanje svojih storitev ter za analitiko in trženje. Če želite izvedeti več o naši uporabi piškotkov, si oglejte našo ",
+  gdpr2: "Za najboljšo uporabniško izkušnjo pritisnite SPREJMI",
+  privacyPolicy: "izjavo o zasebnosti",
+  accept: "SPREJMI",
+  deny: "ZAVRNI",
+  designedBy: "Izdelava spletnih strani: ",
+  copyright: "Vse pravice pridržane. Copyright ETN d.o.o.",
 };

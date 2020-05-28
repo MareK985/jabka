@@ -274,6 +274,12 @@
       <div data-aos="zoom-in" data-aos-duration="3000">
         <img src="~/assets/logo/logo-svetina.svg" alt="logo" class="logo" />
       </div>
+      <div class="copyright">
+        <span><Mare /></span>
+      </div>
+      <div style="color:white" class="copyright">
+        {{ $t("copyright") }}
+      </div>
     </div>
   </div>
 </template>
@@ -286,6 +292,7 @@ import TC from "~/components/T&C.vue";
 import ActivitiesList from "~/components/ActivitiesList.vue";
 import Fas from "~/components/Fas.vue";
 import LangNavigation from "~/components/LangNavigation.vue";
+import Mare from "~/components/Mare.vue";
 
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
@@ -299,6 +306,7 @@ export default {
     Fas,
     VueSlickCarousel,
     LangNavigation,
+    Mare,
   },
   nuxtI18n: {
     paths: {
@@ -403,6 +411,17 @@ export default {
   width: 40%;
   margin-top: 10%;
 }
+.copyright {
+  position: relative;
+  font-size: 1em;
+  letter-spacing: 0.12em;
+}
+.copyright span {
+  color: white;
+  position: absolute;
+  bottom: -140px;
+  right: 0px;
+}
 
 @media screen and (max-width: 680px) {
   .circle {
@@ -424,6 +443,13 @@ export default {
   .logo {
     width: 80%;
     margin-top: 60%;
+  }
+  .copyright {
+    font-size: 0.6em;
+    letter-spacing: 0.05em;
+  }
+  .copyright span {
+    bottom: -250px;
   }
 }
 </style>

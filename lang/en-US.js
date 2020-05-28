@@ -83,4 +83,12 @@ export default {
   activity3:
     "Take time for yourself. Unique wellness and medical programmes based on natural wealth, soothing thermal water and many years of expertise on how to restore health and maintain well-being.",
   moreInfo: "More information",
+  gdpr1:
+    "We use cookies to provide our services and for analytics and marketing. To find out more about our use of cookies, please see our",
+  gdpr2: "Click accept for the best user experience on our app.",
+  privacyPolicy: "Privacy Policy",
+  accept: "ACCEPT",
+  deny: "DENY",
+  designedBy: "Designed By: ",
+  copyright: "All rights reserved. Copyright ETN d.o.o.",
 };

@@ -2,15 +2,20 @@
   <div>
     <nuxt />
     <CallButton />
+    <client-only>
+      <Cookie />
+    </client-only>
   </div>
 </template>
 
 <script>
 import CallButton from "~/components/CallButton.vue";
+import Cookie from "@/components/Cookie.vue";
 
 export default {
   components: {
     CallButton,
+    Cookie,
   },
 };
 </script>
