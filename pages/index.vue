@@ -1,6 +1,13 @@
 <template>
   <div>
     <div class="parallax1">
+      <div data-aos="fade-down-right" data-aos-duration="1000">
+        <img
+          src="~/assets/logo/logo-svetina_mini.svg"
+          alt="logo-mini"
+          class="logo-header"
+        />
+      </div>
       <div data-aos="fade" class="heading-sm">
         {{ $t("subheader") }}
       </div>
@@ -54,8 +61,10 @@
       <div class="two-col">
         <Cenik data-aos="zoom-in-right" />
         <span class="drobni-tisk">{{ $t("priceDetails") }}</span> <br />
+        <span class="drobni-tisk">{{ $t("minStay") }}</span> <br />
         <span class="drobni-tisk">{{ $t("priceDiscount") }}</span> <br />
-        <span class="drobni-tisk">{{ $t("unitDetails") }}</span>
+        <span class="drobni-tisk">{{ $t("unitDetails1") }}</span> <br />
+        <span class="drobni-tisk">{{ $t("unitDetails2") }}</span>
       </div>
       <div class="two-col">
         <TC data-aos="fade-left" />
@@ -280,6 +289,40 @@
       <div style="color:white" class="copyright">
         {{ $t("copyright") }}
       </div>
+      <div class="copyright">
+        <nuxt-link
+          class="cookie__link"
+          to="/politika-zasebnosti"
+          target="_blank"
+          style="color:white"
+          >{{ $t("privacyPolicy1") }}</nuxt-link
+        >
+        |
+        <nuxt-link
+          class="cookie__link"
+          to="/generalTerms"
+          target="_blank"
+          style="color:white"
+          >{{ $t("generalTerms") }}</nuxt-link
+        >
+      </div>
+      <div class="contact-icons">
+        <div class="contact-icon">
+          <a href="mailto: etn@turnsek.net" taget="_blank"
+            ><Fas style="color: white; font-size: 3em;" i="envelope"
+          /></a>
+        </div>
+        <div class="contact-icon">
+          <a href="" taget="_blank"
+            ><Fab style="color: white;" class=" float" i="facebook"
+          /></a>
+        </div>
+        <div class="contact-icon">
+          <a href="" target="_blank"
+            ><Fab style="color: white;" class=" float" i="instagram"
+          /></a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -291,6 +334,7 @@ import Cenik from "~/components/Cenik.vue";
 import TC from "~/components/T&C.vue";
 import ActivitiesList from "~/components/ActivitiesList.vue";
 import Fas from "~/components/Fas.vue";
+import Fab from "~/components/Fab.vue";
 import LangNavigation from "~/components/LangNavigation.vue";
 import Mare from "~/components/Mare.vue";
 
@@ -304,6 +348,7 @@ export default {
     TC,
     ActivitiesList,
     Fas,
+    Fab,
     VueSlickCarousel,
     LangNavigation,
     Mare,
@@ -363,6 +408,13 @@ export default {
 <style lang="css" scoped>
 @import "./../css/style.css";
 
+.logo-header {
+  width: 4%;
+  float: left;
+  margin-left: 3em;
+  margin-top: 3em;
+}
+
 .circle {
   width: 100px;
   height: 100px;
@@ -419,11 +471,25 @@ export default {
 .copyright span {
   color: white;
   position: absolute;
-  bottom: -140px;
+  bottom: -90px;
   right: 0px;
+}
+.contact-icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-icon {
+  margin: 20px;
 }
 
 @media screen and (max-width: 680px) {
+  .logo-header {
+    width: 12%;
+    margin-left: 0.5em;
+    margin-top: 0.7em;
+  }
   .circle {
     width: 70px;
     height: 70px;
@@ -449,7 +515,10 @@ export default {
     letter-spacing: 0.05em;
   }
   .copyright span {
-    bottom: -250px;
+    bottom: -210px;
+  }
+  .contact-icon {
+    margin: 10px;
   }
 }
 </style>

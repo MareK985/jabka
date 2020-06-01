@@ -28,15 +28,16 @@
       <template slot="tab-panel-lily">
         <ul>
           <li>
-            {{ $t("surcharges1") }}
+            {{ $t("cleaningFee") }}
           </li>
+          <li>{{ $t("surcharges1") }}</li>
         </ul>
       </template>
       <template slot="tab-head-snape">
         {{ $t("extras") }}
       </template>
       <template slot="tab-panel-snape">
-        <table>
+        <!-- <table>
           <tr>
             <th class="mini-tabel">{{ $t("extrasTitle1") }}</th>
             <td class="mini-tabel">{{ $t("extras1") }}</td>
@@ -45,7 +46,7 @@
             <th class="mini-tabel">{{ $t("extrasTitle2") }}</th>
             <td class="mini-tabel">{{ $t("extras2") }}</td>
           </tr>
-        </table>
+        </table> -->
       </template>
     </TabCard>
   </div>
@@ -71,6 +72,8 @@ export default {
 /* Style the tab */
 li {
   font-size: 1em;
+  list-style-type: square;
+  margin-left: 2em;
 }
 .mini-tabel {
   font-size: 0.6em;

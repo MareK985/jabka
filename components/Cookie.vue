@@ -5,9 +5,11 @@
         <div class="grow">
           <slot name="message">
             {{ $t("gdpr1") }}
-            <nuxt-link class="cookie__link" to="/privacyPolicy">{{
-              $t("privacyPolicy")
-            }}</nuxt-link
+            <nuxt-link
+              class="cookie__link"
+              to="/politika-zasebnosti"
+              target="_blank"
+              >{{ $t("privacyPolicy") }}</nuxt-link
             >. {{ $t("gdpr2") }}
           </slot>
         </div>

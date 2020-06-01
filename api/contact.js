@@ -1,7 +1,5 @@
 import express from "express";
 import nodemailer from "nodemailer";
-import validator from "validator";
-import xssFilters from "xss-filters";
 
 import dotenv from "dotenv";
 dotenv.config();
@@ -50,14 +48,18 @@ app.post("/", (req, res) => {
 // };
 
 const sendMail = (prihod, odhod, odrasli, otroci, email) => {
+  console.log("sending mail");
+
   const transporter = nodemailer.createTransport({
-    host: "mail.svetina-ranch.com",
-    port: 25,
+    host: process.env.SMTP_HOST,
+    port: process.env.SMTP_PORT,
     secure: false,
-    ignoreTLS: true,
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
+    },
+    tls: {
+      rejectUnauthorized: false,
     },
   });
 
@@ -65,7 +67,7 @@ const sendMail = (prihod, odhod, odrasli, otroci, email) => {
     from: "rezervacije@svetina-ranch.com",
     to: "etn@turnsek.net",
     bcc: "krajnc.mare@gmail.com",
-    subject: "Povprasevanje najem posestva",
+    subject: "Povpraševanje za najem posestva Svetina",
     text:
       `prihod: ${prihod}\n` +
       `odhod: ${odhod}\n` +
@@ -76,7 +78,7 @@ const sendMail = (prihod, odhod, odrasli, otroci, email) => {
 
   transporter.sendMail(mailOption, function(err, data) {
     if (err) {
-      console.log("Error Occurs");
+      console.log(err);
     } else {
       console.log("Message sent!!!");
     }
@@ -87,3 +89,7 @@ export default {
   path: "/api/contact",
   handler: app,
 };
+
+// FTP dostop
+// ftp1user@svetina-ranch.com
+// mQXLuf4Ex2IYKk7r

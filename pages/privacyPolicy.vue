@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="privacy">
     <h1>IZJAVA O ZASEBNOSTI</h1>
     <h2>Izjava o zasebnosti</h2>
     <p>
@@ -12,21 +12,23 @@
       zakonodajo Republike Slovenije (vsakokrat veljavni zakon o varstvu osebnih
       podatkov, Zakon o elektronskih komunikacijah in Zakon o elektronskem
       poslovanju na trgu). <br />
+      <br />
       Namen te Izjave o zasebnosti (v nadaljevanju: »Izjava«) je, da vas
       seznanimo s tem, za katere namene bodo vaši osebni podatki pridobljeni in
       kako se bodo uporabljali ter kakšne so vaše pravice v zvezi s podatki, ki
-      jih hranimo o vas, ter kako jih uveljavljati. <br />V ETN se zavezujemo,
-      da bodo zbrani osebni podatki, ki jih boste posredovali preko naših
-      spletnih strani ali preko telekomunikacijskih sredstev (npr. v sklopu
-      elektronske korespondence), uporabljeni v skladu s to Izjavo, da vaših
-      osebnih podatkov ne bomo prodajali, posojali ali kakorkoli drugače
-      posredovali tretjim osebam, razen v zakonsko določenih primerih.
+      jih hranimo o vas, ter kako jih uveljavljati. <br />
+      <br />V ETN se zavezujemo, da bodo zbrani osebni podatki, ki jih boste
+      posredovali preko naših spletnih strani ali preko telekomunikacijskih
+      sredstev (npr. v sklopu elektronske korespondence), uporabljeni v skladu s
+      to Izjavo, da vaših osebnih podatkov ne bomo prodajali, posojali ali
+      kakorkoli drugače posredovali tretjim osebam, razen v zakonsko določenih
+      primerih.
     </p>
     <h2>Upravljavec podatkov</h2>
     <p>
-      Upravljavec vaših osebnih podatkov je ETN d.o.o., naslov: Mariborska 88a,
-      SI-3000 Celje, elektronski naslov: etn@turnsek.si, telefonska številka:
-      +386 41 7777 04. <br />
+      Upravljavec vaših osebnih podatkov je ETN d.o.o., naslov: Mariborska cesta
+      86, SI-3000 Celje, elektronski naslov: etn@turnsek.si, telefonska
+      številka: +386 41 7777 04. <br /><br />
       Za vse teme in vsebine, ki bodo obravnavane s strani odgovorne osebe za
       varstvo podatkov, velja stroga zaupnost.
     </p>
@@ -38,7 +40,7 @@
       identifikatorja kot je ime, identifikacijska številka, podatki o lokaciji,
       spletni identifikator ali z navedbo enega ali več dejavnikov, ki so
       značilni za posameznikovo fizično, fiziološko, genetsko, duševno,
-      gospodarsko, kulturno ali družbeno identiteto. <br />
+      gospodarsko, kulturno ali družbeno identiteto. <br /><br />
       Ponudnik, skladno z nameni, opredeljenimi v nadaljevanju te Izjave, zbira
       in obdeluje naslednje osebne podatke:
     </p>
@@ -131,21 +133,21 @@
       bolj invazivnih piškotkov vprašali za vašo privolitev, medtem ko lahko
       določene druge podatke zbiramo že na podlagi naših zakonitih interesov.
 
-      <br />Tako zbrane (osebne) podatke obdelujemo posebej in jih ne povezujemo
-      z drugimi osebnimi podatki uporabnikov naših spletnih strani ter ne
-      izvajamo nobenega profiliranja vašega nakupnega vedenja.
+      <br /><br />Tako zbrane (osebne) podatke obdelujemo posebej in jih ne
+      povezujemo z drugimi osebnimi podatki uporabnikov naših spletnih strani
+      ter ne izvajamo nobenega profiliranja vašega nakupnega vedenja.
     </p>
     <h2>Oprava nakupa storitev</h2>
     <p>
       Vaše osebne podatke obdelujemo zlasti v primeru, če kot registriran ali
-      neregistriran uporabnik našega spletnega strani svetina-ranch.com kupite
-      določene storitve ali naročite brezplačni katalog. Te podatke obdelujemo
-      izključno za namene izpolnjevanja naših pogodbenih obveznosti ter
-      uveljavljanja pravic iz pogodbenega razmerja, vključno z reševanjem
-      reklamacijskih izdelkov. <br />Osebne podatke, ki nam jih posredujete za
-      namen dostave izdelkov, obdelujemo izključno za namene dostave izdelkov na
-      vaš naslov. Ti vaši osebnih podatki (npr. ime in priimek, naslov dostave,
-      telefonska številka) se lahko posredujejo ponudnikom prevoza blaga. <br />
+      neregistriran uporabnik naše spletne strani svetina-ranch.com kupite
+      določene storitve. Te podatke obdelujemo izključno za namene izpolnjevanja
+      naših pogodbenih obveznosti ter uveljavljanja pravic iz pogodbenega
+      razmerja, vključno z reševanjem reklamacijskih izdelkov.
+      <br /><br />Osebne podatke, ki nam jih posredujete za namen dostave
+      izdelkov, obdelujemo izključno za namene dostave izdelkov na vaš naslov.
+      Ti vaši osebnih podatki (npr. ime in priimek, naslov dostave, telefonska
+      številka) se lahko posredujejo ponudnikom prevoza blaga. <br /><br />
       Naše kupce lahko na podlagi Zakona o elektronskih komunikacijah na njihove
       elektronske naslove obveščamo o naših storitvah in vsebinah. Pri tem ne
       uporabljamo nikakršnega (avtomatskega) profiliranja, temveč vam zgolj
@@ -164,13 +166,13 @@
       priprave odgovora na vaše povpraševanje, da vas obvestimo, ali je
       storitev, po katerem povprašujete, na voljo, za morebitno pripravo in
       sklenitev pogodbe, za izvajanje sklenjene pogodbe ter da vam odgovorimo na
-      vaše vprašanje. <br />
+      vaše vprašanje. <br /><br />
       V ta namen zbiramo zgolj tiste vaše osebne podatke, ki nam jih posredujete
       na prostovoljen način. Vsi podatki, ki so zbrani preko naših spletnih
       strani ali so nam kako drugače sporočeni (npr. s pomočjo
       telekomunikacijskih sredstev), se zbirajo z namenom zagotavljanja storitev
       spletne strani svetina-ranch.com ter za namen naše interne administracije
-      in vodenja našega poslovanja. <br />
+      in vodenja našega poslovanja. <br /><br />
       Posredovane kontaktne podatke lahko na podlagi našega zakonitega interesa
       obdelujemo tudi za osnovno prilagojeno komuniciranje z vami preko
       elektronske pošte in vam skušamo predstaviti ustrezne izdelke, ki bi vam
@@ -196,7 +198,7 @@
       vtičnikom družabnih omrežij, ter tudi za prikazovanje oglasov po meri
       uporabnika spleta.
 
-      <br />Zakonsko omejevanje piškotkov je predvsem posledica zlorabe
+      <br /><br />Zakonsko omejevanje piškotkov je predvsem posledica zlorabe
       tehnologije piškotkov za sledenje uporabnikom in s tem poseganja v
       zasebnost na spletu.
     </p>
@@ -208,21 +210,22 @@
       informacij, na primer elementov v nakupovalnem vozičku, za večjo varnost
       pri spletnem bančništvu, itd. Ker so taki piškotki shranjeni za krajši
       čas, je njihova invazivnost za zasebnost uporabnika lahko manjša.
-      <br />Trajni ali shranjeni piškotki (persistent cookies) pa ostanejo
+      <br /><br />Trajni ali shranjeni piškotki (persistent cookies) pa ostanejo
       shranjeni, tudi ko uporabnik zapre brskalnik in zaključi sejo. Spletna
       mesta jih uporabljajo npr. za shranjevanje informacij o registraciji,
       nastavitvah jezika strani, itd., pa tudi za grajenje profilov uporabnikov
       in analiziranje prometa. Trajni piškotki lahko v računalniku ostanejo več
-      dni, mesecev ali celo let. <br />Lastni piškotki (1st party cookies) so s
-      spletnega mesta, ki si ga uporabnik ogleduje, in so lahko trajni ali
+      dni, mesecev ali celo let. <br /><br />Lastni piškotki (1st party cookies)
+      so s spletnega mesta, ki si ga uporabnik ogleduje, in so lahko trajni ali
       začasni. Spletna mesta te piškotke uporabljajo za shranjevanje informacij,
       ki jih bodo znova uporabila, ko uporabnik naslednjič obišče to mesto.
-      <br />Drugi piškotki (3rd party cookies) izvirajo od drugih, partnerskih
-      spletnih mest (ki na primer prikazujejo oglase na izvirni spleteni strani
-      ali merijo promet). Tretje strani lahko na ta način zbirajo podatke o
-      uporabnikih iz različnih spletnih mest in jih uporabljajo za različne
-      namene, od oglaševanja, analitike pa do izboljšave svojih produktov. Taki
-      piškotki predstavljajo večji poseg v zasebnost uporabnika.<br />
+      <br /><br />Drugi piškotki (3rd party cookies) izvirajo od drugih,
+      partnerskih spletnih mest (ki na primer prikazujejo oglase na izvirni
+      spleteni strani ali merijo promet). Tretje strani lahko na ta način
+      zbirajo podatke o uporabnikih iz različnih spletnih mest in jih
+      uporabljajo za različne namene, od oglaševanja, analitike pa do izboljšave
+      svojih produktov. Taki piškotki predstavljajo večji poseg v zasebnost
+      uporabnika.<br /><br />
       Zavezujemo se, da pri nameščanju piškotkov upoštevamo relevantno
       zakonodajo, zlasti pa, določila Zakona o elektronskih komunikacijah,
       Splošne uredbe o varstvu podatkov in vsakokratnega zakona o varstvu
@@ -244,7 +247,8 @@
       Tehnične informacije o napravi in programski opremi zbiramo zaradi
       zagotavljanja kakovostnega prikaza spletnih strani naše trgovine.
       Informacije o straneh, ki so bile prikazane, zbiramo za potrebe analize,
-      ki nam omogočajo izboljševanje vsebin in uporabniške izkušnje. <br />
+      ki nam omogočajo izboljševanje vsebin in uporabniške izkušnje.
+      <br /><br />
       Če se uporabnik naše spletne trgovine registrira oziroma prijavi, pa lahko
       z uporabo piškotkov od njega zbiramo tudi nekatere osebne podatke:
     </p>
@@ -269,18 +273,18 @@
       Lastne sejne ali trajne piškotke uporabljamo za to, da si spletno mesto
       zapomni uporabnikove vnose v spletne obrazce, nakupovalno košarico, za
       prilagoditev nastavitev uporabnikovim željam, kot je način razvrščanja
-      rezultatov/vsebine, ipd. <br />
+      rezultatov/vsebine, ipd. <br /><br />
       V tem primeru uporabnik aktivno vpisuje vsebino, oziroma jasno izrazi
       željo s tem, da klikne na gumb »dodaj v košarico« , recimo razvrsti
       izdelke v kategoriji po določeni lastnosti, ali podobno. Taki piškotki so
       nujno potrebni, da vam ponudimo storitve, ki so na voljo na tej spletni
       strani. Omogočajo, da si stran zapomni in izvede uporabnikovo zahtevo kot
       je npr. prijava v uporabniški profil ali vsebina nakupovalne košarice.
-      <br />
+      <br /><br />
       Lastni sejni piškotki iz spletnega mesta www.svetina-ranch.com trajajo le
       čas ene seje, torej od trenutka ko vstopite na spletno mesto, do trenutka
       ko ga zaprete. Teh piškotkov ni mogoče drugače odstraniti, razen z
-      neobiskovanjem tega spletnega mesta. <br />
+      neobiskovanjem tega spletnega mesta. <br /><br />
       Osebni lastni piškotki, ki lahko trajajo do 10 let omogočajo, pravilno
       prikazovanje obrazcev kot sta obrazec za potrditev piškotkov ter še bolj
       pomembno, da si zapomnijo vašo odločitev glede uporabe piškotkov na naši
@@ -339,7 +343,7 @@
       Naša spletna stran se konstantno razvija in prilagaja željam uporabnikov
       tudi zaradi storitev in sejnih ter trajnih piškotkov Google Analytics, ki
       omogočajo poglobljen pogled v uporabniško izkušnjo in nam pomagajo pri
-      optimizaciji spletne strani. <br />Podatki o uporabi spletnega mesta
+      optimizaciji spletne strani. <br /><br />Podatki o uporabi spletnega mesta
       (standardni internetni dnevniški podatki (vključno z vašim naslovom IP) in
       podatki o vedenju obiskovalcev v anonimni obliki), ki jih vsebujejo
       piškotki, se prenesejo in shranijo pri podjetju Google, tudi na strežnikih
@@ -349,12 +353,12 @@
       skladu s pogoji uporabe Google Analytics podjetje Google naslova IP
       posameznika, na katerega se nanašajo osebni podatki, ne bo povezalo z
       nobenimi drugimi podatki, ki jih ima Google in torej teh podatkov ne bo
-      uporabljalo za lastne namene. <br />Se morda sprašujete, zakaj ste so se
-      vam Google Analytics piškotki naložili brez vaše eksplicitne privolitve?
-      Ker Google Analytics z naše spletne strani pridobi anonimizirane podatke,
-      se Google Analytics piškotki smatrajo kot manj invazivni, saj ne zbirajo
-      osebnih podatkov in se lahko namestijo na podlagi t.i. domnevne
-      privolitve.
+      uporabljalo za lastne namene. <br /><br />Se morda sprašujete, zakaj ste
+      so se vam Google Analytics piškotki naložili brez vaše eksplicitne
+      privolitve? Ker Google Analytics z naše spletne strani pridobi
+      anonimizirane podatke, se Google Analytics piškotki smatrajo kot manj
+      invazivni, saj ne zbirajo osebnih podatkov in se lahko namestijo na
+      podlagi t.i. domnevne privolitve.
     </p>
     <h4>GOOGLE PIŠKOTKI:</h4>
     <p>
@@ -519,14 +523,14 @@
     <h2>Uporabniki podatkov</h2>
     <p>
       Zavezujemo se, da vaših osebnih podatkov ne bomo posredovali tretjim
-      nepooblaščenim osebam brez vaše privolitve. <br />Seznanjamo vas, da lahko
-      posamezna opravila v zvezi z vašimi podatki zaupamo našim poslovnim
+      nepooblaščenim osebam brez vaše privolitve. <br /><br />Seznanjamo vas, da
+      lahko posamezna opravila v zvezi z vašimi podatki zaupamo našim poslovnim
       partnerjem (pogodbenim obdelovalcem). Pogodbeni obdelovalci lahko zaupane
       podatke obdelujejo izključno v našem imenu in v mejah našega pooblastila
       (v pisni pogodbi oziroma drugem pravnem aktu) ter skladno z nameni, ki so
       opredeljeni v tej Izjavi. Posredovane podatke omenjeni partnerji skrbno
       varujejo in ne hranijo na zalogo, ter jih ne uporabljajo za lastne namene.
-      <br />
+      <br /><br />
       V okviru zakonskih pristojnosti se vaši osebnih podatki lahko razkrivajo
       naslednjim uporabnikom podatkov:
     </p>
@@ -619,12 +623,13 @@
       potrebno, da se izpolni namen, zaradi katerega so bili posamezni podatki
       zbrani in nadalje uporabljeni. Po preteku obdobja hrambe bomo vaše osebne
       podatke učinkovito in trajno izbrisali ali anonimizirali, tako da vaša
-      identifikacija ne bo več mogoča. <br />
+      identifikacija ne bo več mogoča. <br /><br />
       Tiste podatke, ki obdelujemo na podlagi zakona, hranimo za obdobje, ki ga
       predpisuje zakon. Podatke, ki jih obdelujemo zaradi izvedbe pogodbenega
       odnosa z vami, hranimo za obdobje, ki je potrebno za izvršitev pogodbe in
       še ves čas, ko traja zakonski zastaralni rok za zahtevke iz tako sklenjene
-      pogodbe, razen v primeru spora v zvezi s pogodbenim razmerjem. <br />
+      pogodbe, razen v primeru spora v zvezi s pogodbenim razmerjem.
+      <br /><br />
       Osebne podatke, ki jih obdelujemo na podlagi vaše privolitve ali
       zakonitega interesa, npr. v primeru pošiljanje elektronskih novic, hranimo
       trajno do preklica te privolitve z vaše strani oziroma do zahteve po
@@ -632,7 +637,7 @@
       obdelave osebnih podatkov preverjali na redne časovne intervale. Podatke
       bomo pred preklicem izbrisali le, če je že dosežen namen obdelave osebnih
       podatkov (npr. če bi prenehali pošiljati oglasna elektronska sporočila)
-      ali če tako določa zakon. <br />
+      ali če tako določa zakon. <br /><br />
       Če za določene podatke, ki se obdelujejo za realizacijo pogodb, obstaja
       drugačen zakonski rok shranjevanja (npr. računovodski ali davčni podatki),
       znaša rok hrambe do 10 let. V tem času je obdelava podatkov omejena.
@@ -642,16 +647,16 @@
       Vaše podatke, ki nam jih posredujete z uporabo naših spletnih strani, po
       telekomunikacijskih kanalih ali na kakršenkoli drug način, skrbno varujemo
       pred izgubo, zlorabo, nepooblaščenim dostopom ali razkrivanjem,
-      spreminjanjem ali uničenjem. <br />Podatki so shranjeni v strežnikih
+      spreminjanjem ali uničenjem. <br /><br />Podatki so shranjeni v strežnikih
       zaščitenih s geslom in z omejenim dostopom. Spletna stran
       svetina-ranch.com dobro skrbi za varnost vaših osebnih podatkov in
-      spoštuje vaše izbire za njihovo nameravano rabo.<br />
+      spoštuje vaše izbire za njihovo nameravano rabo.<br /><br />
       Po prenehanju potrebe po vodenju podatkov, tj. po izpolnitvi namena, za
       katerega so bili podatki zbrani, se podatki nemudoma nepovratno in trajno
-      izbrišejo. <br />V primeru, da so na spletnem mestu svetina-ranch.com
-      objavljene povezave na druge spletne strani, ki niso v nikakršni povezavi
-      z ETN d.o.o., ne prevzemamo nobene odgovornosti za zaščito vaših podatkov
-      na teh spletnih straneh.
+      izbrišejo. <br /><br />V primeru, da so na spletnem mestu
+      svetina-ranch.com objavljene povezave na druge spletne strani, ki niso v
+      nikakršni povezavi z ETN d.o.o., ne prevzemamo nobene odgovornosti za
+      zaščito vaših podatkov na teh spletnih straneh.
     </p>
     <h2>Svoboda izbire</h2>
     <p>
@@ -660,19 +665,20 @@
       oziroma funkcij na naših spletnih straneh ne boste mogli dostopati, prav
       tako vam v takih primerih ne bomo mogli odgovoriti na vaše povpraševanje
       ali z vami skleniti pogodbenega razmerja ter vam posledično prodati in
-      dostaviti želenih izdelkov. <br />Če obvestil o novicah po elektronski
-      pošti ne želite več prejemati, se lahko od prejemanja novic brezplačno
-      odjavite, tako da nam pošljete elektronsko sporočilo z vsebino "Odjava od
-      elektronskih novic" ali drugo podobno vsebino na elektronski naslov:
-      etn@turnsek.net. Če se spremenijo vaši osebni podatki (poštna številka,
-      elektronski naslov, naslov, telefonska številka idr.), vas prosimo, da nas
-      o spremembah obvestite na elektronski naslov: etn@turnsek.si.
+      dostaviti želenih izdelkov. <br /><br />Če obvestil o novicah po
+      elektronski pošti ne želite več prejemati, se lahko od prejemanja novic
+      brezplačno odjavite, tako da nam pošljete elektronsko sporočilo z vsebino
+      "Odjava od elektronskih novic" ali drugo podobno vsebino na elektronski
+      naslov: etn@turnsek.net. Če se spremenijo vaši osebni podatki (poštna
+      številka, elektronski naslov, naslov, telefonska številka idr.), vas
+      prosimo, da nas o spremembah obvestite na elektronski naslov:
+      etn@turnsek.si.
     </p>
     <h2>Privolitev otrok</h2>
     <p>
       Otroci do 15 let nam lahko posredujejo osebne podatke preko naših spletnih
       strani ali drugače samo z dovoljenjem (privolitev ali odobritev) nosilca
-      starševske odgovornosti za otroka (enega od staršev ali skrbnikov).<br />
+      starševske odgovornosti za otroka (enega od staršev ali skrbnikov).<br /><br />
       Zavezujemo se, da ne bomo nikoli zavestno zbirali osebnih podatkov od
       oseb, za katere bi bili seznanjeni, da so mlajše od 15 let. Teh podatkov
       ne bomo uporabili ali razkrili tretji nepooblaščeni stranki brez
@@ -687,15 +693,15 @@
     <p>
       ETN zagotavlja uresničevanje vseh vaših pravic, ki vam pripadajo v zvezi z
       obdelavo vaših osebnih podatkov na podlagi veljavnih pravnih predpisov.
-      <br />Kot posamezniki imate naslednje pravice: <br />
+      <br /><br />Kot posamezniki imate naslednje pravice: <br /><br />
       <b>Pravica do preklica privolitve:</b> Če ste kot posameznik privolili v
       obdelavo vaših osebnih podatkov (v enega ali več določenih namenov), imate
       pravico do preklica privolitve. Preklic privolitve ne vpliva na zakonitost
-      obdelave podatkov, ki se je izvajala do njenega preklica. <br />
+      obdelave podatkov, ki se je izvajala do njenega preklica. <br /><br />
       Vašo privolitev lahko kadarkoli brezplačno prekličete s pisno izjavo, ki
       se pošlje upravljavcu na elektronski naslov: etn@turnsek.si. Preklic
       privolitve za obdelavo vaših osebnih podatkov nima nobenih negativnih
-      posledic ali sankcij. <br />
+      posledic ali sankcij. <br /><br />
       <b>Pravica dostopa do osebnih podatkov:</b> Kot posameznik imate od
       upravljavca pravico dobiti potrditev, ali se podatki v zvezi z vami
       obdelujejo ali ne. Če je temu tako, imate pravico, da vam omogočimo dostop
@@ -705,12 +711,12 @@
       katerim so bili ali jim bodo posredovani osebni podatki, predvidenem
       obdobju hrambe podatkov, o tehničnih in organizacijskih ukrepih za
       varovanje podatkov, obstoju avtomatiziranega sprejemanja odločitev,
-      vključno z oblikovanjem profilov idr.),<br />
+      vključno z oblikovanjem profilov idr.),<br /><br />
       <b>Pravica do popravka:</b> Kot posameznik imate pravico doseči, da vam
       omogočimo popravek netočnih osebnih podatkov v zvezi z vami in da vam
       omogočimo dopolnitev nepopolnih osebnih podatkov. V ta namen imate
       pravico, da nam posredujete dopolnilno izjavo z ažurnimi osebnimi podatki.
-      <br />
+      <br /><br />
       <b>Pravica do izbrisa osebnih podatkov (t.i. pravica do pozabe):</b>
       Pravico imate doseči, da upravljavec brez nepotrebnega odlašanja izbriše
       osebne podatke v zvezi z vami, če obstaja eden izmed razlogov iz 17. člena
@@ -718,10 +724,10 @@
       namene, za katere so bili zbrani ali kako drugače obdelani, če prekličete
       privolitev in za obdelavo in ne obstaja nobena druga pravna podlaga, če
       ugovarjate obdelavi, pa ne obstajajo prevladujoči zakoniti interesi, če so
-      bili osebni podatki obdelani nezakonito idr.). <br />
+      bili osebni podatki obdelani nezakonito idr.). <br /><br />
       <b>Pravica do omejitve obdelave:</b> Pravico imate doseči, da upravljavec
       omeji obdelavo vaših podatkov, če obstaja en od naslednjih primerov:
-      <br />
+      <br /><br />
     </p>
     <ul>
       <li>
@@ -741,14 +747,14 @@
         zakoniti razlogi upravljavca prevladajo nad vašimi razlogi
       </li>
     </ul>
-    <br />
+    <br /><br />
     <p>
       <b>Pravica do prenosljivosti podatkov:</b> Kot posameznik imate pravico,
       da prejmete vaše osebne podatke v splošno uporabljeni in strojno berljivi
       obliki ter da te podatke neposredno posredujemo drugemu upravljavcu, pri
       čemer to velja le v primeru, če obdelava vaših osebnih podatkov temelji na
       podlagi privolitve ali pogodbenega razmerja in se obdelava izvaja z
-      avtomatiziranimi sredstvi.<br />
+      avtomatiziranimi sredstvi.<br /><br />
       <b>Pravica do ugovora:</b> Če obdelava podatkov temelji na naših zakonitih
       interesih, imate na podlagi razlogov, povezanih z vašim posebnim
       položajem, pravico, da kadarkoli ugovarjate obdelavi vaših osebnih
@@ -756,16 +762,16 @@
       podatkov le v primeru, če bomo dokazali nujne legitimne razloge za
       obdelavo, ki bodo prevladali nad vašimi interesi, pravicami in
       svoboščinami, ali za uveljavljanje, izvajanje ali obrambo pravnih
-      zahtevkov. <br />
+      zahtevkov. <br /><br />
       Obdelavi vaših osebnih podatkov za namene neposrednega trženja, vključno z
       oblikovanjem profilov, lahko kadarkoli in brezplačno ugovarjate brez
       navedbe razlogov, tako da nam pošljete sporočilo na elektronski naslov:
       etn@turnsek.net. Če ugovarjate obdelavi vaših podatkov za namene
       neposrednega trženja, bomo nemudoma prenehali obdelovati vaše podatke za
-      te namene. <br />
+      te namene. <br /><br />
       Prav tako vam bomo na vašo zahtevo v skladu z veljavno zakonodajo podali
       tudi druge informacije v zvezi z vašimi osebnimi podatki, ki jih
-      obdelujemo. <br />
+      obdelujemo. <br /><br />
       <b>Pravica do vložitve pritožbe:</b> Če sumite, da pri obdelavi vaših
       podatkov prihaja do kršitev zakonodaje s področja varstva osebnih
       podatkov, imate pravico vložiti pritožbo pri Informacijskem pooblaščencu
@@ -779,8 +785,8 @@
       podatkov ali na vaše zahteve za uveljavljanje pravic v zvezi z vašimi
       podatki, vam bo odgovorila odgovorna oseba pri ETN d.o.o. na telefonski
       številki: +386 041 7777 04 ali na elektronskem naslovu: etn@turnsek.net.
-      <br />Zavezujemo se, da bomo na vaše zahteve odgovorili brez nepotrebnega
-      odlašanja, najkasneje pa v zakonsko predpisanih rokih.<br />
+      <br /><br />Zavezujemo se, da bomo na vaše zahteve odgovorili brez
+      nepotrebnega odlašanja, najkasneje pa v zakonsko predpisanih rokih.<br /><br />
       Za potrebe zanesljive identifikacije v primeru uveljavljanja pravic v
       zvezi z osebnimi podatki, lahko od vas zahtevamo dodatne podatke. Če vas
       kljub temu ne bomo mogli zanesljivo identificirati, bomo morali na žalost
@@ -792,7 +798,7 @@
       dejanskim razmeram in zakonodaji s področja varstva osebnih podatkov. Iz
       tega razloga vas prosimo, da pred vsakim posredovanjem osebnih podatkov
       preverite aktualno različico, da boste seznanjeni z morebitnimi
-      spremembami in dopolnitvami. <br />Prav tako vas bomo o morebitnih
+      spremembami in dopolnitvami. <br /><br />Prav tako vas bomo o morebitnih
       spremembah, ki bistveno vplivajo na obdelavo vaših osebnih podatkov,
       predhodno obvestili na primeren način (npr. z obvestilom na naši spletni
       strani, po elektronski pošti).
@@ -801,7 +807,7 @@
     <br />
     <p>
       Verzija: 1.0 <br />
-      Posodobljeno: 28. 5. 2020
+      Posodobljeno: 29. 5. 2020
     </p>
   </div>
 </template>
@@ -837,7 +843,7 @@ h3 {
 h4 {
   font-size: 1.4em;
   line-height: 0.6em;
-  margin: 0.5em;
+  margin-top: 1.5em;
 }
 p {
   font-size: 1.3em;
@@ -850,7 +856,7 @@ li {
   font-size: 1.3em;
   line-height: 1.5em;
   text-align: left;
-  margin-left: 30em;
+  margin-left: 20em;
   margin-right: 10em;
   list-style-type: square;
 }
@@ -861,11 +867,68 @@ th {
   text-align: left;
 }
 td {
-  font-size: 1.3em;
+  font-size: 0.6em;
   line-height: 1.5em;
   text-align: left;
 }
+table {
+  margin-left: 15em;
+}
 
 @media screen and (max-width: 680px) {
+  .privacy {
+    margin: 0;
+  }
+  h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+    margin: 1em;
+  }
+  h2 {
+    font-size: 1.7em;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin: 0.4em;
+  }
+  h3 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin: 0.4em;
+  }
+  h4 {
+    font-size: 1.4em;
+    line-height: 1em;
+    margin-top: 1.5em;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+    margin: 20px;
+  }
+  li {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: left;
+    margin-left: 3em;
+    margin-right: 1em;
+    list-style-type: square;
+  }
+
+  th {
+    font-size: 1em;
+    line-height: 1em;
+    text-align: left;
+    padding-bottom: 1.5em;
+  }
+  td {
+    font-size: 0.65em;
+    line-height: 1.6em;
+    text-align: left;
+    padding-bottom: 1.5em;
+  }
+  table {
+    margin: 1em;
+  }
 }
 </style>
