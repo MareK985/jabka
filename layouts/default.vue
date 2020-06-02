@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt />
+    <nuxt style="overflow-x: hidden;" />
     <CallButton />
     <client-only>
       <Cookie />

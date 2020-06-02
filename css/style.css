@@ -24,6 +24,12 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+@media only screen and (max-width: 749px) {
+    .parallax1, .parallax2, .parallax3, .parallax4 {
+        background-attachment: inherit;
+    }
+}
+
 .heading {
     position: absolute;
     color: white;
