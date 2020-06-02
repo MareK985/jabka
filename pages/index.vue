@@ -55,7 +55,6 @@
       <source src="~assets/video/promo-svetina1.mp4" type="video/mp4" />
     </video>
     <!-- end of video -->
-
     <div class="cenik">
       <h1 class="section-title">{{ $t("pricelist") }}</h1>
       <div class="two-col">
@@ -284,7 +283,7 @@
         <img src="~/assets/logo/logo-svetina.svg" alt="logo" class="logo" />
       </div>
       <div class="copyright">
-        <span><Mare /></span>
+        <span><MareUX /></span>
       </div>
       <div style="color:white" class="copyright">
         {{ $t("copyright") }}
@@ -336,7 +335,7 @@ import ActivitiesList from "~/components/ActivitiesList.vue";
 import Fas from "~/components/Fas.vue";
 import Fab from "~/components/Fab.vue";
 import LangNavigation from "~/components/LangNavigation.vue";
-import Mare from "~/components/Mare.vue";
+import MareUX from "~/components/MareUX.vue";
 
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
@@ -351,7 +350,7 @@ export default {
     Fab,
     VueSlickCarousel,
     LangNavigation,
-    Mare,
+    MareUX,
   },
   nuxtI18n: {
     paths: {
