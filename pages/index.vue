@@ -1,227 +1,18 @@
 <template>
   <div>
     <div class="parallax1">
-      <div data-aos="fade-down-right" data-aos-duration="1000">
-        <img
-          src="~/assets/logo/logo-svetina_mini.svg"
-          alt="logo-mini"
-          class="logo-header"
-        />
-      </div>
-      <div data-aos="fade" class="heading-sm">
-        {{ $t("subheader") }}
-      </div>
       <div data-aos="fade" class="heading">
         {{ $t("header") }}
       </div>
-      <ContactForm />
       <LangNavigation />
     </div>
 
     <section>
-      <div
-        data-aos="fade-right"
-        class="two-col dark"
-        style="border-radius: 30px; padding:10px;"
-      >
-        <h1>{{ $t("desciptionTitle") }}</h1>
-        <p>
-          {{ $t("desciption") }}
-        </p>
-      </div>
-      <div data-aos="fade-up" class="two-col">
-        <div class="circle">
-          <img class="circle-icon" alt="" src="~assets/icons/sauna.svg" />
-        </div>
-        <div class="circle">
-          <img class="circle-icon" alt="" src="~assets/icons/jakuzzi.svg" />
-        </div>
-        <div class="circle">
-          <img class="circle-icon" alt="" src="~assets/icons/wifi.svg" />
-        </div>
-        <div class="circle">
-          <img class="circle-icon" alt="" src="~assets/icons/ac.svg" />
-        </div>
-        <div class="circle">
-          <img class="circle-icon" alt="" src="~assets/icons/winter.svg" />
-        </div>
-        <div class="circle">
-          <img class="circle-icon" alt="" src="~assets/icons/cow.svg" />
-        </div>
+      <div class="two-col">
+        TEST
       </div>
     </section>
-    <!-- The video -->
-    <video id="promoVideo" autoplay muted loop>
-      <source src="~assets/video/promo-svetina1.mp4" type="video/mp4" />
-    </video>
     <!-- end of video -->
-    <div class="cenik">
-      <h1 class="section-title">{{ $t("pricelist") }}</h1>
-      <div class="two-col">
-        <Cenik data-aos="zoom-in-right" />
-        <span class="drobni-tisk">{{ $t("priceDetails") }}</span> <br />
-        <span class="drobni-tisk">{{ $t("minStay") }}</span> <br />
-        <span class="drobni-tisk">{{ $t("priceDiscount") }}</span> <br />
-        <span class="drobni-tisk">{{ $t("unitDetails1") }}</span> <br />
-        <span class="drobni-tisk">{{ $t("unitDetails2") }}</span>
-      </div>
-      <div class="two-col">
-        <TC data-aos="fade-left" />
-      </div>
-    </div>
-    <!-- SLIDER -->
-    <div class="slider">
-      <VueSlickCarousel v-bind="settings">
-        <div>
-          <img
-            src="~/assets/img/slides/slide1.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide2.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide3.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide4.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide5.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide6.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide7.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide8.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide9.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide10.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide11.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide12.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide13.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide14.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide15.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide16.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide17.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide18.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide19.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide20.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-        <div>
-          <img
-            src="~/assets/img/slides/slide21.jpg"
-            alt="slide"
-            class="responsive"
-          />
-        </div>
-      </VueSlickCarousel>
-    </div>
-    <!-- SLIDER -->
 
     <div class="parallax2">
       <div class="heading ">
@@ -230,16 +21,6 @@
     </div>
     <section class="dark">
       <div class="two-col">
-        <iframe
-          class="promo"
-          data-aos="zoom-in-up"
-          width="100%"
-          height="300px"
-          frameborder="0"
-          style="border:0"
-          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ_5jXSbx2ZUcRl-whuB9ZFag&key=AIzaSyALY3CXNuuSu2dVKjHXvFH3JWBNlNAWJSU"
-          allowfullscreen
-        ></iframe>
         <div style="padding: 5px;">
           {{ $t("addressTitle") }}<br />
           {{ $t("address") }} <br />{{ $t("addressDetails") }}
@@ -253,35 +34,9 @@
     <div class="parallax3"></div>
 
     <div class="dark">
-      <div data-aos="flip-left">
-        <VueSlickCarousel :arrows="false" :dots="true">
-          <div>
-            <Fas class="circle-icon" i="heart" />
-
-            <p class="quote">
-              {{ $t("quote1") }}
-            </p>
-            <h3>
-              {{ $t("quoteAuthor1") }} <br /><span>{{ $t("quoteDate1") }}</span>
-            </h3>
-          </div>
-          <div>
-            <Fas class="circle-icon" i="heart" />
-
-            <p class="quote">
-              {{ $t("quote2") }}
-            </p>
-            <h3>
-              {{ $t("quoteAuthor2") }} <br /><span>{{ $t("quoteDate2") }}</span>
-            </h3>
-          </div>
-        </VueSlickCarousel>
-      </div>
+      <div data-aos="flip-left"></div>
     </div>
     <div class="parallax4">
-      <div data-aos="zoom-in" data-aos-duration="3000">
-        <img src="~/assets/logo/logo-svetina.svg" alt="logo" class="logo" />
-      </div>
       <div class="copyright">
         <span><MareUX /></span>
       </div>
@@ -327,11 +82,6 @@
 </template>
 
 <script>
-import VueSlickCarousel from "vue-slick-carousel";
-import ContactForm from "~/components/ContactForm.vue";
-import Cenik from "~/components/Cenik.vue";
-import TC from "~/components/T&C.vue";
-import ActivitiesList from "~/components/ActivitiesList.vue";
 import Fas from "~/components/Fas.vue";
 import Fab from "~/components/Fab.vue";
 import LangNavigation from "~/components/LangNavigation.vue";
@@ -342,13 +92,8 @@ import "vue-slick-carousel/dist/vue-slick-carousel.css";
 
 export default {
   components: {
-    ContactForm,
-    Cenik,
-    TC,
-    ActivitiesList,
     Fas,
     Fab,
-    VueSlickCarousel,
     LangNavigation,
     MareUX,
   },
