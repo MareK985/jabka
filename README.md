@@ -1,6 +1,6 @@
-# remote-getaway
+# mareUX 
 
-> Landing page for house rental
+> Portofolio page - UX design / web development
 
 ## Build Setup
 
