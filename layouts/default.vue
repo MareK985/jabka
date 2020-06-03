@@ -1,7 +1,6 @@
 <template>
   <div>
     <nuxt style="overflow-x: hidden; overflow-y: hidden;" />
-    <CallButton />
     <client-only>
       <Cookie />
     </client-only>
@@ -9,12 +8,10 @@
 </template>
 
 <script>
-import CallButton from "~/components/CallButton.vue";
 import Cookie from "@/components/Cookie.vue";
 
 export default {
   components: {
-    CallButton,
     Cookie,
   },
 };

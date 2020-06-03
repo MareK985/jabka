@@ -7,14 +7,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: "Svetina Ranch",
+    title: "MareUX",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Live at the ranch - escape to the nature",
+        content: "Architect of holistic experience",
       },
     ],
     link: [
