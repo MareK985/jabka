@@ -14,12 +14,10 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Architect of holistic experience",
+        content: "Architect of holistic experiences",
       },
     ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/logo-svetina-flavicon.ico" },
-    ],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/mareUX-flaticon.ico" }],
   },
   /*
    ** Customize the progress-bar color

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="parallax1">
-      <!-- <LangNavigation /> -->
+      <LangNavigation />
       <div>
         <MareUXAnim />
         <div
@@ -88,7 +88,7 @@
 <script>
 // import Fas from "~/components/Fas.vue";
 // import Fab from "~/components/Fab.vue";
-// import LangNavigation from "~/components/LangNavigation.vue";
+import LangNavigation from "~/components/LangNavigation.vue";
 import MareUXAnim from "~/components/MareUX_anim.vue";
 
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
@@ -98,7 +98,7 @@ export default {
   components: {
     // Fas,
     // Fab,
-    // LangNavigation,
+    LangNavigation,
     MareUXAnim,
   },
   nuxtI18n: {
