@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="langMenu">
-      <nuxt-link :to="switchLocalePath('sl')" class="language">SL</nuxt-link>
-      <nuxt-link :to="switchLocalePath('en')" class="language">EN</nuxt-link>
+      <nuxt-link :to="switchLocalePath('sl')" class="language">sl</nuxt-link>
+      <nuxt-link :to="switchLocalePath('en')" class="language">en</nuxt-link>
     </div>
   </div>
 </template>
@@ -16,6 +16,7 @@ export default {};
   padding: 20px;
   position: absolute;
   right: 0;
+  top: 0;
 }
 .language {
   color: white;

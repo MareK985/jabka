@@ -1,18 +1,18 @@
 <template>
   <div>
     <nuxt style="overflow-x: hidden; overflow-y: hidden;" />
-    <client-only>
+    <!-- <client-only>
       <Cookie />
-    </client-only>
+    </client-only> -->
   </div>
 </template>
 
 <script>
-import Cookie from "@/components/Cookie.vue";
+// import Cookie from "@/components/Cookie.vue";
 
 export default {
   components: {
-    Cookie,
+    // Cookie,
   },
 };
 </script>
