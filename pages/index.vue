@@ -9,21 +9,13 @@
         <h1
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
-          data-aos-duration="3000"
-          data-aos-delay="300"
+          data-aos-duration="2000"
+          data-aos-delay="1000"
           class="title"
         >
           {{ $t("heroTitle1") }} <br />{{ $t("heroTitle2") }}
         </h1>
       </div>
-    </section>
-    <section>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam sunt
-        molestiae neque fugit voluptatem dolorum eum adipisci officiis eveniet
-        reprehenderit iste, omnis doloribus, suscipit sit eius provident enim
-        minima quo?
-      </p>
     </section>
 
     <!-- <section>
@@ -147,9 +139,9 @@ export default {
 .svg-container {
   display: inline-block;
   position: relative;
-  padding-top: 10%;
+  padding-top: 0%;
   height: 0;
-  padding-bottom: 50%;
+  padding-bottom: 40%;
   height: 100%;
   width: 100%;
   justify-content: center;
@@ -169,5 +161,11 @@ export default {
 }
 
 @media only screen and (max-width: 749px) {
+  .title {
+    margin-top: 1em;
+    font-size: 4.2vw;
+    letter-spacing: 6px;
+    line-height: 2.5em;
+  }
 }
 </style>

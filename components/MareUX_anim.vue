@@ -5,12 +5,10 @@
     version="1.1"
     x="0px"
     y="0px"
-    cx="250"
-    cy="250"
-    r="200"
     xml:space="preserve"
     preserveAspectRatio="xMinYMin meet"
     xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 951.1 562.06"
   >
     <defs>
       <clipPath id="clip-m-1">
@@ -271,11 +269,20 @@ export default {};
 .mareUX {
   display: inline-block;
   position: absolute;
-  top: 10%;
-  left: -45%;
+  top: 0%;
+  left: -5%;
   margin: auto;
   width: 200%;
   height: 100%;
+}
+
+@media only screen and (max-width: 749px) {
+  .mareUX {
+    width: 120%;
+    height: 100%;
+    top: 30%;
+    left: -10%;
+  }
 }
 
 .mare-path {
