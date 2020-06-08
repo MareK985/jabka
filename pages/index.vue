@@ -6,7 +6,7 @@
         <div class="svg-container">
           <MareUXAnim />
         </div>
-        <h1
+        <p
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
           data-aos-duration="2000"
@@ -14,8 +14,35 @@
           class="title"
         >
           {{ $t("heroTitle1") }} <br />{{ $t("heroTitle2") }}
-        </h1>
+        </p>
       </div>
+    </section>
+    <section class="main-section">
+      <h1 class="grow" data-aos="zoom-in">projects</h1>
+      <ul>
+        <a href=""
+          ><li data-aos="fade-right">
+            <div class="case-title">#1: Svetina Ranch</div>
+            <div class="case-short-description case-study1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates doloribus amet eveniet. Voluptate esse magni rerum,
+              aliquam vel expedita saepe totam ullam illum dolorum, accusamus
+              dignissimos repudiandae! Dolorem, eaque tempore.
+            </div>
+          </li></a
+        >
+        <a href=""
+          ><li data-aos="fade-left">
+            <div class="case-title">#1: Svetina Ranch</div>
+            <div class="case-short-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates doloribus amet eveniet. Voluptate esse magni rerum,
+              aliquam vel expedita saepe totam ullam illum dolorum, accusamus
+              dignissimos repudiandae! Dolorem, eaque tempore.
+            </div>
+          </li></a
+        >
+      </ul>
     </section>
 
     <!-- <section>
@@ -116,6 +143,28 @@ export default {
 <style lang="css" scoped>
 @import "./../css/style.css";
 
+.main-section {
+  background-color: white;
+  height: 200vh;
+  transition: 0;
+}
+.grow {
+  transition: transform 0.2s; /* Animation */
+}
+.case-title {
+  font-size: 2.5vw;
+  text-decoration: underline;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+.case-short-description {
+  font-size: 1.5vw;
+  margin: 1em;
+}
+.grow:hover {
+  font-size: 3em;
+}
+
 .hero {
   z-index: 0;
   /* Sizing */
@@ -160,12 +209,57 @@ export default {
   line-height: 1.3em;
 }
 
+ul li {
+  max-width: 500px;
+  height: 500px;
+  color: white;
+  display: inline-block;
+  float: center;
+  margin: 50px;
+  overflow: hidden;
+  text-align: center;
+  /* background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(~assets/img/celjskaKoca.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+ul li div {
+  opacity: 0;
+  transform: scale(10);
+  transition: all 0.3s ease-in-out 0.2s;
+}
+ul li:hover div {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out 0.1s;
+}
+ul li:active div {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
 @media only screen and (max-width: 749px) {
   .title {
     margin-top: 1em;
     font-size: 4.2vw;
     letter-spacing: 6px;
     line-height: 2.5em;
+  }
+  .case-title {
+    font-size: 5.5vw;
+    margin-top: 3em;
+    margin-bottom: 1em;
+  }
+  .case-short-description {
+    font-size: 3.5vw;
+    margin: 1em;
+  }
+  ul li {
+    height: 400px;
+    margin: 20px;
   }
 }
 </style>
