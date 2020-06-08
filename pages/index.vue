@@ -18,30 +18,74 @@
       </div>
     </section>
     <section class="main-section">
-      <h1 class="grow" data-aos="zoom-in">projects</h1>
+      <br />
+      <br />
+      <div
+        class="vision-statement"
+        data-aos="zoom-in-right"
+        data-aos-duration="1000"
+      >
+        All-in-one
+      </div>
+      <div
+        class="vision-statement"
+        data-aos="zoom-in-right"
+        data-aos-duration="1000"
+      >
+        business-oriented
+      </div>
+      <div
+        class="vision-statement"
+        data-aos="zoom-in-right"
+        data-aos-duration="1000"
+      >
+        <strong>digital solution provider.</strong>
+      </div>
+      <hr style="margin: 4em;" />
+      <div
+        class="vision-statement"
+        data-aos="zoom-in-right"
+        data-aos-duration="1000"
+      >
+        Perfect choice for small business owners
+      </div>
+      <div
+        class="vision-statement"
+        data-aos="zoom-in-right"
+        data-aos-duration="1000"
+      >
+        looking to renew
+      </div>
+      <div
+        class="vision-statement strong"
+        data-aos="zoom-in-right"
+        data-aos-duration="3000"
+      >
+        digital experience.
+      </div>
+      <br />
+      <br />
+
+      <h1 class="main-title" data-aos="zoom-in">projects</h1>
       <ul>
-        <a href=""
-          ><li data-aos="fade-right">
-            <div class="case-title">#1: Svetina Ranch</div>
-            <div class="case-short-description case-study1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates doloribus amet eveniet. Voluptate esse magni rerum,
-              aliquam vel expedita saepe totam ullam illum dolorum, accusamus
-              dignissimos repudiandae! Dolorem, eaque tempore.
-            </div>
-          </li></a
-        >
-        <a href=""
-          ><li data-aos="fade-left">
-            <div class="case-title">#1: Svetina Ranch</div>
-            <div class="case-short-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates doloribus amet eveniet. Voluptate esse magni rerum,
-              aliquam vel expedita saepe totam ullam illum dolorum, accusamus
-              dignissimos repudiandae! Dolorem, eaque tempore.
-            </div>
-          </li></a
-        >
+        <li data-aos="fade-right">
+          <div class="case-title">#1: Svetina Ranch</div>
+          <div class="case-short-description case-study1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            doloribus amet eveniet. Voluptate esse magni rerum, aliquam vel
+            expedita saepe totam ullam illum dolorum, accusamus dignissimos
+            repudiandae! Dolorem, eaque tempore.
+          </div>
+        </li>
+        <li data-aos="fade-left">
+          <div class="case-title">#1: Svetina Ranch</div>
+          <div class="case-short-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            doloribus amet eveniet. Voluptate esse magni rerum, aliquam vel
+            expedita saepe totam ullam illum dolorum, accusamus dignissimos
+            repudiandae! Dolorem, eaque tempore.
+          </div>
+        </li>
       </ul>
     </section>
 
@@ -145,12 +189,29 @@ export default {
 
 .main-section {
   background-color: white;
-  height: 200vh;
   transition: 0;
 }
-.grow {
-  transition: transform 0.2s; /* Animation */
+.vision-statement {
+  font-size: 3vw;
+  text-align: left;
+  margin-top: 0.6em;
+  margin-left: 4rem;
+  line-height: 1em;
+  padding: 0.2em;
 }
+.strong {
+  font-size: 4.5vw;
+  margin-left: 3.5rem;
+}
+.main-title {
+  font-size: 10vw;
+  font-weight: 600;
+  letter-spacing: 0em;
+  margin-top: 2em;
+  text-transform: uppercase;
+  color: rgba(8, 10, 12, 0.2);
+}
+
 .case-title {
   font-size: 2.5vw;
   text-decoration: underline;
@@ -259,7 +320,22 @@ ul li:active div {
   }
   ul li {
     height: 400px;
-    margin: 20px;
+    margin: 70px 0;
+  }
+  .vision-statement {
+    font-size: 5vw;
+    margin-top: 0.6em;
+    margin-left: 2rem;
+    padding: 0.2em;
+  }
+  .main-title {
+    margin-top: 3em;
+    font-size: 12vw;
+    letter-spacing: 0.1em;
+  }
+  .strong {
+    font-size: 8.5vw;
+    margin-left: 1.1em;
   }
 }
 </style>
