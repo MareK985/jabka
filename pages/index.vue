@@ -196,7 +196,6 @@ export default {
 @import "./../css/style.css";
 
 .main-section {
-  background-color: white;
   transition: 0;
 }
 .vision-statement {
@@ -217,7 +216,7 @@ export default {
   letter-spacing: 0em;
   margin-top: 2em;
   text-transform: uppercase;
-  color: rgba(8, 10, 12, 0.2);
+  color: rgba(255, 255, 255, 0.2);
 }
 
 .case-title {
@@ -251,7 +250,6 @@ export default {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .svg-container {

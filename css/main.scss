@@ -7,7 +7,7 @@
 // COLOR PALLETE //
 $primary: #6D98A8;
 $secondary: #4D4B2A;
-$base: rgb(57, 37, 37);
+$base: white;
 
 body, html {
     font-family: 'Fira Sans', sans-serif;
@@ -19,6 +19,8 @@ body, html {
     color :$base;
     line-height: 180%;
     text-align: center;
+    height: 5000px;
+    background: linear-gradient(180deg, #1B1E25 14%, #9bc5c3 100%);
 }
 
 h1 {
@@ -26,6 +28,9 @@ h1 {
     font-weight: 400;
     padding: 10px 20px 0px 20px;
     line-height: 140%;
+    color: $base;
+}
+strong {
     color: $base;
 }
 
