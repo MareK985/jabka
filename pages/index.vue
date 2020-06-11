@@ -47,8 +47,16 @@
         data-aos="zoom-in-right"
         data-aos-duration="1000"
       >
-        Perfect choice for small business owners
+        Perfect choice for
       </div>
+      <div
+        class="vision-statement"
+        data-aos="zoom-in-right"
+        data-aos-duration="1000"
+      >
+        <strong>small business owners</strong>
+      </div>
+
       <div
         class="vision-statement"
         data-aos="zoom-in-right"
