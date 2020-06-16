@@ -76,22 +76,25 @@
 
       <h1 class="main-title" data-aos="zoom-in">projects</h1>
       <ul>
-        <li data-aos="fade-right">
-          <div class="case-title">#1: Svetina Ranch</div>
-          <div class="case-short-description case-study1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            doloribus amet eveniet. Voluptate esse magni rerum, aliquam vel
-            expedita saepe totam ullam illum dolorum, accusamus dignissimos
-            repudiandae! Dolorem, eaque tempore.
-          </div>
-        </li>
-        <li data-aos="fade-left">
+        <li id="case-study1" data-aos="fade-right">
           <div class="case-title">#1: Svetina Ranch</div>
           <div class="case-short-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             doloribus amet eveniet. Voluptate esse magni rerum, aliquam vel
             expedita saepe totam ullam illum dolorum, accusamus dignissimos
-            repudiandae! Dolorem, eaque tempore.
+            repudiandae! Dolorem, eaque tempore. <br />
+            <a href="projects/svetinaRanch" class="page-button">Details</a>
+          </div>
+        </li>
+
+        <li id="case-study2" data-aos="fade-left">
+          <div class="case-title">#2: Svetina Ranch</div>
+          <div class="case-short-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            doloribus amet eveniet. Voluptate esse magni rerum, aliquam vel
+            expedita saepe totam ullam illum dolorum, accusamus dignissimos
+            repudiandae! Dolorem, eaque tempore. <br />
+            <a href="projects/svetinaRanch" class="page-button">Details</a>
           </div>
         </li>
       </ul>
@@ -286,12 +289,19 @@ ul li {
   overflow: hidden;
   text-align: center;
   /* background styles */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/celjskaKoca.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
+#case-study1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(~assets/img/poster_svetina.jpg);
+}
+#case-study2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(~assets/img/poster_svetina.jpg);
+}
+
 ul li div {
   opacity: 0;
   transform: scale(10);
