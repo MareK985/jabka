@@ -18,12 +18,37 @@
         </h1>
       </header>
       <main>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore eos
-          soluta itaque, vero doloribus quia saepe ducimus quaerat illo?
-          Molestiae itaque nam, ad exercitationem illo facere sunt unde
-          cupiditate reprehenderit.
-        </p>
+        <ul>
+          <li>Oblikovanje uporabniške izkušnje (UX design)</li>
+          <li>Razvoj spletne strani (FE dev.)</li>
+          <li>SEO optimizacija</li>
+          <li>Priprava video vsebin in marketinške kampanje</li>
+        </ul>
+        <br />
+        <br />
+        <!--section 1 -->
+        <section>
+          <div class="section-title">Izziv / naloge</div>
+          <div class="container">
+            <div class="left">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In amet
+                quis nulla voluptas ad ipsam vero est? Minus sequi maxime hic
+                error consectetur mollitia modi sed, fugiat aliquam recusandae
+                ea.
+              </p>
+            </div>
+            <div class="right">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In amet
+                quis nulla voluptas ad ipsam vero est? Minus sequi maxime hic
+                error consectetur mollitia modi sed, fugiat aliquam recusandae
+                ea.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--ENF OF section 1 -->
       </main>
     </div>
   </div>
@@ -84,10 +109,48 @@ main {
   color: white;
   position: relative;
   padding: 1rem;
-  height: 100vh;
-  p {
+  height: 200vh;
+  ul {
+    font-size: 3vh;
+    padding: 2em;
     max-width: 600px;
     margin: 1rem auto;
+  }
+  li {
+    margin-bottom: 2em;
+    line-height: 1.5em;
+    text-align: left;
+  }
+}
+section {
+  .section-title {
+    font-size: 5vh;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin: 0;
+  }
+  .container {
+    text-align: center;
+    padding: 15px;
+  }
+  .left {
+    display: inline-block;
+    max-width: 700px;
+    text-align: left;
+    padding: 5px;
+    //background-color: red;
+    border-radius: 3px;
+    margin: 5px;
+    vertical-align: top;
+  }
+  .right {
+    display: inline-block;
+    max-width: 400px;
+    text-align: left;
+    padding: 5px;
+    //background-color: green;
+    border-radius: 3px;
+    margin: 5px;
   }
 }
 @media (min-aspect-ratio: 16/9) {
@@ -102,6 +165,16 @@ main {
     height: 100%;
   }
 }
+@media screen and (max-width: 600px) {
+  section {
+    .left .right {
+      max-width: 100%;
+      padding: 1px;
+      margin: 5px;
+    }
+  }
+}
+
 /* @media (max-width: 767px) {
   #videoBG {
     display: none;
