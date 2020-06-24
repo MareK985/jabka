@@ -49,10 +49,16 @@
               </p>
             </div>
             <div class="right">
-              <h3>
-                NALOGA #1: Privabiti nove goste. <br /><br />MERILO USPEHA: več
-                kot 50% zasedenost do konca leta 2020.
-              </h3>
+              <br />
+              <h4 style="text-align: center; font-size: 5.3vh;">
+                NALOGA #1:
+              </h4>
+              <br />
+              <span style="font-size: 4.3vh;">Privabiti nove goste </span
+              ><br /><br />
+              <h4 style="text-align: left;">
+                MERILO USPEHA: več kot 50% zasedenost do konca leta 2020.
+              </h4>
             </div>
           </div>
         </section>
@@ -62,44 +68,56 @@
         <section>
           <div class="section-title">Analiza okolja</div>
           <div class="container">
-            <h3>KONKURENCA</h3>
+            <p style="margin: 0px 10px;">
+              Oddaljeni, a dostopni kraji bodo hitreje okrevali v primerjavi z
+              turističnimi, prenatrpanimi destinacijami. V iskanju zasebnosti se
+              pričakuje porast povpraševanja po najemu zasebnih hiš, vil, kampov
+              in obisk majhnih butičnih hotelov. (<a
+                href="https://www.total-croatia-news.com/travel/42462-post-coronavirus-travel"
+                target="_blank"
+                >source</a
+              >).
+            </p>
+            <br />
+            <h3 style="padding: 10px; margin: 10px;">KONKURENCA</h3>
+
             <div class="left">
               <p>
-                Oddaljeni, a dostopni kraji bodo hitreje okrevali v primerjavi z
-                turističnimi, prenatrpanimi destinacijami. V iskanju zasebnosti
-                se pričakuje porast povpraševanja po najemu zasebnih hiš, vil,
-                kampov in obisk majhnih butičnih hotelov. (<a
-                  href="https://www.total-croatia-news.com/travel/42462-post-coronavirus-travel"
-                  target="_blank"
-                  >source</a
-                >).
+                Nepremičnine na oddaljenih lokacijah se po večini oglašujejo
+                preko različnih portalov, kot so:
               </p>
-
-              <ul>
-                <li>http://www.najemikoco.si/ (Goričko) – personal page</li>
-                <li>https://www.glamping.si/</li>
-                <li>https://najem-koce.si/sl/ – platform</li>
-              </ul>
+              <div style="padding: 10px; margin: 10px;">
+                <a href="https://www.glamping.si/" target="_blank"
+                  >Portal za najem luksuznih šotor in bivakov</a
+                >
+                <br />
+                <a href="https://najem-koce.si/sl/" target="_blank"
+                  >Portal za najem koče po Sloveniji</a
+                >
+              </div>
+              <br />
+              <p>
+                V redkih primerih imajo posamezne nepremičnine za oddajo svoje
+                lastne spletne strani. Primer spodaj:
+              </p>
+              <a href="http://www.najemikoco.si/" target="_blank"
+                >Koča na samem (Goriško)</a
+              >
             </div>
             <div class="right">
-              <h3>UGOTOVITVE</h3>
-              <ul>
-                <li>+ big selection</li>
-                <li>+ easy search based on location</li>
-                <li>+ newsletter – get better deals</li>
-                <li>
-                  - individual promotion through social media is not so
-                  effective
-                </li>
-                <li>
-                  - poor integration with local providers of different
-                  experiences
-                </li>
-                <li>
-                  -integration with other rental platform is not possible (real
-                  time availability not possible)
-                </li>
-              </ul>
+              <h4>UGOTOVITVE</h4>
+              <br />+ big selection <br />+ easy search based on location
+              <br />+ newsletter – get better deals
+              <br />
+              <br />
+
+              - individual promotion through social media is not so effective
+
+              <br />
+              - poor integration with local providers of different experiences
+              <br />
+              -integration with other rental platform is not possible (real time
+              availability not possible)
             </div>
             <div class="container">
               <h3>PERSONE</h3>
@@ -114,7 +132,7 @@
                 </ul>
               </div>
               <div class="right">
-                <h3>GLAVNE ZAHTEVE / ŽELJE</h3>
+                <h4>GLAVNE ZAHTEVE / ŽELJE</h4>
                 <ul>
                   <li>Access</li>
                   <li>Peace</li>
@@ -164,16 +182,15 @@
             </div>
 
             <div class="right">
-              <h3>ZAHTEVANE FUNKCIONALNOSTI</h3>
+              <h4>ZAHTEVANE FUNKCIONALNOSTI</h4>
               <ul>
                 <li>Real-time calendar with availability</li>
-                <li>Form for send reservation inquiry</li>
+                <li>Form for sending a reservation inquiry</li>
                 <li>Mobile-first design</li>
                 <li>Real-time price per day / no hidden costs</li>
                 <li>Pricing tabel</li>
                 <li>Image galery with video</li>
                 <li>Short description with feature/service icons</li>
-                <li>Form for sending reservation inquiry</li>
                 <li>Testimonials slider</li>
                 <li>Direct & easy contact by phone</li>
                 <li>Multilingual site (EN, SL, DE, NL, FR)</li>
@@ -193,6 +210,7 @@
           <div class="section-title">Razvoj MVP</div>
           <div class="container">
             <div class="left">
+              <h3>SEO optimizacija</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Dignissimos doloribus velit architecto, amet eaque id earum
@@ -201,11 +219,11 @@
               </p>
             </div>
             <div class="right">
-              <h3>OKOLJE</h3>
+              <h4>OKOLJE</h4>
               <ul>
                 <li>JS Ogrodje: Vue/Nuxt</li>
               </ul>
-              <h3>KNJIŽNICE</h3>
+              <h4>KNJIŽNICE</h4>
               <ul>
                 <li>AOS - animation on scroll</li>
                 <li>ICONS - FontAwsome 5</li>
@@ -257,22 +275,58 @@
           <div class="section-title">Testiranje MVP</div>
           <div class="container">
             <div class="left">
+              <h3>Digitalni marketing</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Recusandae, doloremque. Vero fuga corrupti non, blanditiis
-                deserunt vitae assumenda earum ab corporis quos, tempora
-                incidunt dolore placeat ipsa magnam, omnis delectus.
+                Pred začetkom poletja smo za namene testiranja MVP lansirali 2
+                kampanji na socialnim omrežjih:
               </p>
+              <div style="padding: 10px; margin: 10px;">
+                <br />
+                <a
+                  href="https://www.facebook.com/svetina.ranch/"
+                  target="_blank"
+                  >Facebook</a
+                >
+                Doseg: 2,6k Ogledalo: 600
+                <br />
+                <a
+                  href="https://www.instagram.com/svetina_ranch/"
+                  target="_blank"
+                  >Instagram</a
+                >
+                <br />
+              </div>
             </div>
             <div class="right">
-              <h3>UGOTOVITVE</h3>
+              <h4>UGOTOVITVE</h4>
               <ul>
-                <li>potrebno omogočen direkt on-line booking</li>
+                <li>
+                  Landing page mora omogočati enostavno rezervacijo direktno
+                  preko koledarja
+                </li>
               </ul>
             </div>
           </div>
         </section>
-        <!--ENF OF section 6-->
+        <!--ENF OF section 7-->
+        <br />
+        <br />
+        <!--section 8 -->
+        <section>
+          <div class="section-title">REZULTATI</div>
+          <div class="container">
+            <ul>
+              <li class="fields">
+                povečanje zasedenosti za 20% iz (50% na 70%)<br />
+              </li>
+              <li class="fields">
+                Enostaven vpogled vseh deležnikov v zasedenost terminov (v
+                realnem času)
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!--ENF OF section 8-->
       </main>
     </div>
   </div>
@@ -318,6 +372,14 @@ hr {
   justify-content: center;
 }
 
+a {
+  color: #6d98a8;
+}
+
+a:hover {
+  color: #4d4b2a;
+}
+
 h1 {
   font-family: "Syncopate", sans-serif;
   color: white;
@@ -339,10 +401,9 @@ main {
   padding: 1rem;
   height: 1000vh;
   ul {
-    font-size: 3vh;
-    padding: 2em;
-    max-width: 600px;
-    margin: 1rem auto;
+    font-size: 2.5vh;
+    margin-top: 1em;
+    margin-left: 1em;
   }
   li {
     margin-bottom: 1em;
@@ -351,10 +412,10 @@ main {
     list-style-type: square;
   }
   .fields {
-    margin-bottom: 2em;
+    margin-top: 2.5em;
     line-height: 1.5em;
-    text-align: left;
-    list-style-type: square;
+    text-align: center;
+    list-style-type: none;
   }
 }
 section {
@@ -365,11 +426,22 @@ section {
     text-align: center;
     margin: 0;
   }
+  li {
+    margin-bottom: 1em;
+    line-height: 1em;
+    text-align: left;
+    list-style-type: square;
+  }
   p {
     text-align: justify;
+    font-size: 2.5vh;
   }
   h3 {
-    font-size: 3.5vh;
+    font-size: 3.7vh;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 3vh;
   }
   .container {
     text-align: center;
