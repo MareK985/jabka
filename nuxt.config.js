@@ -17,7 +17,7 @@ export default {
         content: "Architect of holistic experiences",
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/mareUX-flaticon.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/mareUX-flaticon.png" }],
   },
   /*
    ** Customize the progress-bar color
