@@ -49,35 +49,6 @@ export default {
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     "@nuxtjs/bulma",
     "nuxt-fontawesome", // Imports FontAwesome 5 SVG icons
-    [
-      "nuxt-i18n",
-      {
-        // parsePages: false, // Disable acorn parsing
-        // pages: {
-        //   privacyPolicy: {
-        //     sl: "/politika-zasebnosti", // -> mydomain.com/en/politika-zasebnosti
-        //     en: "/privacy-policy", // -> mydomain.com/en/privacy-policy
-        //   },
-        // },
-        locales: [
-          {
-            name: "Slovenski",
-            code: "sl",
-            iso: "sl-SL",
-            file: "sl-SL.js",
-          },
-          {
-            name: "English",
-            code: "en",
-            iso: "en-US",
-            file: "en-US.js",
-          },
-        ],
-        lazy: true,
-        langDir: "lang/",
-        defaultLocale: "sl",
-      },
-    ], // multilanguage website using Nuxt.js and nuxt-i18n module
   ],
   /*
    ** Build configuration
@@ -106,6 +77,7 @@ export default {
           "faGrinWink",
           "faHeart",
           "faInfo",
+          "faArrowRight",
         ],
       },
       {

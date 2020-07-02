@@ -1,352 +1,343 @@
 <template>
-  <div>
-    <form
-      id="contact-form"
-      class="contact-form"
-      action="/api/contact"
-      method="post"
-      enctype="text/plain"
-      @submit.prevent="submit"
+  <div class="containerForm">
+    <div
+      data-aos="fade-zoom-in"
+      data-aos-duration="2000"
+      class="contactForm-title"
     >
-      <div class="control">
-        <label for="prihod"> {{ $t("arrival") }}</label>
-        <div class="select">
-          <input
-            id="prihod"
-            v-model="prihod"
-            class="input"
-            :class="{ error: !$v.prihod.$error }"
-            name="prihod"
-            type="date"
-            placeholder="prihod"
-            @blur="$v.prihod.$touch()"
-            v-on="$listeners"
-          />
-        </div>
-        <label for="odhod">{{ $t("departure") }}</label>
-        <div class="select">
-          <input
-            id="odhod"
-            v-model="odhod"
-            :class="{ error: !$v.odhod.$error }"
-            class="input"
-            name="odhod"
-            type="date"
-            placeholder="odhod"
-            @blur="$v.odhod.$touch()"
-            v-on="$listeners"
-          />
-        </div>
-        <label for="odrasli">{{ $t("adults") }}</label>
-        <div class="select">
-          <select
-            id="odrasli"
-            v-model="odrasli"
-            :class="{ error: !$v.odrasli.$error }"
-            name="odrasli"
-            type="text"
-            placeholder="odrasli"
-            @blur="$v.odrasli.$touch()"
-            v-on="$listeners"
-          >
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-          </select>
-        </div>
-        <label for="otroci">{{ $t("children") }}</label>
-        <div class="select">
-          <select
-            id="otroci"
-            v-model="otroci"
-            :class="{ error: !$v.otroci.$error }"
-            name="otroci"
-            type="text"
-            placeholder="otroci"
-            @blur="$v.otroci.$touch()"
-            v-on="$listeners"
-          >
-            <option>0</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-          </select>
-        </div>
-        <div class="email-field">
-          <input
-            id="email"
-            v-model="email"
-            class="input"
-            :class="{ error: !$v.email.$error }"
-            name="email"
-            type="email"
-            placeholder="email"
-            @blur="$v.email.$touch()"
-            v-on="$listeners"
-          />
-          <template v-if="$v.email.$error">
-            <p v-if="!$v.email.email" class="errorMessage">
-              {{ $t("emailError") }}.
-            </p>
-            <p v-if="!$v.email.required" class="errorMessage">
-              {{ $t("email") }}.
-            </p>
-          </template>
-          <template v-if="$v.prihod.$error">
-            <p v-if="!$v.prihod.required" class="errorMessage">
-              {{ $t("arrivalError") }}.
-            </p>
-          </template>
-          <template v-if="$v.odhod.$error">
-            <p v-if="!$v.odhod.required" class="errorMessage">
-              {{ $t("departureError") }}.
-            </p>
-          </template>
-          <template v-if="$v.odrasli.$error">
-            <p v-if="!$v.odrasli.required" class="errorMessage">
-              {{ $t("adultNoError") }}.
-            </p>
-          </template>
-          <template v-if="$v.otroci.$error">
-            <p v-if="!$v.otroci.required" class="errorMessage">
-              {{ $t("childrenNoError") }}.
-            </p>
-          </template>
-        </div>
-      </div>
+      Feel free to ask any questions via contact form or email below.
+    </div>
+    <div id="progress" :style="{ width: progress }"></div>
+    <h3 :class="{ 'show-final': showFinal }">
+      Thank you for your inquiy
+      {{ registerSteps[1].value }}. We will come back to you ASAP.
+    </h3>
+    <div id="register">
+      <i v-if="position === 1" class="iconButton fas fa-user"></i>
+      <i v-if="position === 2" class="iconButton fas fa-building"></i>
+      <i v-if="position === 3" class="iconButton fas fa-envelope"></i>
 
-      <div>
-        <button
-          id="button-submit"
-          :disabled="$v.$invalid"
-          type="submit"
-          value="Send"
-          class="button is-focused cta-button"
-          style="background: #6D98A8; color:white;"
-          @click="onSubmit"
-        >
-          {{ $t("bookNow") }}
-        </button>
-        <!-- <template v-if="$v.$anyError">
-          <p class="errorMessage">
-            {{ $t("errorForm") }}
-          </p>
-        </template> -->
-        <template>
-          <p v-if="isSubmitted" class="text-green-light successMessage">
-            {{ $t("success") }}
-          </p></template
-        >
+      <i
+        v-else
+        class="previousButton fas fa-arrow-left"
+        @click="previousStep"
+      ></i>
+      <i class="forwardButton fas fa-arrow-right" @click="checkStep"></i>
+      <div id="inputContainer" :class="{ showContainer: showContainer }">
+        <form @submit.prevent="checkStep">
+          <input
+            id="inputField"
+            ref="registerinput"
+            v-model="inputValue"
+            :type="inputType"
+            required
+          />
+          <label id="inputLabel">{{ inputLabel }}</label>
+        </form>
+        <div id="inputProgress"></div>
       </div>
-    </form>
+    </div>
   </div>
 </template>
 
 <script>
-import axios from "axios";
-import { required, email } from "vuelidate/lib/validators";
+// import { setTimeout } from 'timers';
 
 export default {
-  data() {
+  data: () => {
     return {
-      prihod: "",
-      odhod: "",
-      odrasli: "",
-      otroci: "",
-      email: "",
-      submitting: false,
-      isSubmitted: false,
-      error: false,
+      position: 0,
+      inputLabel: "",
+      inputType: "text",
+      inputValue: "",
+      showContainer: false,
+      showFinal: false,
+      progress: "0%",
+      registerSteps: [
+        {
+          label: "What do you need?",
+          type: "text",
+          value: "",
+          pattern: /.+/,
+        },
+        {
+          label: "What's your name?",
+          type: "text",
+          value: "",
+          pattern: /.+/,
+        },
+        {
+          label: "What's your company name?",
+          type: "text",
+          value: "",
+          pattern: /.+/,
+        },
+        {
+          label: "What's your email?",
+          type: "text",
+          value: "",
+          pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+        },
+      ],
     };
   },
-  validations: {
-    prihod: {
-      required,
-    },
-    odhod: {
-      required,
-    },
-    odrasli: {
-      required,
-    },
-    otroci: {
-      required,
-    },
-    email: {
-      required,
-      email,
-    },
+  mounted() {
+    // eslint-disable-next-line no-unused-vars
+    const register = document.getElementById("register");
+    this.setStep();
   },
   methods: {
-    submit() {
-      this.$v.$touch();
-      if (!this.$v.$invalid) {
-        // console.log("form submitted:", this.email);
-      }
+    setStep() {
+      this.inputLabel = this.registerSteps[this.position].label;
+      this.inputType = this.registerSteps[this.position].type;
+      this.inputValue = this.registerSteps[this.position].value;
+      this.$refs.registerinput.focus();
+      this.showStep();
     },
-
-    async onSubmit(event) {
-      event.preventDefault();
-
-      try {
-        const form = document.getElementById("contact-form");
-        const formData = new FormData(form);
-
-        const data = {};
-        formData.forEach((value, key) => {
-          data[key] = value;
-        });
-        const json = JSON.stringify(data);
-
-        const res = await axios.post("/api/contact", data);
-
-        this.submitting = false;
-        this.isSubmitted = true;
-
-        // console.log(res.data.message);
-      } catch (error) {
-        // handle error
-
-        alert(error);
+    showStep() {
+      setTimeout(() => {
+        this.showContainer = true;
+      }, 100);
+    },
+    hideStep(callback) {
+      this.showContainer = false;
+      setTimeout(callback, 100);
+    },
+    previousStep() {
+      this.position -= 1;
+      // eslint-disable-next-line no-undef
+      register.className = "";
+      this.hideStep(this.setStep);
+      this.setProgress();
+    },
+    checkStep() {
+      if (!this.registerSteps[this.position].pattern.test(this.inputValue)) {
+        // eslint-disable-next-line no-undef
+        register.classList.add("wrong");
+        // eslint-disable-next-line no-undef
+        register.classList.add("wronganimation");
+        setTimeout(() => {
+          // eslint-disable-next-line no-undef
+          register.classList.remove("wronganimation");
+        }, 500);
+        this.$refs.registerinput.focus();
+      } else {
+        // eslint-disable-next-line no-undef
+        register.className = "";
+        // eslint-disable-next-line no-undef
+        register.classList.add("okanimation");
+        setTimeout(() => {
+          // eslint-disable-next-line no-undef
+          register.classList.remove("okanimation");
+        }, 200);
+        this.registerSteps[this.position].value = this.inputValue;
+        this.position += 1;
+        if (this.registerSteps[this.position]) {
+          this.hideStep(this.setStep);
+        } else {
+          this.hideStep(() => {
+            // eslint-disable-next-line no-undef
+            register.className = "close";
+            setTimeout(() => {
+              this.showFinal = true;
+            }, 1000);
+          });
+        }
       }
+      this.setProgress();
+    },
+    setProgress() {
+      this.progress = (this.position / this.registerSteps.length) * 100 + "%";
     },
   },
 };
 </script>
 
-<style>
-.contact-form {
-  background: rgba(255, 255, 255, 0.25);
-  border-radius: 5px;
+<style lang="scss" scoped>
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+.containerForm {
+  position: relative;
+  font-size: 1rem;
+  color: #333;
+  bottom: 0;
+  width: 100%;
+  min-height: 50vh;
   display: flex;
-  position: absolute;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  background: radial-gradient(#1b1e25, #1b1e25);
+  #progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 50vh;
+    background-color: #106b4e;
+    transition: width 0.8s ease-in-out;
+  }
+}
+h3 {
+  position: absolute;
+  width: 80%;
+  font-size: 1.5em;
+  color: #1b1e25;
+  opacity: 0;
+  transition: 0.8s ease-in-out;
+  &.show-final {
+    opacity: 1;
+  }
+}
+#register {
+  position: relative;
+  width: 480px;
+  margin-top: 3em;
+  height: 80px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
+  &.close {
+    width: 0;
+    padding: 10px 0;
+    overflow: hidden;
+    transition: 0.8s ease-in-out;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.2);
+  }
+}
+.previousButton {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  font-size: 1rem;
+  color: #9e9e9e;
+  cursor: pointer;
+  z-index: 20;
+  &:hover {
+    color: #9bc5c3;
+  }
+}
+.iconButton {
+  position: absolute;
+  left: 50px;
+  top: 12px;
+  font-size: 1rem;
+  color: #9e9e9e;
+  z-index: 20;
+  &:hover {
+    color: #9bc5c3;
+  }
+}
+.forwardButton {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 3rem;
+  color: #708d8e; /*#556A6D */
+  cursor: pointer;
+  z-index: 20;
+  &:hover {
+    color: #9bc5c3;
+  }
+}
+.wrong .forwardButton {
+  color: #d93f38;
+}
+.close .forwardButton,
+.close .previousButton {
+  color: #fff;
+}
+#inputContainer {
+  position: relative;
+  padding: 30px 20px 20px 20px;
+  margin-right: 60px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  input {
+    position: relative;
+    width: 100%;
+    font-size: 1.35rem;
+    font-weight: bold;
+    outline: 0;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    &:valid + #inputLabel {
+      top: 0px;
+      left: 62px;
+      font-size: 0.7rem;
+      font-weight: normal;
+      color: #999;
+    }
+  }
+}
+#inputLabel {
+  position: absolute;
+  top: 32px;
+  left: 20px;
+  font-size: 1.05rem;
+  font-weight: bold;
+  pointer-events: none;
+  transition: 0.2s ease-in-out;
+}
+#inputProgress {
+  width: 0%;
+  border-bottom: 6px solid #708d8e;
+  transition: width 0.6s ease-in-out;
+}
+.wrong #inputProgress {
+  border-color: #d93f38;
+}
+.showContainer {
+  opacity: 1 !important;
+  #inputProgress {
+    width: 100%;
+  }
+}
+.wronganimation {
+  animation: 0.5s linear 0s 1 wrong-animation;
+}
+.okanimation {
+  animation: 0.2s linear 0s 1 ok-animation;
+}
+.contactForm-title {
   color: white;
-  justify-content: center;
-  padding: 20px 0px 20px 0px;
-  text-align: center;
-  top: 70%;
-}
-.cta-button {
-  margin: 20px 20px 5px 20px;
-  font-size: 1.2em;
-  letter-spacing: 0.2em;
-  font-weight: 500;
-  border: none;
-  box-shadow: 7px 4px 23px -4px rgba(0, 0, 0, 0.75);
-  text-transform: uppercase;
-}
-.select {
-  padding: 0px 5px;
-}
-
-label {
-  padding-left: 5px;
+  position: absolute;
   font-size: 2em;
-  font-weight: 100;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 35px;
-}
-.email-field {
-  margin-top: 10px;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  align-content: center;
-  justify-content: center;
+  z-index: 100;
+  top: 30px;
+  line-height: 1em;
+  margin-bottom: 2em;
 }
 
-@media screen and (max-width: 600px) {
-  .contact-form {
-    top: 50%;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 3px;
+@keyframes wrong-animation {
+  0% {
+    transform: translateX(0);
   }
-  label {
-    padding-left: 10px;
-    font-size: 1em;
-    font-weight: 100;
-    line-height: 55px;
+  20% {
+    transform: translateX(-20px);
   }
-  .select {
-    margin-top: 5px;
+  40% {
+    transform: translateX(20px);
   }
-  .email-field {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+  60% {
+    transform: translateX(-20px);
+  }
+  80% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
-
-@media (min-width: 601px) {
-  .contact-form {
-    top: 60%;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+@keyframes ok-animation {
+  0% {
+    transform: translateY(0);
   }
-  .select {
-    margin-top: 15px;
+  50% {
+    transform: translateY(10px);
   }
-  label {
-    padding-left: 8px;
-    font-size: 1.1em;
-    font-weight: 100;
-    line-height: 55px;
+  100% {
+    transform: translateY(0);
   }
-}
-@media (min-width: 1200px) {
-  .contact-form {
-    top: 60%;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  .select {
-    margin-top: 15px;
-  }
-  label {
-    padding-left: 8px;
-    font-size: 1.5em;
-    font-weight: 100;
-    line-height: 55px;
-  }
-}
-
-.errorMessage {
-  color: red;
-  background: white;
-  margin: 5px;
-  font-size: 1em;
-  padding: 5px;
-  line-height: 100%;
-}
-.text-green-light {
-  color: green;
-}
-.successMessage {
-  background: white;
-  margin: 5px;
-  padding: 5px;
 }
 </style>

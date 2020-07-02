@@ -23,11 +23,14 @@
         ></a>
       </header>
       <main>
+        <div class="client">Naročnik: Elektro Turnšek nepremičnine d.o.o.</div>
+        <div>Naše delo</div>
+
         <ul>
           <li class="fields">
             Oblikovanje uporabniške izkušnje <br />(UX design)
           </li>
-          <li class="fields">Razvoj spletne strani</li>
+          <li class="fields">Razvoj spletne strani - Landing page</li>
           <li class="fields">SEO optimizacija</li>
           <li class="fields">Priprava video vsebin za digitalni marketing</li>
         </ul>
@@ -40,12 +43,12 @@
             <div class="left">
               <p>
                 OECD za 36 držav članic za leto 2020 napoveduje zmanjšanje med
-                40-70% mednarodnih potovanj. Poudarek na letu 2020 je
-                <strong>domači turizem</strong>. Dolgo bomo morali upoštevati
-                pravila socialne distanciranja, dokler ne bo na voljo cepiva
-                proti koronavirusu. Vendar je težko napovedati, ali bodo ljudje
-                potovali povsem enako kot prej. Trenutna razprava v panogi je
-                bolj v smeri <strong>kakovostno naravnanega turizma</strong>.
+                40-70% mednarodnih potovanj. Poudarek V letu 2020 je na
+                <strong>domačem turizmu</strong>.
+                <br />
+                <br />
+                Ob pomanjkanju tujih turistov v začetku poletja bo potrebno še
+                posebno učinkovito pritegniti domačega gosta.
               </p>
             </div>
             <div class="right">
@@ -212,10 +215,11 @@
             <div class="left">
               <h3>SEO optimizacija</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Dignissimos doloribus velit architecto, amet eaque id earum
-                autem iure, dolorem cum ipsa possimus quae nulla sint natus?
-                Exercitationem nulla obcaecati amet?
+                <li>Izbira pravih ključnih besed za SEO (med 5 in 10)</li>
+                <li>
+                  Umeščanje na spletno stran in doseganje zadostne gostote
+                  pojavljanja na njej.
+                </li>
               </p>
             </div>
             <div class="right">
@@ -225,10 +229,11 @@
               </ul>
               <h4>KNJIŽNICE</h4>
               <ul>
-                <li>AOS - animation on scroll</li>
-                <li>ICONS - FontAwsome 5</li>
+                <li>Animation on scroll - aos</li>
+                <li>ICONS - nuxt-fontawesome</li>
                 <li>SLIDER - vue-slick-carousel</li>
-                <li>GDPR - cookies for Nuxt</li>
+                <li>GDPR - vue-analytics</li>
+                <li>Multilanguage module - nuxt-i18n</li>
               </ul>
             </div>
           </div>
@@ -287,7 +292,7 @@
                   target="_blank"
                   >Facebook</a
                 >
-                Doseg: 2,6k Ogledalo: 600
+                Doseg: 7.9K Ogledov: 1.021
                 <br />
                 <a
                   href="https://www.instagram.com/svetina_ranch/"
@@ -301,8 +306,9 @@
               <h4>UGOTOVITVE</h4>
               <ul>
                 <li>
-                  Landing page mora omogočati enostavno rezervacijo direktno
-                  preko koledarja
+                  Stranke želijo napreden rezervacijski modul, ki bo omogočal
+                  enostavno rezervacijo direktno preko koledarja na spletni
+                  strani.
                 </li>
               </ul>
             </div>
@@ -317,7 +323,8 @@
           <div class="container">
             <ul>
               <li class="fields">
-                povečanje zasedenosti za 20% iz (50% na 70%)<br />
+                povečanje zasedenosti za 20% (iz 50% na 70%)<br />
+                5 bookingov preko web reservation forma
               </li>
               <li class="fields">
                 Enostaven vpogled vseh deležnikov v zasedenost terminov (v
@@ -399,7 +406,7 @@ main {
   color: white;
   position: relative;
   padding: 1rem;
-  height: 1000vh;
+  height: 800vh;
   ul {
     font-size: 2.5vh;
     margin-top: 1em;
@@ -413,9 +420,10 @@ main {
   }
   .fields {
     margin-top: 2.5em;
+    margin-left: 20em;
     line-height: 1.5em;
-    text-align: center;
-    list-style-type: none;
+    text-align: justify;
+    list-style-type: square;
   }
 }
 section {
@@ -483,6 +491,10 @@ section {
   text-align: left;
 
   font-size: 1.3em;
+}
+.client {
+  font-size: 2em;
+  margin: 1em 0;
 }
 
 // CTA button

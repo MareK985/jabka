@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <div id="container">
     <section class="hero">
       <div class="hero-inner">
-        <LangNavigation />
         <div class="svg-container">
           <MareUXAnim />
         </div>
@@ -13,7 +12,7 @@
           data-aos-delay="1000"
           class="title"
         >
-          {{ $t("heroTitle1") }} <br />{{ $t("heroTitle2") }}
+          design & development <br />digital solutions
         </p>
       </div>
     </section>
@@ -73,32 +72,77 @@
       </div>
       <br />
       <br />
+      <h1 class="main-title" data-aos="zoom-in">about</h1>
+      <div class="about-container">
+        <div class="about-img">
+          <img src="~assets/img/profileImg.jpg" />
+        </div>
+        <div class="about-text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+            veniam quasi ad facere pariatur odio in voluptate dignissimos
+            necessitatibus, nihil ab hic labore, velit magni aperiam molestiae
+            distinctio odit eius.
+          </p>
+        </div>
+      </div>
 
       <h1 class="main-title" data-aos="zoom-in">projects</h1>
       <ul>
         <li id="case-study1" data-aos="fade-right">
           <div class="case-title">#1: Svetina Ranch</div>
-          <div class="case-short-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            doloribus amet eveniet. Voluptate esse magni rerum, aliquam vel
-            expedita saepe totam ullam illum dolorum, accusamus dignissimos
-            repudiandae! Dolorem, eaque tempore. <br />
-            <a href="projects/svetinaRanch" class="page-button">Details</a>
+          <div>
+            <p class="case-short-description">
+              • UX Design <br />
+              • Web Development<br />
+              • SEO Optimization<br />
+              • Video Marketing
+              <br />
+            </p>
+            <a href="projects/svetinaRanch" class="page-button"
+              >About the project</a
+            >
           </div>
         </li>
 
-        <li id="case-study2" data-aos="fade-left">
-          <div class="case-title">#2: Svetina Ranch</div>
-          <div class="case-short-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            doloribus amet eveniet. Voluptate esse magni rerum, aliquam vel
-            expedita saepe totam ullam illum dolorum, accusamus dignissimos
-            repudiandae! Dolorem, eaque tempore. <br />
-            <a href="projects/svetinaRanch" class="page-button">Details</a>
+        <li id="case-study3" data-aos="fade-right">
+          <div class="case-title">#2: ExpAR store</div>
+          <div>
+            <p class="case-short-description">
+              • Business Analytics<br />
+              • UX Design <br />
+              • FrontEnd Dev.<br />
+              • Video Marketing
+              <br />
+            </p>
+            <a href="projects/exparStore" class="page-button"
+              >About the project</a
+            >
+          </div>
+        </li>
+
+        <li id="case-study2" data-aos="fade-right">
+          <div class="case-title">#3: Ruta Nature Resort</div>
+          <div>
+            <p class="case-short-description">
+              • UX Design <br />
+              • Web Development<br />
+              • SEO Optimization<br />
+              • Video Marketing
+              <br />
+            </p>
+            <div style="font-size: 2em;">IN THE MAKING...</div>
+            <!-- <a href="#" class="page-button" >Več o projektu</a> -->
           </div>
         </li>
       </ul>
     </section>
+    <footer id="footer">
+      <ContactForm />
+      <div class="footer-text">
+        Copyright 2020 | Mare-UX | hello@mare-ux.com
+      </div>
+    </footer>
 
     <!-- <section>
       <div class="two-col">
@@ -173,8 +217,9 @@
 <script>
 // import Fas from "~/components/Fas.vue";
 // import Fab from "~/components/Fab.vue";
-import LangNavigation from "~/components/LangNavigation.vue";
 import MareUXAnim from "~/components/MareUX_anim.vue";
+import ContactForm from "~/components/ContactForm.vue";
+// import CTAButton from "~/components/CTAButton.vue";
 
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
@@ -183,14 +228,8 @@ export default {
   components: {
     // Fas,
     // Fab,
-    LangNavigation,
     MareUXAnim,
-  },
-  nuxtI18n: {
-    paths: {
-      sl: "/",
-      en: "/",
-    },
+    ContactForm,
   },
 };
 </script>
@@ -198,8 +237,43 @@ export default {
 <style lang="css" scoped>
 @import "./../css/style.css";
 
+#container {
+  min-height: 100%;
+  position: relative;
+  height: 100%;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px; /* Height of the footer */
+}
+
+.about-container {
+  text-align: center;
+  padding: 15px;
+}
+.about-img {
+  display: inline-block;
+  max-width: 1000px;
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+  vertical-align: top;
+}
+.about-text {
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+}
+
 .main-section {
   transition: 0;
+  padding-bottom: 300px; /* Height of the footer */
+  height: 400vh;
+  background: linear-gradient(180deg, #1b1e25 14%, #9bc5c3 100%);
 }
 .vision-statement {
   font-size: 3vw;
@@ -217,7 +291,7 @@ export default {
   font-size: 10vw;
   font-weight: 600;
   letter-spacing: 0em;
-  margin-top: 2em;
+  margin-top: 1em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.2);
 }
@@ -225,12 +299,42 @@ export default {
 .case-title {
   font-size: 2.5vw;
   text-decoration: underline;
-  margin-top: 3em;
+  margin-top: 2em;
   margin-bottom: 1em;
+}
+
+.page-button {
+  background-color: white;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.page-button:hover {
+  background-color: #6d98a8;
+  color: white;
+}
+
+.footer-text {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 0.9em;
+  right: 10px;
+  bottom: 5px;
 }
 .case-short-description {
   font-size: 1.5vw;
-  margin: 1em;
+  margin: 1em 3.5em;
+  text-align: left;
 }
 .grow:hover {
   font-size: 3em;
@@ -299,7 +403,12 @@ ul li {
 }
 #case-study2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/poster_svetina.jpg);
+    url(~assets/img/cezsoca_img.jpg);
+}
+
+#case-study3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(~assets/img/expar/hero-expar.jpg);
 }
 
 ul li div {
@@ -319,11 +428,16 @@ ul li:active div {
 }
 
 @media only screen and (max-width: 749px) {
+  .main-section {
+    height: 410vh;
+  }
+
   .title {
     margin-top: 1em;
     font-size: 4.2vw;
     letter-spacing: 6px;
     line-height: 2.5em;
+    text-align: center;
   }
   .case-title {
     font-size: 5.5vw;
@@ -331,12 +445,14 @@ ul li:active div {
     margin-bottom: 1em;
   }
   .case-short-description {
+    margin: 1em 1.5em;
     font-size: 3.5vw;
     margin: 1em;
   }
   ul li {
     height: 400px;
     margin: 70px 0;
+    width: 100%;
   }
   .vision-statement {
     font-size: 5vw;
@@ -345,7 +461,7 @@ ul li:active div {
     padding: 0.2em;
   }
   .main-title {
-    margin-top: 3em;
+    margin-top: 1em;
     font-size: 12vw;
     letter-spacing: 0.1em;
   }
