@@ -17,65 +17,10 @@
       </div>
     </section>
     <section class="main-section">
-      <br />
-      <br />
-      <div
-        class="vision-statement"
-        data-aos="zoom-in-right"
-        data-aos-duration="1000"
-      >
-        All-in-one
-      </div>
-      <div
-        class="vision-statement"
-        data-aos="zoom-in-right"
-        data-aos-duration="1000"
-      >
-        business-oriented
-      </div>
-      <div
-        class="vision-statement"
-        data-aos="zoom-in-right"
-        data-aos-duration="1000"
-      >
-        <strong>digital solution provider.</strong>
-      </div>
-      <hr style="margin: 4em;" />
-      <div
-        class="vision-statement"
-        data-aos="zoom-in-right"
-        data-aos-duration="1000"
-      >
-        Perfect choice for
-      </div>
-      <div
-        class="vision-statement"
-        data-aos="zoom-in-right"
-        data-aos-duration="1000"
-      >
-        <strong>small business owners</strong>
-      </div>
-
-      <div
-        class="vision-statement"
-        data-aos="zoom-in-right"
-        data-aos-duration="1000"
-      >
-        looking to renew
-      </div>
-      <div
-        class="vision-statement strong"
-        data-aos="zoom-in-right"
-        data-aos-duration="3000"
-      >
-        digital experience.
-      </div>
-      <br />
-      <br />
       <h1 class="main-title" data-aos="zoom-in">about</h1>
       <div class="about-container">
         <div class="about-img">
-          <img src="~assets/img/profileImg.jpg" />
+          <img src="~assets/img/hero_1.jpg" />
         </div>
         <div class="about-text">
           <p>
@@ -87,8 +32,12 @@
         </div>
       </div>
 
-      <h1 class="main-title" data-aos="zoom-in">projects</h1>
-      <ul>
+      <h1 class="main-title" data-aos="zoom-in">CATALOGUES</h1>
+      <ActivitiesList />
+      <!-- PORTOFOLIO IMAGES -->
+
+      <!-- PORTOFOLIO IMAGES -->
+      <!-- <ul>
         <li id="case-study1" data-aos="fade-right">
           <div class="case-title">#1: Svetina Ranch</div>
           <div>
@@ -132,14 +81,16 @@
               <br />
             </p>
             <div style="font-size: 2em;">IN THE MAKING...</div>
-            <!-- <a href="#" class="page-button" >Več o projektu</a> -->
           </div>
         </li>
-      </ul>
+      </ul> -->
     </section>
     <footer id="footer">
       <div class="footer-text">
-        Copyright 2020 | Mare-UX | hello@mare-ux.com
+        Matjaž Zakrajšek - Atelje MAX ZAXTER <br />
+        Stara vas 25, 1000 Ljubljana<br />
+
+        Copyright 2020 | 041 711 233 | matjaz.zakrajsek@gmail.com
       </div>
     </footer>
 
@@ -217,6 +168,8 @@
 // import Fas from "~/components/Fas.vue";
 // import Fab from "~/components/Fab.vue";
 import MareUXAnim from "~/components/MareUX_anim.vue";
+import ActivitiesList from "~/components/ActivitiesList.vue";
+
 // import CTAButton from "~/components/CTAButton.vue";
 
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
@@ -227,6 +180,7 @@ export default {
     // Fas,
     // Fab,
     MareUXAnim,
+    ActivitiesList,
   },
 };
 </script>
@@ -270,7 +224,8 @@ export default {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
   height: 400vh;
-  background: linear-gradient(180deg, #1b1e25 14%, #9bc5c3 100%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(~assets/img/bg_1.jpg);
 }
 .vision-statement {
   font-size: 3vw;
@@ -350,7 +305,7 @@ export default {
   text-align: center;
   /* background styles */
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url(~assets/img/bg-hero.jpg);
+    url(~assets/img/hero_1.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -396,16 +351,16 @@ ul li {
 }
 #case-study1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/poster_svetina.jpg);
+    url(~assets/img/hero_1.jpg);
 }
 #case-study2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/cezsoca_img.jpg);
+    url(~assets/img/hero_1.jpg);
 }
 
 #case-study3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/cezsoca_img.jpg);
+    url(~assets/img/hero_1.jpg);
 }
 
 ul li div {

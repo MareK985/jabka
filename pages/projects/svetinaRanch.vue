@@ -154,7 +154,7 @@
           <div class="section-title">Konceptiranje</div>
           <div class="container">
             <div class="left">
-              <img src="~assets/img/cezsoca_img.jpg" />
+              <img src="~assets/img/hero_1.jpg" />
               Low-fidelity wireframe
             </div>
             <div class="right">
@@ -179,7 +179,7 @@
           <div class="container">
             <div class="left">
               <figure id="myDiv" class="img-wrapper">
-                <img id="theImg" src="~assets/img/iPhone_6.png" />
+                <img id="theImg" src="~assets/img/hero_1.jpg" />
               </figure>
               High-fidelity wireframe (made in Adobe XD)
             </div>
