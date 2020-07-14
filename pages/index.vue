@@ -429,7 +429,7 @@ ul li:active div {
 
 @media only screen and (max-width: 749px) {
   .main-section {
-    height: 410vh;
+    height: 510vh;
   }
 
   .title {

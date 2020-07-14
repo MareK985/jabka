@@ -24,11 +24,17 @@
       ></i>
       <i class="forwardButton fas fa-arrow-right" @click="checkStep"></i>
       <div id="inputContainer" :class="{ showContainer: showContainer }">
-        <form @submit.prevent="checkStep">
+        <form
+          action="/api/contact"
+          method="post"
+          enctype="text/plain"
+          @submit.prevent="checkStep"
+        >
           <input
             id="inputField"
             ref="registerinput"
             v-model="inputValue"
+            name="inputName"
             :type="inputType"
             required
           />
@@ -50,29 +56,34 @@ export default {
       inputLabel: "",
       inputType: "text",
       inputValue: "",
+      inputName: "",
       showContainer: false,
       showFinal: false,
       progress: "0%",
       registerSteps: [
         {
+          name: "question",
           label: "What do you need?",
           type: "text",
           value: "",
           pattern: /.+/,
         },
         {
+          name: "name",
           label: "What's your name?",
           type: "text",
           value: "",
           pattern: /.+/,
         },
         {
+          name: "company",
           label: "What's your company name?",
           type: "text",
           value: "",
           pattern: /.+/,
         },
         {
+          name: "email",
           label: "What's your email?",
           type: "text",
           value: "",

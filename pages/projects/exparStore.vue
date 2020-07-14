@@ -18,9 +18,10 @@
         </figcaption>
         <div class="banner-wrapper">
           <div data-aos="flip-up" data-aos-duration="1000" class="banner">
-            mobile-first <br />
             multi-unit <br />
-            on-demand <br />e-commerce platform
+            on-demand <br />
+            m-commerce <br />
+            platform
           </div>
         </div>
       </figure>
@@ -110,11 +111,12 @@
           <div class="box-area">
             <div class="single-box" data-aos="fade-left">
               <div class="img-text">
-                <h4
-                  style="margin-bottom:20px; color:rgba(69, 70, 85, 0.7); text-align: left;"
+                <p
+                  class="pros-cons"
+                  style="font-size:2em; margin-bottom: .5em;"
                 >
-                  Trends
-                </h4>
+                  TRENDS
+                </p>
                 <p style="margin-bottom:10px;">
                   Following the vision of AirBnB
                   <a
@@ -190,21 +192,24 @@
 
             <div class="single-box" data-aos="fade-right">
               <div class="img-text">
-                <h4
-                  style="margin-bottom:20px; color:rgba(69, 70, 85, 0.7); text-align: left;"
+                <p
+                  class="pros-cons"
+                  style="font-size:2em; margin-bottom: .5em;"
                 >
-                  Technologies
-                </h4>
+                  TECHNOLOGIES
+                </p>
                 <ul>
                   <li>
-                    AR<a
+                    AR
+                    <a
                       href="https://www.redcarnationhotels.com/blog/true-sustainable-luxury"
                       target="_blank"
                       >(source)</a
                     >
                   </li>
                   <li>
-                    Machine learning<a
+                    Machine learning
+                    <a
                       href="https://www.virtuoso.com/articles/virtuoso-communities/Our-Favorite-Vacation-Ideas-for-Food-Lovers#.XkUp22hKiUk"
                       target="_blank"
                       >(source)</a
@@ -440,12 +445,12 @@
             data-aos-easing="ease-in"
             data-aos-delay="400"
           >
-            <h3 style="font-size: 2.5em; padding-bottom: 20px; color: #A9AABD">
+            <h3 style="font-size: 2.5em; padding-bottom: 10px; color: #A9AABD">
               Product vision
             </h3>
-            <hr style="margin-bottom: 10px; color: #A9AABD" />
+            <hr style="color: #A9AABD" />
             <p
-              style="color: #262626; line-height: 1.3em;"
+              style="color: #262626; line-height: 1.3em; padding-bottom: 40px;"
               class="vision-statement"
             >
               “Platform designed as a mobile-first multi-unit on-demand
@@ -477,13 +482,6 @@
             >
               storyboard
             </p>
-            <img
-              src="~/assets/img/expar/logo-1.svg"
-              width="400px"
-              alt="symbol"
-              class="symbol anim"
-              data-delay=".7s"
-            />
           </div>
           <div class="right">
             <div
@@ -492,7 +490,7 @@
               data-aos="flip-up"
               data-aos-duration="1000"
             >
-              <h2 style="color: #262626;">#1 Sketching</h2>
+              <h2 style="color: #262626; margin-top: 2em;">#1 Sketching</h2>
               <p style="color: #262626;">
                 In order to really innovate we need to think bewond categories
                 and personas. Future business problems don't fall neathly within
@@ -519,13 +517,6 @@
               data-delay="0s"
             />
             <p class="anim" data-delay=".5s" data-aos="fade-left">prototype</p>
-            <img
-              src="~/assets/img/expar/logo-1.svg"
-              width="400px"
-              alt="symbol"
-              class="symbol anim"
-              data-delay=".7s"
-            />
           </div>
           <div class="right">
             <div
@@ -540,7 +531,7 @@
                 to make a minimalistic wine shelf and place it in one of the
                 apartments: So we:
               </p>
-              <ul>
+              <ul style="color: #262626;">
                 <li>Check the ideas on pinterest</li>
                 <li>
                   Use 3D modeling softwere to design the components for the
@@ -570,13 +561,6 @@
             <p class="anim" data-delay=".5s" data-aos="fade-left">
               brand design
             </p>
-            <img
-              src="~/assets/img/expar/logo-1.svg"
-              width="400px"
-              alt="symbol"
-              class="symbol anim"
-              data-delay=".7s"
-            />
           </div>
           <div class="right">
             <div
@@ -614,13 +598,6 @@
               data-delay="0s"
             />
             <p class="anim" data-delay=".5s" data-aos="fade-left">survey</p>
-            <img
-              src="~/assets/img/expar/logo-1.svg"
-              width="400px"
-              alt="symbol"
-              class="symbol anim"
-              data-delay=".7s"
-            />
           </div>
           <div class="right">
             <div
@@ -685,13 +662,6 @@
             <p class="anim" data-delay=".5s" data-aos="fade-left">
               business model canvas
             </p>
-            <img
-              src="~/assets/img/expar/logo-1.svg"
-              width="400px"
-              alt="symbol"
-              class="symbol anim"
-              data-delay=".7s"
-            />
           </div>
           <div class="right">
             <div
@@ -723,13 +693,7 @@
         <section class="paragraph">
           <div class="left" style="margin-top:-3%; margin-bottom:-3%">
             <SlideshowCarouselUxDesign style="margin-top:-11.5%;" />
-            <img
-              src="~/assets/img/expar/logo-1.svg"
-              width="400px"
-              alt="symbol"
-              class="symbol anim"
-              data-delay=".7s"
-            />
+
             <p class="anim" data-delay=".5s" data-aos="fade-left">
               journey map & userflow
             </p>
@@ -766,13 +730,6 @@
             <p class="anim" data-delay=".5s" data-aos="fade-left">
               design system
             </p>
-            <img
-              src="~/assets/img/expar/logo-1.svg"
-              width="400px"
-              alt="symbol"
-              class="symbol anim"
-              data-delay=".7s"
-            />
           </div>
           <div class="right">
             <div
@@ -801,13 +758,6 @@
               data-delay="0s"
             />
             <p class="anim" data-delay=".5s" data-aos="fade-left">wireframe</p>
-            <img
-              src="~/assets/img/expar/logo-1.svg"
-              width="400px"
-              alt="symbol"
-              class="symbol anim"
-              data-delay=".7s"
-            />
           </div>
           <div class="right">
             <div
@@ -841,13 +791,6 @@
             <p class="anim" data-delay=".5s" data-aos="fade-left">
               product roadmap
             </p>
-            <img
-              src="~/assets/img/expar/logo-1.svg"
-              width="400px"
-              alt="symbol"
-              class="symbol anim"
-              data-delay=".7s"
-            />
           </div>
           <div class="right">
             <div
@@ -885,13 +828,6 @@
               data-delay="0s"
             />
             <p class="anim" data-delay=".5s" data-aos="fade-left">MVP design</p>
-            <img
-              src="~/assets/img/expar/logo-1.svg"
-              width="400px"
-              alt="symbol"
-              class="symbol anim"
-              data-delay=".7s"
-            />
           </div>
           <div class="right">
             <div
@@ -1175,6 +1111,11 @@ tr:nth-child(even) {
 
 /*add responsive media */
 @media screen and (max-width: 600px) {
+  section {
+    width: 100%;
+    padding: 10px !important;
+    margin-bottom: 5em;
+  }
   .banner {
     padding: 0.5em;
     letter-spacing: 0.09em;
@@ -1202,7 +1143,12 @@ tr:nth-child(even) {
     margin-bottom: 0.1em;
   }
   .vision-statement {
-    font-size: 1.2em;
+    font-size: 1em !important;
+    padding: 20px;
+  }
+  .single-box {
+    margin: 5px !important;
+    padding: 10px !important;
   }
   table {
     margin: 0;
@@ -1291,8 +1237,8 @@ strong {
 }
 
 section {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 3em;
   position: relative;
   padding: 50px;
 
@@ -1438,6 +1384,7 @@ section {
     ),
     url("~assets/img/expar/bg-1.jpg");
   background-size: 96%;
+  background-size: cover;
 }
 
 // FOOTER //
