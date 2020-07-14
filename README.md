@@ -1,6 +1,6 @@
-# mareUX 
+# MaxZaxter atelje
 
-> Portofolio page - UX design / web development
+> Artist Portofolio webpage - UX design / web development
 
 ## Build Setup
 
