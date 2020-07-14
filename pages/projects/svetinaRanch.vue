@@ -154,7 +154,7 @@
           <div class="section-title">Konceptiranje</div>
           <div class="container">
             <div class="left">
-              <img src="~assets/img/wireframe-lowfi.png" />
+              <img src="~assets/img/cezsoca_img.jpg" />
               Low-fidelity wireframe
             </div>
             <div class="right">

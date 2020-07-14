@@ -138,7 +138,6 @@
       </ul>
     </section>
     <footer id="footer">
-      <ContactForm />
       <div class="footer-text">
         Copyright 2020 | Mare-UX | hello@mare-ux.com
       </div>
@@ -218,7 +217,6 @@
 // import Fas from "~/components/Fas.vue";
 // import Fab from "~/components/Fab.vue";
 import MareUXAnim from "~/components/MareUX_anim.vue";
-import ContactForm from "~/components/ContactForm.vue";
 // import CTAButton from "~/components/CTAButton.vue";
 
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
@@ -229,7 +227,6 @@ export default {
     // Fas,
     // Fab,
     MareUXAnim,
-    ContactForm,
   },
 };
 </script>
@@ -408,7 +405,7 @@ ul li {
 
 #case-study3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/expar/hero-expar.jpg);
+    url(~assets/img/cezsoca_img.jpg);
 }
 
 ul li div {
