@@ -186,7 +186,15 @@ export default {
 </script>
 
 <style lang="css" scoped>
+@import "./../static/fonts/stylesheet.css";
 @import "./../css/style.css";
+
+h1 {
+  font-family: "alphacentaurimedium", Arial, sans-serif !important;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+}
 
 #container {
   min-height: 100%;
@@ -245,7 +253,7 @@ export default {
   letter-spacing: 0em;
   margin-top: 1em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .case-title {

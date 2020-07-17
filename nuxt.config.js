@@ -28,7 +28,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["~/css/main.scss", "~/css/style.css"],
+  css: ["~/static/fonts/stylesheet.css", "~/css/main.scss", "~/css/style.css"],
   /*
    ** Plugins to load before mounting the App
    */
@@ -36,6 +36,16 @@ export default {
     { src: "@/plugins/aos", ssr: false },
     { src: "~/plugins/vuelidate" },
     { src: "./plugins/GoogleAnalytics.js", mode: "client" }, // make sure that local storage is only used on client-side
+  ],
+  rules: [
+    // {
+    //   test: /\.css$/i,
+    //   use: ["style-loader", "css-loader"],
+    // },
+    {
+      test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+      loader: "url-loader?limit=100000",
+    },
   ],
   /*
    ** Nuxt.js dev-modules
