@@ -3,24 +3,26 @@
     <section class="hero">
       <div class="hero-inner">
         <div class="svg-container">
-          <MareUXAnim />
+          <MZlogoAnim />
         </div>
-        <p
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-duration="2000"
-          data-aos-delay="1000"
-          class="title"
-        >
-          design & development <br />digital solutions
-        </p>
+        <div class="atelje-name">
+          <h1
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-duration="2000"
+            data-aos-delay="800"
+            class="title"
+          >
+            ATELJE MAX ZAXTER
+          </h1>
+        </div>
       </div>
     </section>
     <section class="main-section">
       <h1 class="main-title" data-aos="zoom-in">about</h1>
       <div class="about-container">
         <div class="about-img">
-          <img src="~assets/img/hero_1.jpg" />
+          <img src="~assets/img/matjaz_about2.jpg" />
         </div>
         <div class="about-text">
           <p>
@@ -34,6 +36,7 @@
 
       <h1 class="main-title" data-aos="zoom-in">CATALOGUES</h1>
       <ActivitiesList />
+
       <!-- PORTOFOLIO IMAGES -->
 
       <!-- PORTOFOLIO IMAGES -->
@@ -86,6 +89,12 @@
       </ul> -->
     </section>
     <footer id="footer">
+      <div class="pecat-footer">
+        <img class="pecat" src="~assets/img/pecat.png" alt="pecat" />
+      </div>
+      <div class="podpis-footer">
+        <img class="podpis" src="~assets/img/podpis.svg" alt="podpis" />
+      </div>
       <div class="footer-text">
         Matjaž Zakrajšek - Atelje MAX ZAXTER <br />
         Stara vas 25, 1000 Ljubljana<br />
@@ -167,7 +176,7 @@
 <script>
 // import Fas from "~/components/Fas.vue";
 // import Fab from "~/components/Fab.vue";
-import MareUXAnim from "~/components/MareUX_anim.vue";
+import MZlogoAnim from "~/components/mz_anim.vue";
 import ActivitiesList from "~/components/ActivitiesList.vue";
 
 // import CTAButton from "~/components/CTAButton.vue";
@@ -179,7 +188,7 @@ export default {
   components: {
     // Fas,
     // Fab,
-    MareUXAnim,
+    MZlogoAnim,
     ActivitiesList,
   },
 };
@@ -205,7 +214,12 @@ h1 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 300px; /* Height of the footer */
+  height: 500px; /* Height of the footer */
+}
+
+.atelje-name {
+  position: relative;
+  top: -20%;
 }
 
 .about-container {
@@ -232,8 +246,9 @@ h1 {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
   height: 400vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
     url(~assets/img/bg_1.jpg);
+  background-repeat: repeat-y;
 }
 .vision-statement {
   font-size: 3vw;
@@ -250,8 +265,8 @@ h1 {
 .main-title {
   font-size: 10vw;
   font-weight: 600;
+  padding-top: 0.5em;
   letter-spacing: 0em;
-  margin-top: 1em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -317,14 +332,16 @@ h1 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #464646;
 }
 
 .svg-container {
   display: inline-block;
   position: relative;
-  padding-top: 0%;
+  padding-top: -10%;
   height: 0;
-  padding-bottom: 40%;
+  padding-bottom: 85%;
   height: 100%;
   width: 100%;
   justify-content: center;
@@ -333,13 +350,11 @@ h1 {
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 3vw;
+  font-size: 3.5vw;
   color: white;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
+  margin-top: 30px;
   line-height: 1.3em;
 }
 
@@ -387,14 +402,27 @@ ul li:active div {
   transition: all 0.3s ease-in-out 0.1s;
 }
 
+.pecat {
+  height: 8em;
+}
+
+.podpis {
+  height: 10em;
+}
+
 @media only screen and (max-width: 749px) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url(~assets/img/hero_mobile.jpg);
+  }
+
   .main-section {
     height: 510vh;
   }
 
   .title {
     margin-top: 1em;
-    font-size: 4.2vw;
+    font-size: 5.5vw;
     letter-spacing: 6px;
     line-height: 2.5em;
     text-align: center;
@@ -414,6 +442,10 @@ ul li:active div {
     margin: 70px 0;
     width: 100%;
   }
+  .svg-container {
+    left: 10%;
+    padding-bottom: 65%;
+  }
   .vision-statement {
     font-size: 5vw;
     margin-top: 0.6em;
@@ -421,7 +453,6 @@ ul li:active div {
     padding: 0.2em;
   }
   .main-title {
-    margin-top: 1em;
     font-size: 12vw;
     letter-spacing: 0.1em;
   }

@@ -5,14 +5,34 @@
         COLLAGIO
       </template>
       <template slot="tab-panel-james">
-        <h2>COLLAGIO</h2>
-        <img src="~assets/img/hero_1.jpg" alt="slide" class="responsive" />
+        <p class="picture-name">ASOCIACIJA</p>
+        <img
+          src="~assets/img/asociacija_skice.jpg"
+          alt="slide"
+          class="responsive"
+        />
 
         <p class="attractionsDescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
           veritatis voluptatem dolores quidem reiciendis, quasi maiores
           molestias temporibus doloremque nemo eaque beatae consequatur possimus
-          laborum soluta voluptates nobis repudiandae error!
+          laborum soluta voluptates nobis repudiandae error! Lorem ipsum dolor
+          sit amet consectetur, adipisicing elit. Iure dolorum aspernatur
+          voluptas quos, sequi quas libero incidunt aut distinctio voluptatem
+          soluta est mollitia aliquam provident. Quas, laboriosam? Neque,
+          delectus nesciunt.
+        </p>
+        <hr />
+
+        <img src="~assets/img/asociacija.jpg" alt="slide" class="responsive" />
+
+        <p class="attractionsDescription">
+          Title: ASOCIACIJA <br />
+          Author: Matjaž Zakrajšek <br />
+          Measurements: 200 x 70 cm <br />
+          Technique: wood with gilding <br />
+          Frame: les s pozlato <br />
+          Year: 2020
         </p>
       </template>
       <template slot="tab-head-lily">
@@ -58,6 +78,18 @@ export default {
 </script>
 
 <style scoped>
+@import "./../static/fonts/stylesheet.css";
+@import "./../css/style.css";
+
+.picture-name {
+  font-family: "alphacentaurimedium";
+  font-size: 5vh;
+  color: $base;
+  text-align: left;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
 /* Style the tab */
 li {
   font-size: 1.6em;

@@ -51,15 +51,16 @@ export default {
 
 <style scoped>
 .card {
+  margin-top: 2em;
   background-color: #fff;
   border-radius: 6px;
-  width: 500px;
-  height: 490px;
-  box-shadow: 6px 0px 30px 0px #6d98a8;
+  width: 100%;
+  height: 250vh;
+  box-shadow: 6px 0px 30px 0px #757378;
 }
 
 .card-header {
-  background-color: #6d98a8;
+  background-color: #757378;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
