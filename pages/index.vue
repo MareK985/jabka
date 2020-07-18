@@ -141,6 +141,7 @@
       <div class="podpis-footer">
         <img class="podpis" src="~assets/img/podpis.svg" alt="podpis" />
       </div>
+      <MareUXLogo />
       <br />
       <div class="footer-text">
         Matjaž Zakrajšek - Atelje MAX ZAXTER <br />
@@ -225,6 +226,7 @@
 // import Fab from "~/components/Fab.vue";
 import VueSlickCarousel from "vue-slick-carousel";
 import MZlogoAnim from "~/components/mz_anim.vue";
+import MareUXLogo from "~/components/MareUXLogo.vue";
 import ActivitiesList from "~/components/ActivitiesList.vue";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 // optional style for arrows & dots
@@ -239,6 +241,7 @@ export default {
     // Fas,
     // Fab,
     MZlogoAnim,
+    MareUXLogo,
     ActivitiesList,
     VueSlickCarousel,
   },
@@ -531,6 +534,10 @@ ul li:active div {
     line-height: 1.4em;
     margin-top: 1em;
     padding: 20px;
+  }
+
+  .footer-text {
+    line-height: 1.6em;
   }
 
   .quote-name {
