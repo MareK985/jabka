@@ -21,11 +21,11 @@
     <section class="main-section">
       <h1 class="main-title" data-aos="zoom-in">about</h1>
       <div class="about-container">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down" data-aos-duration="1500">
           <img src="~assets/img/matjaz_about2.jpg" />
         </div>
-        <div class="about-text">
-          <p>
+        <div class="about-text" data-aos="fade-left">
+          <p class="predgovor">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
             veniam quasi ad facere pariatur odio in voluptate dignissimos
             necessitatibus, nihil ab hic labore, velit magni aperiam molestiae
@@ -33,9 +33,10 @@
           </p>
         </div>
       </div>
-
-      <h1 class="main-title" data-aos="zoom-in">CATALOGUES</h1>
-      <ActivitiesList />
+      <div data-aos="zoom-in">
+        <h1 class="main-title">CATALOGUES</h1>
+        <ActivitiesList />
+      </div>
 
       <!-- PORTOFOLIO IMAGES -->
 
@@ -284,7 +285,7 @@ h1 {
   display: inline-block;
   max-width: 1000px;
   text-align: left;
-  padding: 5px;
+  padding: 2em;
   margin: 5px;
   vertical-align: top;
 }
@@ -294,6 +295,12 @@ h1 {
   text-align: left;
   padding: 5px;
   margin: 5px;
+}
+
+.predgovor {
+  font-size: 4vh;
+  text-align: left;
+  line-height: 1.3em;
 }
 .quote {
   font-size: 3.5vh;
@@ -314,7 +321,7 @@ h1 {
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
-  height: 600vh;
+  height: 800vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
     url(~assets/img/bg_1.jpg);
   background-repeat: repeat-y;
@@ -485,7 +492,7 @@ ul li:active div {
   }
 
   .main-section {
-    height: 510vh;
+    height: 620vh;
   }
 
   .title {
@@ -495,6 +502,26 @@ ul li:active div {
     line-height: 2.5em;
     text-align: center;
   }
+
+  .about-img {
+    padding: 0em;
+    margin: 5px;
+    vertical-align: top;
+  }
+  .about-text {
+    display: inline-block;
+    max-width: 400px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .predgovor {
+    font-size: 3vh;
+    text-align: left;
+    line-height: 1.3em;
+  }
+
   .case-title {
     font-size: 5.5vw;
     margin-top: 3em;

@@ -24,8 +24,14 @@ h1 {
     color: $base;
 }
 strong {
-    color: $base;
+    color: $secondary;
 }
+
+hr {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
 
 p {
     font-size: 3vh;
@@ -84,6 +90,10 @@ tr {
         font-weight: 400;
     }
     
+    hr {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
 }
 
 

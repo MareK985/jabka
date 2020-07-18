@@ -55,7 +55,7 @@ export default {
   background-color: #fff;
   border-radius: 6px;
   width: 100%;
-  height: 250vh;
+  height: 450vh;
   box-shadow: 6px 0px 30px 0px #757378;
 }
 
@@ -93,8 +93,12 @@ export default {
   color: #333;
   transition: 0.4s;
 }
-
 .card-body {
   padding: 20px 16px;
+}
+@media screen and (max-width: 749px) {
+  .card {
+    height: 350vh;
+  }
 }
 </style>
