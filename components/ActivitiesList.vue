@@ -2,7 +2,11 @@
   <div>
     <TabCard :tabs="tabs" :initial-tab="initialTab">
       <template slot="tab-head-james">
-        COLLAGIO
+        <img
+          src="~assets/img/collagio_gold.png"
+          alt="slide"
+          class="collagio-name"
+        />
       </template>
       <template slot="tab-panel-james">
         <p class="picture-name">ASOCIACIJA</p>
@@ -90,6 +94,10 @@ export default {
   padding-top: 1em;
 }
 
+.collagio-name {
+  max-width: 350px;
+}
+
 /* Style the tab */
 li {
   font-size: 1.6em;
@@ -104,6 +112,9 @@ li {
   li {
     font-size: 1em;
     text-align: left !important;
+  }
+  .collagio-name {
+    max-width: 170px;
   }
 }
 </style>

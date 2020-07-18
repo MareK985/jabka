@@ -414,6 +414,7 @@ ul li:active div {
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
       url(~assets/img/hero_mobile.jpg);
+    background-attachment: initial;
   }
 
   .main-section {
