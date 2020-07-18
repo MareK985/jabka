@@ -87,6 +87,52 @@
           </div>
         </li>
       </ul> -->
+      <br />
+      <br />
+      <h1 class="main-title" data-aos="zoom-in">testimonials</h1>
+
+      <VueSlickCarousel :arrows="true" :dots="true">
+        <div>
+          <p class="quote">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+            est architecto commodi consequuntur amet, illo expedita, qui quod,
+            veniam sed nisi quaerat? Nemo praesentium necessitatibus provident
+            iste repellat veniam quia!
+          </p>
+          <br />
+          <p class="quote-name">Matej Novak, Firma d.o.o.</p>
+        </div>
+        <div>
+          <p class="quote">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+            est architecto commodi consequuntur amet, illo expedita, qui quod,
+            veniam sed nisi quaerat? Nemo praesentium necessitatibus provident
+            iste repellat veniam quia!
+          </p>
+          <br />
+          <p class="quote-name">Matej Novak, Firma d.o.o.</p>
+        </div>
+        <div>
+          <p class="quote">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+            est architecto commodi consequuntur amet, illo expedita, qui quod,
+            veniam sed nisi quaerat? Nemo praesentium necessitatibus provident
+            iste repellat veniam quia!
+          </p>
+          <br />
+          <p class="quote-name">Matej Novak, Firma d.o.o.</p>
+        </div>
+        <div>
+          <p class="quote">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+            est architecto commodi consequuntur amet, illo expedita, qui quod,
+            veniam sed nisi quaerat? Nemo praesentium necessitatibus provident
+            iste repellat veniam quia!
+          </p>
+          <br />
+          <p class="quote-name">Matej Novak, Firma d.o.o.</p>
+        </div>
+      </VueSlickCarousel>
     </section>
     <footer id="footer">
       <div class="pecat-footer">
@@ -95,6 +141,7 @@
       <div class="podpis-footer">
         <img class="podpis" src="~assets/img/podpis.svg" alt="podpis" />
       </div>
+      <br />
       <div class="footer-text">
         Matjaž Zakrajšek - Atelje MAX ZAXTER <br />
         Stara vas 25, 1000 Ljubljana<br />
@@ -176,13 +223,16 @@
 <script>
 // import Fas from "~/components/Fas.vue";
 // import Fab from "~/components/Fab.vue";
+import VueSlickCarousel from "vue-slick-carousel";
 import MZlogoAnim from "~/components/mz_anim.vue";
 import ActivitiesList from "~/components/ActivitiesList.vue";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+// optional style for arrows & dots
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 // import CTAButton from "~/components/CTAButton.vue";
 
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
-import "vue-slick-carousel/dist/vue-slick-carousel.css";
 
 export default {
   components: {
@@ -190,6 +240,7 @@ export default {
     // Fab,
     MZlogoAnim,
     ActivitiesList,
+    VueSlickCarousel,
   },
 };
 </script>
@@ -241,11 +292,26 @@ h1 {
   padding: 5px;
   margin: 5px;
 }
+.quote {
+  font-size: 3.5vh;
+  text-align: justify;
+  line-height: 1.7em;
+  margin-top: 2em;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.quote-name {
+  font-size: 4vh;
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
-  height: 400vh;
+  height: 600vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
     url(~assets/img/bg_1.jpg);
   background-repeat: repeat-y;
@@ -298,13 +364,11 @@ h1 {
 }
 
 .footer-text {
-  position: absolute;
   align-items: center;
   text-align: center;
   color: white;
   font-size: 0.9em;
-  right: 10px;
-  bottom: 5px;
+  bottom: 0px;
 }
 .case-short-description {
   font-size: 1.5vw;
@@ -460,6 +524,19 @@ ul li:active div {
   .strong {
     font-size: 8.5vw;
     margin-left: 1.1em;
+  }
+  .quote {
+    font-size: 2.7vh;
+    text-align: justify;
+    line-height: 1.4em;
+    margin-top: 1em;
+    padding: 20px;
+  }
+
+  .quote-name {
+    font-size: 3.5vh;
+    text-align: left;
+    padding: 20px;
   }
 }
 </style>

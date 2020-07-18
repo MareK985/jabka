@@ -35,7 +35,8 @@ export default {
   plugins: [
     { src: "@/plugins/aos", ssr: false },
     { src: "~/plugins/vuelidate" },
-    { src: "./plugins/GoogleAnalytics.js", mode: "client" }, // make sure that local storage is only used on client-side
+    { src: "~/plugins/GoogleAnalytics", mode: "client" },
+    { src: "~/plugins/medium-zoom" }, // make sure that local storage is only used on client-side
   ],
   rules: [
     // {

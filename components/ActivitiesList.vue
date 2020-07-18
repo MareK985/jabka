@@ -13,7 +13,7 @@
         <img
           src="~assets/img/asociacija_skice.jpg"
           alt="slide"
-          class="responsive"
+          class="responsive zoom"
         />
 
         <p class="attractionsDescription">
@@ -28,14 +28,18 @@
         </p>
         <hr />
 
-        <img src="~assets/img/asociacija.jpg" alt="slide" class="responsive" />
+        <img
+          src="~assets/img/asociacija.jpg"
+          alt="slide"
+          class="responsive zoom"
+        />
 
         <p class="attractionsDescription">
           Title: ASOCIACIJA <br />
           Author: Matjaž Zakrajšek <br />
           Measurements: 200 x 70 cm <br />
-          Technique: wood with gilding <br />
-          Frame: les s pozlato <br />
+          Technique: oil on canvas <br />
+          Frame: wood with gilding <br />
           Year: 2020
         </p>
       </template>
