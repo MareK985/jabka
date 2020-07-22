@@ -1,9 +1,13 @@
 import Vue from "vue";
-import zoom from "medium-zoom";
+import mediumZoom from "medium-zoom";
 
 const initZoom = () => {
-  zoom("img.zoom:not(.medium-zoom-image)");
+  mediumZoom("img.zoom:not(.medium-zoom-image)");
 };
+
+// mediumZoom("img.zoom-dark", {
+//   background: "#000",
+// });
 
 Vue.mixin({
   mounted() {

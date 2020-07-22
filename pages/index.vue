@@ -339,7 +339,7 @@ h1 {
   margin-left: 3.5rem;
 }
 .main-title {
-  font-size: 10vw;
+  font-size: 8vw;
   font-weight: 600;
   padding-top: 0.5em;
   letter-spacing: 0em;
@@ -548,7 +548,7 @@ ul li:active div {
     padding: 0.2em;
   }
   .main-title {
-    font-size: 12vw;
+    font-size: 10.5vw;
     letter-spacing: 0.1em;
   }
   .strong {

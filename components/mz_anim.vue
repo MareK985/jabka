@@ -288,7 +288,7 @@ export default {};
   display: inline-block;
   position: absolute;
   top: 0%;
-  left: -5%;
+  left: 0%;
   margin: auto;
   width: 200%;
   height: 100%;
@@ -298,6 +298,7 @@ export default {};
   .mareUX {
     width: 120%;
     height: 100%;
+    left: -5%;
   }
 }
 
