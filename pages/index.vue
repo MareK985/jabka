@@ -22,7 +22,7 @@
       <h1 class="main-title" data-aos="zoom-in">about</h1>
       <div class="about-container">
         <div class="about-img" data-aos="zoom-in-down" data-aos-duration="1500">
-          <img src="~assets/img/matjaz_about2.jpg" />
+          <img src="~assets/img/zaki_roke.jpg" />
         </div>
         <div class="about-text" data-aos="fade-left">
           <p class="predgovor">
@@ -401,8 +401,8 @@ h1 {
   /* Text styles suff */
   text-align: center;
   /* background styles */
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url(~assets/img/hero_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(~assets/img/bg_zaki.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -448,16 +448,16 @@ ul li {
 }
 #case-study1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/hero_1.jpg);
+    url(~assets/img/bg_zaki.jpg);
 }
 #case-study2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/hero_1.jpg);
+    url(~assets/img/bg_zaki.jpg);
 }
 
 #case-study3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/hero_1.jpg);
+    url(~assets/img/bg_zaki.jpg);
 }
 
 ul li div {
@@ -486,8 +486,8 @@ ul li:active div {
 
 @media only screen and (max-width: 749px) {
   .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url(~assets/img/hero_mobile.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(~assets/img/bg_zaki.jpg);
     background-attachment: initial;
   }
 
