@@ -10,19 +10,18 @@
             data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-duration="2000"
-            data-aos-delay="800"
             class="title"
           >
-            ATELJE MAX ZAXTER
+            premium izdelki iz Topaz jabolk
           </h1>
         </div>
       </div>
     </section>
     <section class="main-section">
-      <h1 class="main-title" data-aos="zoom-in">about</h1>
+      <h1 class="main-title" data-aos="zoom-in">jabka simbolizira...</h1>
       <div class="about-container">
         <div class="about-img" data-aos="zoom-in-down" data-aos-duration="1500">
-          <img src="~assets/img/zaki_roke.jpg" />
+          <img src="~assets/img/jabka_header.jpeg" />
         </div>
         <div class="about-text" data-aos="fade-left">
           <p class="predgovor">
@@ -33,8 +32,23 @@
           </p>
         </div>
       </div>
+      <h1 class="main-title" data-aos="zoom-in">ZGODBA V OZADJU...</h1>
+      <div class="about-container">
+        <div class="about-img" data-aos="zoom-in-down" data-aos-duration="1500">
+          <img src="~assets/img/jabka_header.jpeg" />
+        </div>
+        <div class="about-text" data-aos="fade-left">
+          <p class="predgovor">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+            veniam quasi ad facere pariatur odio in voluptate dignissimos
+            necessitatibus, nihil ab hic labore, velit magni aperiam molestiae
+            distinctio odit eius.
+          </p>
+        </div>
+      </div>
+
       <div data-aos="zoom-in">
-        <h1 class="main-title">CATALOGUES</h1>
+        <h1 class="main-title">PROIZVODI JABKA</h1>
         <ActivitiesList />
       </div>
 
@@ -88,10 +102,9 @@
           </div>
         </li>
       </ul> -->
-      <br />
-      <br />
-      <h1 class="main-title" data-aos="zoom-in">testimonials</h1>
-
+      <div data-aos="zoom-in">
+        <h1 class="main-title" data-aos="zoom-in">testimonials</h1>
+      </div>
       <VueSlickCarousel :arrows="true" :dots="true">
         <div>
           <p class="quote">
@@ -100,37 +113,6 @@
             veniam sed nisi quaerat? Nemo praesentium necessitatibus provident
             iste repellat veniam quia!
           </p>
-          <br />
-          <p class="quote-name">Matej Novak, Firma d.o.o.</p>
-        </div>
-        <div>
-          <p class="quote">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-            est architecto commodi consequuntur amet, illo expedita, qui quod,
-            veniam sed nisi quaerat? Nemo praesentium necessitatibus provident
-            iste repellat veniam quia!
-          </p>
-          <br />
-          <p class="quote-name">Matej Novak, Firma d.o.o.</p>
-        </div>
-        <div>
-          <p class="quote">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-            est architecto commodi consequuntur amet, illo expedita, qui quod,
-            veniam sed nisi quaerat? Nemo praesentium necessitatibus provident
-            iste repellat veniam quia!
-          </p>
-          <br />
-          <p class="quote-name">Matej Novak, Firma d.o.o.</p>
-        </div>
-        <div>
-          <p class="quote">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-            est architecto commodi consequuntur amet, illo expedita, qui quod,
-            veniam sed nisi quaerat? Nemo praesentium necessitatibus provident
-            iste repellat veniam quia!
-          </p>
-          <br />
           <p class="quote-name">Matej Novak, Firma d.o.o.</p>
         </div>
       </VueSlickCarousel>
@@ -225,18 +207,14 @@
 <script>
 // import Fas from "~/components/Fas.vue";
 // import Fab from "~/components/Fab.vue";
-import VueSlickCarousel from "vue-slick-carousel";
+// import VueSlickCarousel from "vue-slick-carousel";
 import MZlogoAnim from "~/components/mz_anim.vue";
 import MareUXLogo from "~/components/MareUXLogo.vue";
 import ActivitiesList from "~/components/ActivitiesList.vue";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 // optional style for arrows & dots
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
-
 // import CTAButton from "~/components/CTAButton.vue";
-
-import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
-
 export default {
   components: {
     // Fas,
@@ -244,7 +222,7 @@ export default {
     MZlogoAnim,
     MareUXLogo,
     ActivitiesList,
-    VueSlickCarousel,
+    // VueSlickCarousel,
   },
 };
 </script>
@@ -254,7 +232,7 @@ export default {
 @import "./../css/style.css";
 
 h1 {
-  font-family: "alphacentaurimedium", Arial, sans-serif !important;
+  font-family: "ScratchInk-2OWz8", Arial, sans-serif !important;
   font-weight: normal;
   font-style: normal;
   color: white;
@@ -322,9 +300,9 @@ h1 {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
   height: 800vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
     url(~assets/img/bg_1.jpg);
-  background-repeat: repeat-y;
+  background-repeat: repeat-y; */
 }
 .vision-statement {
   font-size: 3vw;
@@ -340,11 +318,11 @@ h1 {
 }
 .main-title {
   font-size: 8vw;
-  font-weight: 600;
+  font-weight: 300;
   padding-top: 0.5em;
-  letter-spacing: 0em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  color: #231f20;
 }
 
 .case-title {
@@ -376,7 +354,7 @@ h1 {
 .footer-text {
   align-items: center;
   text-align: center;
-  color: white;
+  color: base;
   font-size: 0.9em;
   bottom: 0px;
 }
@@ -402,7 +380,7 @@ h1 {
   text-align: center;
   /* background styles */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(~assets/img/bg_zaki.jpg);
+    url(~assets/img/jabka_header.jpeg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -437,7 +415,7 @@ ul li {
   height: 500px;
   color: white;
   display: inline-block;
-  float: center;
+  /* float: center; */
   margin: 50px;
   overflow: hidden;
   text-align: center;
@@ -445,19 +423,6 @@ ul li {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-}
-#case-study1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/bg_zaki.jpg);
-}
-#case-study2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/bg_zaki.jpg);
-}
-
-#case-study3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/bg_zaki.jpg);
 }
 
 ul li div {
@@ -487,7 +452,7 @@ ul li:active div {
 @media only screen and (max-width: 749px) {
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(~assets/img/bg_zaki.jpg);
+      url(~assets/img/jabka_header.jpeg);
     background-attachment: initial;
   }
 
