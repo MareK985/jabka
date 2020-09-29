@@ -3,7 +3,7 @@
     <section class="hero">
       <div class="hero-inner">
         <div class="svg-container">
-          <MZlogoAnim />
+          <JabkaLogo />
         </div>
         <div class="atelje-name">
           <h1
@@ -208,8 +208,9 @@
 // import Fas from "~/components/Fas.vue";
 // import Fab from "~/components/Fab.vue";
 // import VueSlickCarousel from "vue-slick-carousel";
-import MZlogoAnim from "~/components/mz_anim.vue";
+// import MZlogoAnim from "~/components/mz_anim.vue";
 import MareUXLogo from "~/components/MareUXLogo.vue";
+import JabkaLogo from "~/components/JabkaLogo.vue";
 import ActivitiesList from "~/components/ActivitiesList.vue";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 // optional style for arrows & dots
@@ -219,9 +220,10 @@ export default {
   components: {
     // Fas,
     // Fab,
-    MZlogoAnim,
+    // MZlogoAnim,
     MareUXLogo,
     ActivitiesList,
+    JabkaLogo,
     // VueSlickCarousel,
   },
 };
@@ -391,14 +393,16 @@ h1 {
 .svg-container {
   display: inline-block;
   position: relative;
-  padding-top: -10%;
+  /* padding-top: -10%;
   height: 0;
-  padding-bottom: 85%;
+  padding-bottom: 85%; */
   height: 100%;
   width: 100%;
   justify-content: center;
   margin: 0 auto;
   text-align: center;
+  left: -30%;
+  padding-bottom: -70%;
 }
 
 .title {
@@ -456,15 +460,19 @@ ul li:active div {
     background-attachment: initial;
   }
 
+  .hero-inner {
+    margin-bottom: 10em;
+  }
+
   .main-section {
     height: 620vh;
   }
-
   .title {
-    margin-top: 1em;
-    font-size: 5.5vw;
-    letter-spacing: 6px;
-    line-height: 2.5em;
+    margin-top: 1.8em;
+    font-size: 14.5vw;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.3em;
     text-align: center;
   }
 
@@ -503,8 +511,8 @@ ul li:active div {
     width: 100%;
   }
   .svg-container {
-    left: 10%;
-    padding-bottom: 65%;
+    left: -25%;
+    padding-bottom: -65%;
   }
   .vision-statement {
     font-size: 5vw;
