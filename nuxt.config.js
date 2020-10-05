@@ -7,14 +7,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: "MaxZaxter",
+    title: "jABKA",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Artist portofolio website",
+        content: "Premium ekološki izdelki iz jabolk Topaz",
       },
     ],
     link: [

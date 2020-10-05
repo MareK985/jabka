@@ -1,99 +1,96 @@
 // COLOR PALLETE //
 $primary: #757378;
-$secondary: #4D4B2A;
+$secondary: #4d4b2a;
 $base: #231f20;
 
-body, html {
-    font-family: sans-serif;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    margin: 0;
-    color :$base;
-    line-height: 180%;
-    text-align: center;
-   /* height: 100vh; */
-   /* background: linear-gradient(180deg, #1B1E25 14%, #9bc5c3 100%); */
+body,
+html {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  color: $base;
+  line-height: 180%;
+  text-align: center;
+  /* height: 100vh; */
+  /* background: linear-gradient(180deg, #1B1E25 14%, #9bc5c3 100%); */
 }
 
 h1 {
-    font-size: 6vh;
-    font-weight: 400;
-    line-height: 140%;
-    color: $base;
+  font-size: 6vh;
+  font-weight: 400;
+  line-height: 140%;
+  color: $base;
 }
 strong {
-    color: $secondary;
+  color: $secondary;
 }
 
 hr {
-    margin-left: 6em;
-    margin-right: 6em;
+  margin-left: 6em;
+  margin-right: 6em;
 }
-
 
 p {
-    font-size: 3vh;
-    padding: 10px;
-    margin: 10px;
-    line-height: 4vh;
+  font-size: 3vh;
+  padding: 10px;
+  margin: 10px;
+  line-height: 4vh;
 }
 th {
-    font-size: 3vh;
-    font-weight: 600;
-    padding: 10px 20px 0px 20px ;
-    color: $base;
+  font-size: 3vh;
+  font-weight: 600;
+  padding: 10px 20px 0px 20px;
+  color: $base;
 }
 tr {
-    font-size: 3.5vh;
-    font-weight: 400;
-    color: $base;
+  font-size: 3.5vh;
+  font-weight: 400;
+  color: $base;
 }
 .section-title {
-    font-size: 450%;
-    font-weight: 600;
-    padding: 20px ;
-    margin: 20px;
-    text-align: left;
-    letter-spacing: 0.4em;
-    color: $base;
+  font-size: 450%;
+  font-weight: 600;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  letter-spacing: 0.4em;
+  color: $base;
 }
-
 
 @media screen and (max-width: 600px) {
-    h1 {
-        font-size: 3.5vh;
-        font-weight: 600;
-        padding: 10px 20px ;
-        color: $base;
-    }
-    p {
-        font-size: 2.4vh;
-        line-height: 3.5vh;
-        padding: 10px 5px 10px 5px ;
-        margin: 0px;
-        text-align: justify;
-    }
-    .section-title {
-        font-size: 300%;
-        font-weight: 600;
-        letter-spacing: 0.2em;
-    }
-    th {
-        font-size: 1.8vh;
-        font-weight: 600;
-        padding: 2px ;
-    }
-    tr {
-        font-size: 1.5vh;
-        font-weight: 400;
-    }
-    
-    hr {
-        margin-left: 2em;
-        margin-right: 2em;
-    }
+  h1 {
+    font-size: 3.5vh;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: $base;
+  }
+  p {
+    font-size: 2.4vh;
+    line-height: 3.5vh;
+    padding: 10px 5px 10px 5px;
+    margin: 0px;
+    text-align: justify;
+  }
+  .section-title {
+    font-size: 300%;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+  }
+  th {
+    font-size: 1.8vh;
+    font-weight: 600;
+    padding: 2px;
+  }
+  tr {
+    font-size: 1.5vh;
+    font-weight: 400;
+  }
+
+  hr {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
 }
-
-

@@ -49,7 +49,15 @@
 
       <div data-aos="zoom-in">
         <h1 class="main-title">PROIZVODI JABKA</h1>
-        <ActivitiesList />
+        <div>
+          <Jabka250mlProductCard />
+          <!-- <VueSlickCarousel :arrows="true" :dots="true">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+          </VueSlickCarousel> -->
+        </div>
       </div>
 
       <!-- PORTOFOLIO IMAGES -->
@@ -118,12 +126,6 @@
       </VueSlickCarousel>
     </section>
     <footer id="footer">
-      <div class="pecat-footer">
-        <img class="pecat" src="~assets/img/pecat.png" alt="pecat" />
-      </div>
-      <div class="podpis-footer">
-        <img class="podpis" src="~assets/img/podpis.svg" alt="podpis" />
-      </div>
       <MareUXLogo />
       <br />
       <div class="footer-text">
@@ -207,34 +209,36 @@
 <script>
 // import Fas from "~/components/Fas.vue";
 // import Fab from "~/components/Fab.vue";
-// import VueSlickCarousel from "vue-slick-carousel";
+import VueSlickCarousel from 'vue-slick-carousel';
 // import MZlogoAnim from "~/components/mz_anim.vue";
-import MareUXLogo from "~/components/MareUXLogo.vue";
-import JabkaLogo from "~/components/JabkaLogo.vue";
-import ActivitiesList from "~/components/ActivitiesList.vue";
-import "vue-slick-carousel/dist/vue-slick-carousel.css";
+import MareUXLogo from '~/components/MareUXLogo.vue';
+import JabkaLogo from '~/components/JabkaLogo.vue';
+import Jabka250mlProductCard from '~/components/Jabka_250mlProductCard.vue';
+
+// import ActivitiesList from "~/components/ActivitiesList.vue";
+import 'vue-slick-carousel/dist/vue-slick-carousel.css';
 // optional style for arrows & dots
-import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css';
 // import CTAButton from "~/components/CTAButton.vue";
 export default {
   components: {
     // Fas,
     // Fab,
     // MZlogoAnim,
+    Jabka250mlProductCard,
     MareUXLogo,
-    ActivitiesList,
+    // ActivitiesList,
     JabkaLogo,
-    // VueSlickCarousel,
+    VueSlickCarousel,
   },
 };
 </script>
 
 <style lang="css" scoped>
-@import "./../static/fonts/stylesheet.css";
-@import "./../css/style.css";
-
+@import './../static/fonts/stylesheet.css';
+@import './../css/style.css';
 h1 {
-  font-family: "ScratchInk-2OWz8", Arial, sans-serif !important;
+  font-family: 'ScratchInk-2OWz8', Arial, sans-serif !important;
   font-weight: normal;
   font-style: normal;
   color: white;
@@ -249,7 +253,8 @@ h1 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 500px; /* Height of the footer */
+  background-color: #231f20;
+  height: 200px; /* Height of the footer */
 }
 
 .atelje-name {
@@ -301,7 +306,7 @@ h1 {
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
-  height: 800vh;
+  /* height: 800vh; */
   /* background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
     url(~assets/img/bg_1.jpg);
   background-repeat: repeat-y; */
@@ -356,7 +361,7 @@ h1 {
 .footer-text {
   align-items: center;
   text-align: center;
-  color: base;
+  color: white;
   font-size: 0.9em;
   bottom: 0px;
 }
@@ -445,14 +450,6 @@ ul li:active div {
   transition: all 0.3s ease-in-out 0.1s;
 }
 
-.pecat {
-  height: 8em;
-}
-
-.podpis {
-  height: 10em;
-}
-
 @media only screen and (max-width: 749px) {
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -464,12 +461,12 @@ ul li:active div {
     margin-bottom: 10em;
   }
 
-  .main-section {
+  /* .main-section {
     height: 620vh;
-  }
+  } */
   .title {
-    margin-top: 1.8em;
-    font-size: 14.5vw;
+    margin-top: 2.5em;
+    font-size: 10.5vw;
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 1.3em;

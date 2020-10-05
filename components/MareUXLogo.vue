@@ -23,6 +23,7 @@
 .logo-text {
   font-size: 0.8em;
   margin-bottom: -20px;
+  color: white;
 }
 
 @media screen and (max-width: 680px) {
