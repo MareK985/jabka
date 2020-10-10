@@ -12,26 +12,14 @@
             data-aos-duration="2000"
             class="title"
           >
-            premium izdelki iz Topaz jabolk
+            premium jabolcni sok
           </h1>
         </div>
       </div>
     </section>
     <section class="main-section">
       <h1 class="main-title" data-aos="zoom-in">jabka simbolizira...</h1>
-      <div class="about-container">
-        <div class="about-img" data-aos="zoom-in-down" data-aos-duration="1500">
-          <img src="~assets/img/jabka_header.jpeg" />
-        </div>
-        <div class="about-text" data-aos="fade-left">
-          <p class="predgovor">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
-            veniam quasi ad facere pariatur odio in voluptate dignissimos
-            necessitatibus, nihil ab hic labore, velit magni aperiam molestiae
-            distinctio odit eius.
-          </p>
-        </div>
-      </div>
+      <KeyAdvantages/>
       <h1 class="main-title" data-aos="zoom-in">ZGODBA V OZADJU...</h1>
       <div class="about-container">
         <div class="about-img" data-aos="zoom-in-down" data-aos-duration="1500">
@@ -39,11 +27,23 @@
         </div>
         <div class="about-text" data-aos="fade-left">
           <p class="predgovor">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
-            veniam quasi ad facere pariatur odio in voluptate dignissimos
-            necessitatibus, nihil ab hic labore, velit magni aperiam molestiae
-            distinctio odit eius.
+           Pridelava naravnega jabolčnega soka je kompleksen proces. Za izdelavo soka najvišje kakovosti je pomembna: 
           </p>
+          <div class="quality">
+            <ul>
+              <li>regija izvora surovine</li>
+              <br/>
+              <li>sorta jabolk</li>
+              <br/>
+              <li>čistoča</li>
+              <br/>
+              <li>pasterizacija</li>
+              <br/>
+              <li>ohlajanje in skladiščenje</li>
+              <br/>
+              <li>človeški faktor</li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -111,7 +111,7 @@
         </li>
       </ul> -->
       <div data-aos="zoom-in">
-        <h1 class="main-title" data-aos="zoom-in">testimonials</h1>
+        <h1 class="main-title" data-aos="zoom-in">zadovoljne stranke</h1>
       </div>
       <VueSlickCarousel :arrows="true" :dots="true">
         <div>
@@ -212,6 +212,7 @@
 import VueSlickCarousel from 'vue-slick-carousel';
 // import MZlogoAnim from "~/components/mz_anim.vue";
 import MareUXLogo from '~/components/MareUXLogo.vue';
+import KeyAdvantages from '~/components/KeyAdvantages.vue';
 import JabkaLogo from '~/components/JabkaLogo.vue';
 import Jabka250mlProductCard from '~/components/Jabka_250mlProductCard.vue';
 
@@ -227,6 +228,7 @@ export default {
     // MZlogoAnim,
     Jabka250mlProductCard,
     MareUXLogo,
+    KeyAdvantages,
     // ActivitiesList,
     JabkaLogo,
     VueSlickCarousel,
@@ -248,6 +250,7 @@ h1 {
   min-height: 100%;
   position: relative;
   height: 100%;
+  background-color: #231f20;
 }
 #footer {
   position: absolute;
@@ -276,16 +279,21 @@ h1 {
 }
 .about-text {
   display: inline-block;
-  max-width: 400px;
+  /* max-width: 400px; */
   text-align: left;
   padding: 5px;
   margin: 5px;
+}
+.quality {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .predgovor {
   font-size: 4vh;
   text-align: left;
   line-height: 1.3em;
+  color: #fff;
 }
 .quote {
   font-size: 3.5vh;
@@ -294,6 +302,7 @@ h1 {
   margin-top: 2em;
   padding-left: 200px;
   padding-right: 200px;
+  color: #fff;
 }
 
 .quote-name {
@@ -301,6 +310,7 @@ h1 {
   text-align: left;
   padding-left: 200px;
   padding-right: 200px;
+  color: #fff;
 }
 
 .main-section {
@@ -329,7 +339,7 @@ h1 {
   padding-top: 0.5em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #231f20;
+  color: #fff;
 }
 
 .case-title {
@@ -421,11 +431,11 @@ h1 {
 
 ul li {
   max-width: 500px;
-  height: 500px;
+  /* height: 500px; */
   color: white;
   display: inline-block;
   /* float: center; */
-  margin: 50px;
+  /* margin: 50px; */
   overflow: hidden;
   text-align: center;
   /* background styles */
@@ -480,8 +490,13 @@ ul li:active div {
   }
   .about-text {
     display: inline-block;
-    max-width: 400px;
+    /* max-width: 400px; */
     text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .about-text br {
     padding: 0px;
     margin: 0px;
   }
@@ -503,8 +518,8 @@ ul li:active div {
     margin: 1em;
   }
   ul li {
-    height: 400px;
-    margin: 70px 0;
+    /* height: 400px; */
+    /* margin: 70px 0; */
     width: 100%;
   }
   .svg-container {
