@@ -38,8 +38,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   /* border: 6px solid #ddd; */
   border-radius: 50%;
   margin-bottom: 10px;
@@ -59,13 +59,13 @@
   font-size: 2em;
 }
 .single-box:nth-child(1) .img-area {
-  background-image: url('~assets/img/jabka_1l_500x500px.jpg');
+  background-image: url('~assets/img/lokalno.png');
 }
 .single-box:nth-child(2) .img-area {
-  background-image: url('~assets/img/jabka_1l_500x500px.jpg');
+  background-image: url('~assets/img/premium.png');
 }
 .single-box:nth-child(3) .img-area {
-  background-image: url('~assets/img/jabka_1l_500x500px.jpg');
+  background-image: url('~assets/img/funkcionalno.png');
 }
 
 @media screen and (max-width: 600px) {

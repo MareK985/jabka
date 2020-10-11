@@ -18,20 +18,20 @@
       </div>
     </section>
     <section class="main-section">
-      <h1 class="main-title" data-aos="zoom-in">jabka simbolizira...</h1>
+      <h1 class="main-title" data-aos="zoom-in">predstavlja...</h1>
       <KeyAdvantages/>
       <h1 class="main-title" data-aos="zoom-in">ZGODBA V OZADJU...</h1>
       <div class="about-container">
         <div class="about-img" data-aos="zoom-in-down" data-aos-duration="1500">
-          <img src="~assets/img/jabka_header.jpeg" />
+          <img src="~assets/img/bg_zaki.jpg" />
         </div>
-        <div class="about-text" data-aos="fade-left">
+        <div class="about-text" data-aos="fade-left" data-aos-duration="500">
           <p class="predgovor">
-           Pridelava naravnega jabolčnega soka je kompleksen proces. Za izdelavo soka najvišje kakovosti je pomembna: 
+           Pridelava naravnega jabolčnega soka je kompleksen proces. Za doseganje najvišje kakovosti je pomembna: 
           </p>
           <div class="quality">
             <ul>
-              <li>regija izvora surovine</li>
+              <li>regija kjer se nahajajo nasadi</li>
               <br/>
               <li>sorta jabolk</li>
               <br/>
@@ -48,7 +48,7 @@
       </div>
 
       <div data-aos="zoom-in">
-        <h1 class="main-title">PROIZVODI JABKA</h1>
+        <h1 class="main-title">PROIZVODI</h1>
         <div>
           <Jabka250mlProductCard />
           <!-- <VueSlickCarousel :arrows="true" :dots="true">
@@ -129,10 +129,10 @@
       <MareUXLogo />
       <br />
       <div class="footer-text">
-        Matjaž Zakrajšek - Atelje MAX ZAXTER <br />
-        Stara vas 25, 1000 Ljubljana<br />
+        Mitja Krajnc s.p. <br />
+        Šmartno v Rožni dolini 21A, 3201 šmartno v R.d., Celje<br />
 
-        Copyright 2020 | 041 711 233 | matjaz.zakrajsek@gmail.com
+        Copyright 2020 | 041 763 005 | info@jabka.si
       </div>
     </footer>
 
@@ -279,7 +279,7 @@ h1 {
 }
 .about-text {
   display: inline-block;
-  /* max-width: 400px; */
+  max-width: 400px;
   text-align: left;
   padding: 5px;
   margin: 5px;
@@ -287,6 +287,7 @@ h1 {
 .quality {
   margin: 0 !important;
   padding: 0 !important;
+  font-size: 1.3em;
 }
 
 .predgovor {
@@ -437,7 +438,7 @@ ul li {
   /* float: center; */
   /* margin: 50px; */
   overflow: hidden;
-  text-align: center;
+  text-align: left;
   /* background styles */
   background-size: cover;
   background-position: center center;
