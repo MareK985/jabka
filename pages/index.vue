@@ -128,12 +128,48 @@
     <footer id="footer">
       <MareUXLogo />
       <br />
-      <div class="footer-text">
-        Mitja Krajnc s.p. <br />
-        Šmartno v Rožni dolini 21A, 3201 šmartno v R.d., Celje<br />
-
-        Copyright 2020 | 041 763 005 | info@jabka.si
+      <p class="footer-text">
+        HRIBERŠEK, Mitja Krajnc s.p.,<br /> 
+        Šmartno v Rožni dolini 21A, 3201 Šmartno v R.d., Celje<br />
+        &copy; Copyright 2020 | DŠ 92189407 | MŠ 8564914000
+      </p>
+      <div class="copyright">
+        <nuxt-link
+          class="cookie__link"
+          to="/privacyPolicy"
+          target="_blank"
+          style="color:white"
+          >Politika zasebnosti</nuxt-link
+        >
+        |
+        <nuxt-link
+          class="cookie__link"
+          to="/generalTerms"
+          target="_blank"
+          style="color:white"
+          >Pogoji poslovanja</nuxt-link
+        >
       </div>
+      <div class="contact-icons">
+        <div class="contact-icon">
+          <a href="mailto: info@jabka.si" target="_blank"
+            ><Fas style="color: white; font-size: 3em;" i="envelope"
+          /></a>
+        </div>
+        <div class="contact-icon">
+          <a href="https://www.facebook.com/jABKAsok" target="_blank"
+            ><Fab style="color: white;" class=" float" i="facebook"
+          /></a>
+        </div>
+        <div class="contact-icon">
+          <a
+            href="https://www.instagram.com/svetina_ranch/?fbclid=IwAR1up_zEN2vwnXabv6IS6plKnYeUQ_61h2LPKe84k5vkrvabhXL7DLYxiKs"
+            target="_blank"
+            ><Fab style="color: white;" class=" float" i="instagram"
+          /></a>
+        </div>
+      </div>
+
     </footer>
 
     <!-- <section>
@@ -215,6 +251,9 @@ import MareUXLogo from '~/components/MareUXLogo.vue';
 import KeyAdvantages from '~/components/KeyAdvantages.vue';
 import JabkaLogo from '~/components/JabkaLogo.vue';
 import Jabka250mlProductCard from '~/components/Jabka_250mlProductCard.vue';
+import Fas from "~/components/Fas.vue";
+import Fab from "~/components/Fab.vue";
+
 
 // import ActivitiesList from "~/components/ActivitiesList.vue";
 import 'vue-slick-carousel/dist/vue-slick-carousel.css';
@@ -232,6 +271,9 @@ export default {
     // ActivitiesList,
     JabkaLogo,
     VueSlickCarousel,
+    Fas,
+    Fab,
+
   },
 };
 </script>
@@ -460,6 +502,23 @@ ul li:active div {
   transform: scale(1);
   transition: all 0.3s ease-in-out 0.1s;
 }
+
+.copyright span {
+  color: white;
+  position: absolute;
+  bottom: -90px;
+  right: 0px;
+}
+.contact-icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-icon {
+  margin: 20px;
+}
+
 
 @media only screen and (max-width: 749px) {
   .hero {

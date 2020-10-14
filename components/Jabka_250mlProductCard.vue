@@ -8,12 +8,53 @@
         <div class="content">
           <h2>Jabka sok <br/> <span>250 ml</span> </h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iure tenetur dolorum velit quae animi fugit at nemo odio, magni accusantium blanditiis, ullam voluptatibus possimus deleniti, id optio veniam! Provident!</p>
-          <button>Naroči</button>
+          <button @click="showModal">Naroči...</button>
         </div>
       </div>
     </div>
+    <!---- MODAL content -->
+            <section>
+            <div id="app">
+              <modal
+                v-show="isModalVisible"
+                @close="closeModal"
+              >
+                <template v-slot:body>
+                  <ContactForm />                
+                </template>
+              </modal>
+            </div>
+        </section>
+    <!-- end of MODAL --->
   </div>
 </template>
+
+<script>
+import modal from '~/components/Modal.vue'
+import ContactForm from "~/components/ContactForm.vue";
+
+
+  export default {
+    name: 'app',
+    components: {
+      modal,
+      ContactForm
+    },
+    data () {
+      return {
+        isModalVisible: false,
+      };
+    },
+    methods: {
+      showModal() {
+        this.isModalVisible = true;
+      },
+      closeModal() {
+        this.isModalVisible = false;
+      }
+    },
+  };
+</script>
 
 <style scoped>
 @import './../static/fonts/stylesheet.css';
