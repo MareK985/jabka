@@ -7,7 +7,13 @@
       <div class="details">
         <div class="content">
           <h2>Jabka sok <br/> <span>250 ml</span> </h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iure tenetur dolorum velit quae animi fugit at nemo odio, magni accusantium blanditiis, ullam voluptatibus possimus deleniti, id optio veniam! Provident!</p>
+          <p>Osvežilen z optimalnim razmerjem med kislostjo in sladkorjem.</p>
+          <ul>
+            <li>vsebnost: 100% sok stisnjen iz cca. 0,5kg jabolk sorte Topaz</li>
+            <li>Jabolka so pridelana na ekološki način v nasadih v bližini Šmartinskega jezera pri Celju.</li>
+            <li>Pakiranje: 12 steklenic</li>
+          </ul>
+
           <button @click="showModal">Naroči...</button>
         </div>
       </div>
@@ -77,6 +83,9 @@ import ContactForm from "~/components/ContactForm.vue";
   width: 600px;
   height: 600px;
   background: #fff;
+}
+li {
+  text-align: left;
 }
 .container .imgBx img {
   position: relative;

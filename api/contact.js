@@ -51,16 +51,23 @@ const sendMail = (request, contactNumber, email) => {
   console.log("sending mail");
 
   const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: process.env.SMTP_PORT,
-    secure: false,
+    host: "smtp.mailtrap.io",
+    port: 2525,
     auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
-    },
-    tls: {
-      rejectUnauthorized: false,
-    },
+      user: "94bba965a5d6f2",
+      pass: "285f9a0705d251"
+
+    // host: process.env.SMTP_HOST,
+    // port: process.env.SMTP_PORT,
+    // secure: false,
+    // auth: {
+    //   user: process.env.EMAIL_USER,
+    //   pass: process.env.EMAIL_PASS,
+    // },
+    // tls: {
+    //   rejectUnauthorized: false,
+    // },
+    }
   });
 
   const mailOption = {

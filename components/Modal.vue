@@ -71,7 +71,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +79,7 @@
 
 
   .modal {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     box-shadow: 2px 2px 20px 1px;
     overflow-x: auto;
     overflow-y: auto;

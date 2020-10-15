@@ -9,10 +9,12 @@
       @submit.prevent="submit"
     >
       <div class="control">
-        <div class="select">
+        <div class="input-field">
+          <label>Kako vam lahko pomagamo?</label>
           <select
             id="request"
             v-model="request"
+            class="input"
             :class="{ error: !$v.request.$error }"
             name="request"
             type="text"
@@ -25,10 +27,11 @@
             <option>Želim naročiti - končni kupec</option>
           </select>
         </div>
-        <div>
+        <div class="input-field">
           <input
             id="contactNumber"
             v-model="contactNumber"
+             class="input"
             :class="{ error: !$v.contactNumber.$error }"
             name="contactNumber"
             type="text"
@@ -38,7 +41,7 @@
           >
           </input>
         </div>
-        <div class="email-field">
+        <div class="input-field">
           <input
             id="email"
             v-model="email"
@@ -145,14 +148,14 @@ export default {
 
 <style>
 .contact-form {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(20, 128, 77, 0.65);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   color: white;
   justify-content: center;
   padding: 20px 0px 20px 0px;
@@ -169,18 +172,19 @@ export default {
   text-transform: uppercase;
 }
 .select {
-  padding: 0px 5px;
+  padding: 20px 10px;
 }
 
 .control {
   text-align: left;
 }
 
-.email-field {
+.input-field {
   margin-top: 10px;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 90%;
+  padding: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
   align-content: center;
   justify-content: center;
 }
@@ -203,7 +207,7 @@ export default {
   .select {
     margin-top: 5px;
   }
-  .email-field {
+  .input-field {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
