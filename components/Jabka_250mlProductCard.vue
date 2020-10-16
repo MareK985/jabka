@@ -63,8 +63,6 @@ import ContactForm from "~/components/ContactForm.vue";
 </script>
 
 <style scoped>
-@import './../static/fonts/stylesheet.css';
-@import './../css/style.css';
 
 .wrapper {
   margin: 0;
@@ -123,6 +121,7 @@ li {
   font-size: 1.4rem;
 }
 .container .details button {
+  font-family: 'MAXWELL_SANS_ULTLT';
   background: green;
   color: white;
   border: none;
@@ -132,7 +131,7 @@ li {
   margin-top: 5px;
   margin-left: 20px;
   font-size: 1.8rem;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   font-weight: 600;
   border-radius: 30px;

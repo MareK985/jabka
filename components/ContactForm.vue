@@ -63,7 +63,7 @@
           type="submit"
           value="Send"
           class="button is-focused cta-button"
-          style="background: #6D98A8; color:white;"
+          style="background: black; color:white;"
           @click="onSubmit"
         >
           POŠLJI
@@ -191,7 +191,7 @@ export default {
 
 @media screen and (max-width: 600px) {
   .contact-form {
-    top: 50%;
+    /* top: 100%; */
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;

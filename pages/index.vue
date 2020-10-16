@@ -31,17 +31,17 @@
           </p>
           <div class="quality">
             <ul>
-              <li>regija kjer se nahajajo nasadi</li>
+              <li>&#8594; regija kjer se nahajajo nasadi</li>
               <br/>
-              <li>sorta jabolk</li>
+              <li>&#8594; sorta jabolk</li>
               <br/>
-              <li>čistoča</li>
+              <li>&#8594; čistoča</li>
               <br/>
-              <li>pasterizacija</li>
+              <li>&#8594; pasterizacija</li>
               <br/>
-              <li>ohlajanje in skladiščenje</li>
+              <li>&#8594; ohlajanje in skladiščenje</li>
               <br/>
-              <li>človeški faktor</li>
+              <li>&#8594; človeški faktor</li>
             </ul>
           </div>
         </div>
@@ -279,14 +279,8 @@ export default {
 </script>
 
 <style lang="css" scoped>
-@import './../static/fonts/stylesheet.css';
 @import './../css/style.css';
-h1 {
-  font-family: 'ScratchInk-2OWz8', Arial, sans-serif !important;
-  font-weight: normal;
-  font-style: normal;
-  color: white;
-}
+
 
 #container {
   min-height: 100%;
@@ -299,12 +293,16 @@ h1 {
   bottom: 0;
   width: 100%;
   background-color: #231f20;
-  height: 200px; /* Height of the footer */
+  height: 260px; /* Height of the footer */
 }
 
 .atelje-name {
   position: relative;
   top: -20%;
+}
+
+ul {
+  list-style-type: circle;
 }
 
 .about-container {
@@ -473,6 +471,7 @@ h1 {
 }
 
 ul li {
+  letter-spacing: 0.15em;
   max-width: 500px;
   /* height: 500px; */
   color: white;
@@ -485,22 +484,6 @@ ul li {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-}
-
-ul li div {
-  opacity: 0;
-  transform: scale(10);
-  transition: all 0.3s ease-in-out 0.2s;
-}
-ul li:hover div {
-  opacity: 1;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out 0.1s;
-}
-ul li:active div {
-  opacity: 1;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out 0.1s;
 }
 
 .copyright span {
@@ -516,7 +499,7 @@ ul li:active div {
   justify-content: center;
 }
 .contact-icon {
-  margin: 20px;
+  margin: 15px;
 }
 
 
@@ -617,5 +600,11 @@ ul li:active div {
     text-align: left;
     padding: 20px;
   }
+  #footer {
+  height: 210px; /* Height of the footer */
+}
+  .contact-icon {
+  margin: 5.5px;
+}
 }
 </style>

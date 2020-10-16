@@ -75,7 +75,7 @@ export default {
   margin: 0;
   padding: 0;
   line-height: 120%;
-  list-style: none;
+  /* list-style: none; */
   margin-left: 6px;
   margin-top: -4px;
 }

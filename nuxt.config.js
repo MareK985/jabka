@@ -18,7 +18,7 @@ export default {
       },
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/maxzaxter-flaticon.png" },
+      { rel: "icon", type: "image/x-icon", href: "/jabka_flaticon.png" },
     ],
   },
   /*
