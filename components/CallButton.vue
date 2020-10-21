@@ -20,7 +20,7 @@ export default {};
 <style>
 .phonelink {
   position: fixed; /* Lock location always on the scree */
-  bottom: 0; /* Set to the bottom */
+  bottom: -30px; /* Set to the bottom */
   right: 0; /* Set to the right */
   margin: 30px; /* Add space around background */
 }

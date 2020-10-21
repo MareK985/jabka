@@ -58,6 +58,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
+  serverMiddleware: ["~/api/contact"],
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     "@nuxtjs/bulma",
