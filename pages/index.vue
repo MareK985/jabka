@@ -163,7 +163,7 @@
         </div>
         <div class="contact-icon">
           <a
-            href="https://www.instagram.com/svetina_ranch/?fbclid=IwAR1up_zEN2vwnXabv6IS6plKnYeUQ_61h2LPKe84k5vkrvabhXL7DLYxiKs"
+            href="https://www.instagram.com/"
             target="_blank"
             ><Fab style="color: white;" class=" float" i="instagram"
           /></a>
@@ -440,8 +440,8 @@ ul {
   /* Text styles suff */
   text-align: center;
   /* background styles */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(~assets/img/jabka_header.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.93)),
+    url(~assets/img/jabka_hero_web.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -507,7 +507,7 @@ ul li {
 
 @media only screen and (max-width: 749px) {
   .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
       url(~assets/img/jabka_header.jpeg);
     background-attachment: initial;
   }

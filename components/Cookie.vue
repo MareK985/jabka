@@ -4,18 +4,18 @@
       <div class="gdpr-container">
         <div class="grow">
           <slot name="message">
-            {{ $t("gdpr1") }}
+            Piškotke uporabljamo za zagotavljanje svojih storitev ter za analitiko in trženje. Če želite izvedeti več o naši uporabi piškotkov, si oglejte našo izjavo o zasebnosti. Za najboljšo uporabniško izkušnjo pritisnite SPREJMI
             <nuxt-link
               class="cookie__link"
-              to="/politika-zasebnosti"
+              to="/privacyPolicy"
               target="_blank"
-              >{{ $t("privacyPolicy") }}</nuxt-link
-            >. {{ $t("gdpr2") }}
+              >Izjavo o zasebnosti</nuxt-link
+            >. Za najboljšo uporabniško izkušnjo pritisnite SPREJMI
           </slot>
         </div>
         <div>
-          <button class="ma-2" @click="accept">{{ $t("accept") }}</button>
-          <button class="ma-2" text @click="deny">{{ $t("deny") }}</button>
+          <button class="ma-2" @click="accept">SPREJMEM</button>
+          <button class="ma-2" text @click="deny">NE SPREJMEM</button>
         </div>
       </div>
     </div>
