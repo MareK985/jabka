@@ -295,6 +295,9 @@ export default {
   background-color: #231f20;
   height: 260px; /* Height of the footer */
 }
+.hero-inner {
+    margin-top: 20em;
+}
 
 .atelje-name {
   position: relative;
@@ -457,7 +460,6 @@ ul {
   justify-content: center;
   margin: 0 auto;
   text-align: center;
-  left: -30%;
   padding-bottom: -70%;
 }
 
@@ -511,7 +513,7 @@ ul li {
   }
 
   .hero-inner {
-    margin-bottom: 10em;
+    margin-top: 0em;
   }
 
   /* .main-section {
@@ -564,10 +566,6 @@ ul li {
     /* height: 400px; */
     /* margin: 70px 0; */
     width: 100%;
-  }
-  .svg-container {
-    left: -25%;
-    padding-bottom: -65%;
   }
   .vision-statement {
     font-size: 5vw;

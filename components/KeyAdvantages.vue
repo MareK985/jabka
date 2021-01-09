@@ -23,7 +23,7 @@
         <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span style="padding-right: 1.5em;" class="header-text">FUNKCIONALNOST</span>
+            <span class="header-text">FUNKCIONALNOST</span>
             <ul>
               <li>Naravna vsebnost vitaminov in mineralov.</li>
               <li>Vir naravnih vlaknine za zdravo črevesno mikrobioto in holesterol.</li>
@@ -74,7 +74,10 @@
     margin-bottom: 100px;
   }
   .img-area {
+    margin: auto;
     justify-items: center !important;
+    width: 150px;
+    height: 150px;
   }
 }
 @media (min-width: 601px) {
